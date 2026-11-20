@@ -1,0 +1,2338 @@
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DVG345 – lärhandbok med övningar</title><style>:root{--ink:#183145;--teal:#08766d;--muted:#566b7a;--line:#dbe5e9;--paper:#fff;--back:#f3f6f7}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:20px}body{margin:0;background:var(--back);color:var(--ink);font:17px/1.75 'Segoe UI',system-ui,sans-serif}a{color:#086e78;text-underline-offset:3px}a:hover{color:#003d48}aside{position:fixed;inset:0 auto 0 0;width:300px;overflow:auto;background:#122d3b;color:white;padding:28px 22px;z-index:2}aside .brand{font-size:28px;font-weight:750;letter-spacing:-1px;color:white;text-decoration:none}aside p{font-size:13px;color:#c0d3dc;line-height:1.6}nav a{color:#e2edf1;text-decoration:none;display:grid;grid-template-columns:25px 1fr;gap:8px;border-radius:7px;padding:8px 9px;font-size:13px;line-height:1.45;margin:2px 0}nav a:hover,nav a.active{background:#214655;color:white}nav a span{color:#82d9c6;font-weight:650}nav a.done span:after{content:' ✓'}main{margin-left:300px;padding:36px 4vw 80px;max-width:1520px}article,.overview,.appendix{max-width:950px;margin:0 auto 36px;padding:42px 48px;border:1px solid var(--line);border-radius:18px;background:white;box-shadow:0 5px 20px #15364a04;overflow-wrap:anywhere}h1{font-size:34px;line-height:1.2;letter-spacing:-.8px;margin:12px 0 22px}h2{font-size:24px;line-height:1.3;margin:38px 0 14px;color:#0b5a61}h3{font-size:19px;margin:28px 0 12px}p{margin:14px 0}li{margin:8px 0}li p{margin:7px 0}pre{background:#102d3c;color:#e8f4f6;padding:22px;border-radius:10px;overflow:auto;font:13px/1.6 Consolas,monospace;white-space:pre}code{font-family:Consolas,monospace;font-size:.88em;background:#edf3f5;padding:2px 5px;border-radius:4px}pre code{padding:0;background:none;font-size:inherit}table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.6;margin:22px 0;display:block;overflow-x:auto}th,td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);min-width:75px;vertical-align:top}th{background:#e7f2f1;color:#164f52;font-weight:650}.eyebrow{text-transform:uppercase;letter-spacing:1.5px;font-size:12px;font-weight:700;color:var(--teal)}.source-links{font-size:13px;color:var(--muted);padding-bottom:20px;border-bottom:1px solid var(--line);margin-bottom:28px}.exercises{margin-top:40px;border-top:3px solid #7ec7b6;padding-top:25px}.answers{margin-top:32px;border:1px solid #bbd8cf;border-radius:10px;background:#f5faf8}.answers summary{cursor:pointer;padding:18px 22px;font-weight:700;color:#125c53}.answers>div{padding:0 22px 20px}.complete{display:flex;align-items:center;gap:12px;background:#eaf4f1;margin-top:28px;padding:18px;border-radius:9px;font-size:14px;cursor:pointer}.complete input{width:19px;height:19px;accent-color:var(--teal)}.next{text-align:right;font-size:14px}.introhero{font-size:19px;max-width:65ch;color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0}.button,button{background:var(--teal);color:white;padding:10px 17px;border:0;border-radius:8px;text-decoration:none;font:600 14px 'Segoe UI',sans-serif;cursor:pointer}.button.secondary{background:#edf3f5;color:var(--ink)}#search{width:100%;padding:12px;border:1px solid #56727d;border-radius:8px;background:#1c3c4b;color:white;margin:12px 0}#search::placeholder{color:#bacdd5}#search-results{max-height:38vh;overflow:auto}#search-results a{display:block;color:#d6eee9;font-size:12px;padding:7px}progress{width:100%;accent-color:#55c3ad;height:8px}#progress-text{font-size:12px;color:#c0d3dc}.road{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:28px 0}.road a{border:1px solid #d7e6e5;border-radius:10px;padding:16px;text-decoration:none;background:#f3f9f7;line-height:1.5;font-size:14px}.road strong{display:block;font-size:17px;margin-bottom:6px}.small{font-size:13px;color:var(--muted)}.mobile-nav{display:none}#search-status{color:#c6d9df;font-size:12px;margin:4px 0}@media(max-width:1100px){aside{width:250px;padding:22px 14px}main{margin-left:250px;padding:24px}article,.overview,.appendix{padding:30px}}@media(max-width:760px){aside{position:static;width:auto;max-height:none;padding:20px}aside nav{display:none}aside nav.open{display:block}#search-results{max-height:200px}.mobile-nav{display:inline-block;background:#315868;margin-left:12px}main{margin-left:0;padding:16px}article,.overview,.appendix{padding:25px 20px;border-radius:12px}h1{font-size:29px}h2{font-size:22px}.road{grid-template-columns:1fr 1fr}body{font-size:16px}pre{padding:16px;font-size:12px}}@media print{aside,.actions,.complete,.next,.source-links{display:none}main{margin:0;padding:0}article,.overview,.appendix{border:0;box-shadow:none;margin:0;max-width:none;padding:0;break-before:page}body{background:white;color:black;font:11pt/1.5 Georgia,serif}pre{background:#eef2f4;color:black;white-space:pre-wrap;font-size:8pt}table{display:table;font-size:9pt}details.answers:not([open]){display:none}a{color:black}h1,h2,h3{break-after:avoid}}</style></head><body><aside><a class="brand" href="#start">DVG345</a><button id="mobile-toggle" class="mobile-nav" aria-label="Visa kapitelmeny">Kapitel</button><p>Lärhandbok · 14 kapitel<br>Förstå → prova → förklara</p><label for="search" class="small" style="color:#c0d3dc">Sök i hela handboken</label><input id="search" type="search" placeholder="Till exempel: pivot, lambda…"><div id="search-status" aria-live="polite"></div><div id="search-results"></div><progress id="progress" max="14" value="0" aria-label="Avklarade kapitel"></progress><p id="progress-text"></p><nav aria-label="Kapitel"><a href="#kap1" data-nav="kap1"><span>01</span>Objekt, referenser och ansvar</a><a href="#kap2" data-nav="kap2"><span>02</span>Giltiga objekt, Point2 och kontraktstester</a><a href="#kap3" data-nav="kap3"><span>03</span>Interface, arv och dynamisk bindning</a><a href="#kap4" data-nav="kap4"><span>04</span>Samlingar och lambda: lagra objekt och skicka beteenden</a><a href="#kap5" data-nav="kap5"><span>05</span>Händelser, verktyg och Observer: från musgest till modell</a><a href="#kap6" data-nav="kap6"><span>06</span>Composite och rotation</a><a href="#kap7" data-nav="kap7"><span>07</span>Ägarskap, likhet och generiska samlingar</a><a href="#kap8" data-nav="kap8"><span>08</span>SOLID och design</a><a href="#kap9" data-nav="kap9"><span>09</span>Command och historik: gör handlingar möjliga att ångra</a><a href="#kap10" data-nav="kap10"><span>10</span>Undantag, kontraktstester och säker refaktorering</a><a href="#kap11" data-nav="kap11"><span>11</span>Memento: ett stabilt tillstånd att återvända till</a><a href="#kap12" data-nav="kap12"><span>12</span>Swing: bygg gränssnittet och måla från modellen</a><a href="#kap13" data-nav="kap13"><span>13</span>JSON och lagring: spara betydelsen av ritningen</a><a href="#kap14" data-nav="kap14"><span>14</span>UML och helheten: se hur delarna samarbetar</a><a href="#begrepp">Begreppslista</a><a href="#original">Alla originalföreläsningar</a></nav></aside><main><section class="overview" id="start"><div class="eyebrow">Dina 18 föreläsningar, förklarade</div><h1>Bygg förståelsen,<br>en del i taget.</h1><p class="introhero">Noggranna förklaringar, genomgångna Java-exempel och 58 övningar med facit. Allt knyts ihop genom samma ritprogram.</p><div class="actions"><a class="button" href="#kap1">Börja med kapitel 1</a><a class="button secondary" href="DVG345-larhandbok.pdf">Läs som PDF</a><a class="button secondary" href="DVG345-ovningar.pdf">Övningar som PDF</a><a class="button secondary" href="DVG345-facit.pdf">Facit som PDF</a><a class="button secondary" href="kod/README.md">Kodexempel</a></div><div class="road"><a href="#kap1"><strong>1. Grunder</strong>Objekt, kontrakt och polymorfism</a><a href="#kap4"><strong>2. Samarbete</strong>Listor, beteenden och händelser</a><a href="#kap6"><strong>3. Struktur</strong>Grupper, identitet och SOLID</a><a href="#kap9"><strong>4. Historik</strong>Ångra, fel och återställning</a><a href="#kap12"><strong>5. Applikation</strong>Swing och JSON-lagring</a><a href="#kap14"><strong>6. Helhet</strong>UML och en samlad slutövning</a></div><h2>Så använder du materialet</h2>
+<p>Det här är en förklarande lärhandbok till dina 18 föreläsningar. Läs i kapitelordning när du lär dig från grunden. Om du redan kan ett område, försök med övningarna först och läs sedan det du inte kunde förklara. Målet är att själv kunna följa, skriva och testa kod.</p>
+<p>Varje kapitel innehåller mål, stegvisa förklaringar, CAD-exempel och övningar. Facit finns samlat längre bak i PDF:en och dolt efter övningarna i webbversionen. Försök först utan facit. En förklaring du känner igen är inte samma sak som en uppgift du kan lösa själv.</p>
+<p>Kod som kallas utdrag förutsätter de typer och imports som anges i texten eller i kursprojektet. De kompletta övningsexemplen i kodmappen är fristående Java 17-exempel. Klasser med samma namn i olika kapitel kan visa olika utvecklingssteg och ska inte klistras in tillsammans som ett enda program.</p>
+<h2>Kursens röda tråd</h2>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Fråga du lär dig besvara</th>
+<th>Kapitel</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Giltiga byggstenar</td>
+<td>Vad är ett objekt och vilka löften håller det?</td>
+<td>1–3</td>
+</tr>
+<tr>
+<td>Samarbeten</td>
+<td>Hur når en händelse rätt objekt och sedan vyn?</td>
+<td>4–5</td>
+</tr>
+<tr>
+<td>Större strukturer</td>
+<td>Hur hanteras del, helhet, identitet och utökning?</td>
+<td>6–8</td>
+</tr>
+<tr>
+<td>Kontrollerad redigering</td>
+<td>Hur ångras något och vad ska ske vid fel?</td>
+<td>9–11</td>
+</tr>
+<tr>
+<td>Användbar applikation</td>
+<td>Hur kopplas GUI och beständig lagring in?</td>
+<td>12–13</td>
+</tr>
+<tr>
+<td>Helhet</td>
+<td>Hur visar och prövar jag hela samarbetet?</td>
+<td>14</td>
+</tr>
+</tbody></table>
+<h2>Ett arbetssätt för varje pass</h2>
+<ol>
+<li>Återberätta det du lärde dig sist utan att läsa, cirka 5 minuter.</li>
+<li>Läs en eller två förklaringar och följ kodens värden för hand, cirka 20 minuter.</li>
+<li>Stäng materialet och lös en övning, cirka 20 minuter.</li>
+<li>Jämför med facit: skriv varför skillnaden uppstod, inte bara rätt svar.</li>
+<li>Gör om den svaga uppgiften nästa dag, efter tre dagar och efter en vecka.</li>
+</ol>
+<p>Tiderna är ett förslag. Dela ett kapitel på flera pass när det behövs. Använd en enkel skala: 0 = nytt, 1 = känner igen, 2 = kan förklara, 3 = kan använda och testa. I webbversionen kan du markera avklarade kapitel; lagringen sker lokalt i webbläsaren när den stöder det.</p>
+<h2>Rekommenderad passplan</h2>
+<table>
+<thead>
+<tr>
+<th>Pass</th>
+<th>Läsning</th>
+<th>Något du ska producera</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Kapitel 1</td>
+<td>Referensbild och förklaring av identitet</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Kapitel 2</td>
+<td>Validerad Point2/Circle och tre kontraktstester</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Kapitel 3</td>
+<td>Förklaring av statisk typ och dynamiskt metodval</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Kapitel 4</td>
+<td>Lambda-exempel och bild av delade listelement</td>
+</tr>
+<tr>
+<td>5–6</td>
+<td>Kapitel 5</td>
+<td>Sekvens för musgest, cancel och notifiering</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Kapitel 6</td>
+<td>Nästlat träd och rotation kring gemensam pivot</td>
+</tr>
+<tr>
+<td>8–9</td>
+<td>Kapitel 7</td>
+<td>Gruppering/uppdelning och wildcard-resonemang</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Kapitel 8</td>
+<td>Ett designbeslut motiverat med SOLID</td>
+</tr>
+<tr>
+<td>11–12</td>
+<td>Kapitel 9</td>
+<td>Båda stackarna genom en hel redigeringssekvens</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Kapitel 10</td>
+<td>Feltest som kontrollerar oförändrat tillstånd</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Kapitel 11</td>
+<td>Jämförelse mellan invers och sparat tillstånd</td>
+</tr>
+<tr>
+<td>15–16</td>
+<td>Kapitel 12</td>
+<td>Körbart litet Swing-GUI</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Kapitel 13</td>
+<td>JSON-träd och plan för säkert öppna/spara</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Kapitel 14</td>
+<td>Slutövningen och egna diagram</td>
+</tr>
+</tbody></table>
+<h2>Skillnader mellan kursens utvecklingssteg</h2>
+<ul>
+<li>I F2 kan Figure ritas och ge centrum. Senare tillkommer move, rotate och parts. Läs alltid det kontrakt som gäller för exemplet.</li>
+<li>I F6 flyttar MoveTool direkt under dragningen. I F15 visas bara preview tills släppet skapar ett kommando. De två varianterna får inte blandas.</li>
+<li>I F13 används inverser för flyttning och rotation. F14:s Memento är ett alternativt teoriresonemang och är uttryckligen inte ett krav i labb 4 eller projektet.</li>
+<li>List.copyOf skyddar liststruktur, inte muterbara figurers geometri. Detta återkommer i grupper, generics och historik.</li>
+<li>Repaint begär senare målning. En modellnotifiering, en repaint-begäran och ett paintComponent-anrop är olika saker.</li>
+<li>F17 nämner F19 och F20. De ingick inte i dina filer och har inte behandlats som tillgängligt kursmaterial.</li>
+</ul>
+<h2>Underlag och läsanvisningar</h2>
+<p>Handbokens underlag är DVG345-F1.pdf till DVG345-F18.pdf. Hänvisningar som F10 s. 5 avser den femte PDF-sidan räknat från 1, även om en bild saknar tryckt sidnummer. Förklaringar, nya exempel, övningar och passplan är bearbetat studiematerial. Det är inga nya inlämningskrav och ingen prognos om tentans innehåll. Canvas, föreläsningarnas ZIP-exempel och kursens givna projekt/tester ingick inte som filer.</p>
+</section><article class="chapter" id="kap1"><div class="eyebrow">Grunder · kapitel 1 av 14</div><h1>Objekt, referenser och ansvar</h1><div class="source-links">Original: <a href="original/F01.pdf">F1</a> · <a href="original/F04.pdf">F4</a></div><p><strong>Bygger på:</strong> F1, PDF-sidor 3–7 och 15–23; F4, sidor 2–13. Läs denna del före konstruktorer och polymorfism.</p>
+<p><strong>Efter delen ska du kunna:</strong> rita vilka variabler som pekar på vilka objekt, skilja objektets identitet från dess värden och förklara varför privata fält bara är en del av inkapslingen.</p>
+<h2>Vad försöker objektorientering lösa?</h2>
+<p>I ett CAD-program finns figurer, ett dokument, en markering och verktyg. Programmet blir lättare att förstå om dessa begrepp får tydliga ansvar. En cirkel känner sin geometri. Dokumentet håller reda på vilka figurer som ingår och i vilken ordning de ritas. Markeringen håller reda på vilka befintliga figurer användaren har valt. Ett verktyg tolkar användarens musgest.</p>
+<p>En <strong>klass</strong> beskriver en sorts objekt. Ett <strong>objekt</strong> är en bestämd instans som skapas under körning. Två cirklar hör till samma klass men kan vara två olika objekt.</p>
+<p>Tre frågor beskriver ett objekt:</p>
+<table>
+<thead>
+<tr>
+<th>Fråga</th>
+<th>Begrepp</th>
+<th>Exempel för en cirkel</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Vad vet objektet just nu?</td>
+<td>Tillstånd</td>
+<td>Centrum och radie</td>
+</tr>
+<tr>
+<td>Vad kan klienten be objektet göra?</td>
+<td>Beteende</td>
+<td>Rita sig, svara på centrum, senare flytta sig</td>
+</tr>
+<tr>
+<td>Vilket enskilt objekt är detta?</td>
+<td>Identitet</td>
+<td>Just den cirkel som användaren har markerat</td>
+</tr>
+</tbody></table>
+<p>Med <strong>klient</strong> menas kod som använder objektet. Ett flyttverktyg är klient till en figur när det anropar <code>figure.move(...)</code>.</p>
+<h2>Variabeln är inte objektet</h2>
+<p>En variabel av referenstyp innehåller en referens till ett objekt, eller <code>null</code>. Att tilldela en referens till en annan variabel skapar inte en kopia av objektet.</p>
+<pre><code class="language-java">Point2 origin = new Point2(0, 0);
+Circle a = new Circle(origin, 5);
+Circle b = a;
+Circle c = new Circle(origin, 5);
+</code></pre>
+<p>Följ instruktionerna en i taget:</p>
+<ol>
+<li><code>new Point2(0, 0)</code> skapar ett punktobjekt. <code>origin</code> hänvisar till det.</li>
+<li>Första <code>new Circle(...)</code> skapar cirkel A. <code>a</code> hänvisar till A.</li>
+<li><code>b = a</code> kopierar referensvärdet. Både <code>a</code> och <code>b</code> hänvisar nu till A.</li>
+<li>Andra <code>new Circle(...)</code> skapar cirkel C. <code>c</code> hänvisar till C.</li>
+</ol>
+<pre><code class="language-text">a ──┐
+    ├──&gt; cirkel A: center ──┐   radius = 5
+b ──┘                      │
+                           ├──&gt; punkt P: (0, 0)
+c ─────&gt; cirkel C: center ──┘   radius = 5
+</code></pre>
+<p>Det finns två cirkelobjekt men tre variabler som refererar till cirklar. Att de båda cirklarna använder samma oföränderliga punktvärde gör dem inte till samma cirkel.</p>
+<p>När två referenser når samma objekt kallas det <strong>alias</strong>. Om en senare version av Circle har <code>move</code>, syns en flytt via <code>b</code> också när vi frågar via <code>a</code>: båda vägarna når samma cirkel.</p>
+<p><code>b = null</code> bryter bara kopplingen från <code>b</code>. Cirkeln finns fortfarande tillgänglig genom <code>a</code>. Att sätta <code>a = null</code> också gör inte automatiskt att cirkeln försvinner ur dokumentet; dokumentet kan ha en egen referens. Om inget som programmet kan nå längre kan nå objektet kan det bli föremål för skräpinsamling. Exakt när minnet återtas bestämmer inte dessa tilldelningar.</p>
+<p><strong>Kopplingen till CAD:</strong> avmarkera betyder att ta bort referenser ur markeringen. Radera betyder att ta bort figuren ur dokumentets struktur. Det är två olika operationer, även om figuren slutar vara markerad efter båda.</p>
+<h2>Identitet och värdelikhet</h2>
+<p>För referenstyper frågar <code>==</code> om två referenser pekar på samma objekt eller båda är <code>null</code>. <code>equals</code> anropar en metod som klassens kontrakt definierar. För kursens Point2-record jämför <code>equals</code> komponenternas värden.</p>
+<pre><code class="language-java">Point2 p = new Point2(2, 3);
+Point2 q = new Point2(2, 3);
+Point2 r = p;
+
+System.out.println(p == q);      // false
+System.out.println(p.equals(q)); // true
+System.out.println(p == r);      // true
+</code></pre>
+<p><code>p</code> och <code>q</code> beskriver samma position men är två objekt. <code>p</code> och <code>r</code> är två vägar till samma objekt.</p>
+<p>Det är värdet vi vill kontrollera när vi testar en beräknad mittpunkt. Det är identiteten vi behöver kontrollera när en gruppering ska bevara just de ursprungliga figurerna. Regeln är därför inte att <code>equals</code> alltid är bättre än <code>==</code>. Börja med att fråga vad testet ska avgöra.</p>
+<p>En vanlig klass får inte automatiskt samma värdelikhet som en record. Om klassen inte åsidosätter <code>Object.equals</code>, jämför dess ärvda implementation identitet.</p>
+<h2>Java skickar alltid argument som värden</h2>
+<p>När vi lämnar en referens som argument kopierar Java referensvärdet till parametern. Parametern blir en ny variabel som från början pekar på samma objekt.</p>
+<pre><code class="language-java">static void replace(Point2 point) {
+    point = new Point2(9, 9);
+}
+
+Point2 p = new Point2(2, 3);
+replace(p);
+System.out.println(p); // Point2[x=2.0, y=3.0]
+</code></pre>
+<p>Inne i <code>replace</code> byter bara den lokala parametern mål. Den anropande variabeln <code>p</code> ändras inte. Detta är <strong>pass by value</strong>, även för referenstyper.</p>
+<p>Om parametern i stället når ett muterbart objekt kan metoden ändra det gemensamma objektet. I en senare labbversion kan därför <code>static void nudge(Figure f) { f.move(1, 0); }</code> flytta figuren som anroparen också når. Skillnaden är mellan att tilldela parametervariabeln en ny referens och att anropa en ändrande metod på objektet.</p>
+<h2>Abstraktion och inkapsling</h2>
+<p><strong>Abstraktion</strong> beskriver vad klienten behöver kunna göra. Klienten behöver kunna fråga efter en linjes centrum; klienten behöver inte veta om det lagras eller räknas ut.</p>
+<p><strong>Representation</strong> är hur klassen faktiskt lagrar och beräknar sitt tillstånd. En linje kan ha två ändpunkter. Dess centrum är då ett <strong>härlett attribut</strong>: en egenskap som beräknas från annan information. Ett extra centrumfält skulle behöva uppdateras korrekt vid varje förändring. Genom att beräkna mittpunkten undviker klassen två versioner av samma information.</p>
+<p><strong>Inkapsling</strong> betyder att klassen kontrollerar hur representationen kan användas och förändras. Privata fält hjälper, men en metod som lämnar ut en intern muterbar lista kan ändå ge klienten en väg runt klassens regler. Granska därför både fältens åtkomst och vad publika metoder lämnar ut.</p>
+<table>
+<thead>
+<tr>
+<th>Begrepp</th>
+<th>Konkret betydelse</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fält/instansvariabel</td>
+<td>Hör till objektet och finns kvar mellan metodanrop</td>
+</tr>
+<tr>
+<td>Parameter</td>
+<td>Tar emot ett argument för det aktuella anropet</td>
+</tr>
+<tr>
+<td>Lokal variabel</td>
+<td>Används inne i ett visst kodblock eller metodanrop</td>
+</tr>
+<tr>
+<td><code>this.center</code></td>
+<td>Fältet <code>center</code> i det aktuella objektet</td>
+</tr>
+<tr>
+<td><code>static</code> medlem</td>
+<td>Hör till klassen snarare än till varje enskild instans</td>
+</tr>
+</tbody></table>
+<h2>Ansvar, kohesion och koppling</h2>
+<p><strong>Kohesion</strong> handlar om hur väl en klass uppgifter hör ihop. Cirkelns radievalidering och cirkelns centrum hör till cirkelgeometrin. Att bestämma vilken dialogruta som ska visa ett fel hör till gränssnittet.</p>
+<p><strong>Koppling</strong> beskriver vilka andra delar en klass måste känna till. Om Circle måste importera en viss GUI-dialog för att avvisa en radie blir geometrin beroende av hur ett fönster ser ut. Det försvårar både återanvändning och tester utan GUI.</p>
+<p>En tydlig uppdelning är: Circle avvisar ogiltig radie med ett undantag; gränssnittet väljer hur felet presenteras. Detta förbereder principen SRP, som senare förklaras mer utförligt i F12.</p>
+<section class="exercises" id="ovning1"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>Övning 1A – spåra referenser, grundnivå.</strong> Utgå från att <code>move</code> finns i den senare Circle-versionen. Kör koden för hand. Hur många cirkelobjekt skapas? Vilka centrum har de cirklar som nås genom <code>a</code> respektive <code>c</code> efter flytten? Vad gör sista raden med cirkeln?</p>
+<pre><code class="language-java">Point2 p = new Point2(1, 2);
+Circle a = new Circle(p, 3);
+Circle b = a;
+Circle c = new Circle(p, 3);
+b.move(4, -1);
+b = null;
+</code></pre>
+<p><strong>Övning 1B – identitet, grundnivå.</strong> Förutsäg resultaten och motivera varje rad:</p>
+<pre><code class="language-java">Point2 p = new Point2(3, 4);
+Point2 q = new Point2(3, 4);
+Point2 r = q;
+System.out.println(p == q);
+System.out.println(p.equals(q));
+System.out.println(q == r);
+q = new Point2(0, 0);
+System.out.println(r.equals(new Point2(3, 4)));
+</code></pre>
+<p><strong>Övning 1C – anropsförståelse, mellannivå.</strong> Varför ändrar denna metod inte anroparens variabel? Skriv om metoden och anropet så att <code>p</code> efteråt hänvisar till punkten <code>(9,9)</code>.</p>
+<pre><code class="language-java">static void replace(Point2 value) {
+    value = new Point2(9, 9);
+}
+Point2 p = new Point2(2, 3);
+replace(p);
+</code></pre>
+<p><strong>Övning 1D – ansvar, mellannivå.</strong> Du ser en Circle-klass som räknar area, validerar radie och öppnar en Swing-dialog när radien är fel. Vilket ansvar bör flyttas, till vilken del och varför? Förklara även varför avmarkera och radera behöver skiljas åt.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 1</summary><div><p><strong>1A.</strong> Två cirkelobjekt skapas. <code>a</code> och <code>b</code> når samma cirkel, vars centrum efter flytten är <code>(5,1)</code>. <code>c</code> når den andra cirkeln, vars centrum är kvar på <code>(1,2)</code>. Den ursprungliga punkten är oföränderlig; den flyttade cirkeln behöver ett nytt punktvärde. <code>b = null</code> ändrar en referensvariabel och flyttar, raderar eller avmarkerar inte i sig något i dokumentet.</p>
+<p><strong>1B.</strong> Utskrifterna är <code>false</code>, <code>true</code>, <code>true</code>, <code>true</code>. De första punkterna är olika objekt med lika komponenter. <code>r = q</code> delar referens. När <code>q</code> tilldelas en ny punkt finns den gamla punkten fortfarande kvar genom <code>r</code>.</p>
+<p><strong>1C.</strong> Parametern har fått en kopia av referensvärdet. Omtilldelning av parametern ändrar inte <code>p</code>. Låt metoden returnera referensen och tilldela resultatet i anroparen:</p>
+<pre><code class="language-java">static Point2 replacement() {
+    return new Point2(9, 9);
+}
+Point2 p = new Point2(2, 3);
+p = replacement();
+</code></pre>
+<p><strong>1D.</strong> Dialogpresentationen hör till GUI:t. Circle behåller ansvaret för giltig geometri och kan kasta ett dokumenterat undantag. Då kan geometrin användas i tester utan fönster. Markeringen är en samling referenser till valda figurer; att tömma den ska lämna dokumentets figurer kvar. Radering ändrar dokumentets innehåll.</p>
+<p><strong>Kontroll före nästa del:</strong> Rita ett referensdiagram utan att skriva kod. Förklara sedan med egna ord skillnaden mellan ett objekt, en variabel och en referens.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="1"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap2">Nästa kapitel →</a></p></article><article class="chapter" id="kap2"><div class="eyebrow">Grunder · kapitel 2 av 14</div><h1>Giltiga objekt, Point2 och kontraktstester</h1><div class="source-links">Original: <a href="original/F02.pdf">F2</a> · <a href="original/F03.pdf">F3</a> · <a href="original/F04.pdf">F4</a></div><p><strong>Bygger på:</strong> F2, PDF-sidor 15–16; F3, sidor 2–21; F4, sidor 3–12 och 14–24.</p>
+<p><strong>Efter delen ska du kunna:</strong> konstruera ett giltigt objekt, beskriva dess invariant, skilja <code>final</code> från oföränderlighet och välja tester för normala fall, gränser och fel.</p>
+<h2>En invariant gäller hela objektet</h2>
+<p>En <strong>invariant</strong> är ett villkor som ett färdigkonstruerat objekt ska uppfylla och som dess tillåtna operationer ska bevara. För en cirkel i kursens modell gäller bland annat:</p>
+<ul>
+<li>Centrum finns, alltså är referensen inte <code>null</code>.</li>
+<li>Centrumets koordinater är ändliga.</li>
+<li>Radien är positiv och ändlig.</li>
+</ul>
+<p>Ett ändligt <code>double</code> är varken NaN eller positiv/negativ oändlighet. <code>radius &gt; 0</code> är inte ensam en fullständig radiekontroll: positiv oändlighet är större än noll. Därför behövs också <code>Double.isFinite(radius)</code>.</p>
+<p>Konstruktorn etablerar invarianten. Privata fält begränsar vägarna som kan ändra den. Varje senare ändrande metod måste kontrollera att nästa tillstånd fortfarande är giltigt. En konstruktor som gör rätt kompenserar inte för en setter som accepterar ogiltiga värden.</p>
+<h2>Point2 är ett värde</h2>
+<p>Här är en liten egen undervisningsversion i Java 17. Den är till för resonemangen och ersätter inte kursens givna API.</p>
+<pre><code class="language-java">import java.util.Objects;
+
+public record Point2(double x, double y) {
+    public Point2 {
+        if (!Double.isFinite(x) || !Double.isFinite(y)) {
+            throw new IllegalArgumentException(&quot;Koordinater måste vara ändliga&quot;);
+        }
+    }
+
+    public Point2 midpoint(Point2 other) {
+        Objects.requireNonNull(other, &quot;other&quot;);
+        return new Point2(x / 2.0 + other.x / 2.0,
+                          y / 2.0 + other.y / 2.0);
+    }
+}
+</code></pre>
+<p>Recordens komponenter <code>x</code> och <code>y</code> ger privata final-fält och accessorerna <code>x()</code> och <code>y()</code>. Den får också konstruktor, <code>equals</code>, <code>hashCode</code> och <code>toString</code> utifrån komponenterna. Den kompakta konstruktorn ovan lägger till validering innan komponentvärdena lagras.</p>
+<p><code>midpoint</code> ändrar ingen punkt. Den beräknar och returnerar ett nytt värde. För <code>(2,4)</code> och <code>(8,10)</code> blir det <code>(5,7)</code>. Division före addition minskar risken att summan av mycket stora ändliga koordinater först blir oändlig. Exemplet är inte ett löfte om exakt aritmetik för alla flyttalsvärden; beräknade <code>double</code>-värden kan behöva tolerans i tester.</p>
+<p>En figur kan flytta sig trots att punkter är oföränderliga. Figuren byter sin egen centrumreferens från ett gammalt punktvärde till ett nytt. Den ändrar inte koordinaterna i det gamla Point2-objektet. Två figurer kan därför säkert dela ett Point2-värde utan att den enas flytt muterar den andras punkt.</p>
+<h2><code>final</code>, immutable och records</h2>
+<p><code>final</code> beskriver olika begränsningar beroende på var ordet används:</p>
+<table>
+<thead>
+<tr>
+<th>Användning</th>
+<th>Begränsning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>final</code> variabel/fält</td>
+<td>Får inte tilldelas på nytt efter sin tillåtna initialisering</td>
+</tr>
+<tr>
+<td><code>final</code> metod</td>
+<td>Kan inte åsidosättas i en subklass</td>
+</tr>
+<tr>
+<td><code>final</code> klass</td>
+<td>Kan inte ha subklasser</td>
+</tr>
+</tbody></table>
+<p><strong>Immutable</strong> betyder att objektets observerbara tillstånd inte förändras efter konstruktion. Detta är en egenskap hos objektets konstruktion och API, inte en effekt som automatiskt följer av ett enda nyckelord.</p>
+<pre><code class="language-java">final java.util.List&lt;String&gt; names = new java.util.ArrayList&lt;&gt;();
+names.add(&quot;cirkel&quot;); // tillåtet: listobjektet ändras
+// names = new java.util.ArrayList&lt;&gt;(); // inte tillåtet
+</code></pre>
+<p>Records ger inte automatiskt djup oföränderlighet:</p>
+<pre><code class="language-java">record Tags(java.util.List&lt;String&gt; values) {}
+
+var input = new java.util.ArrayList&lt;String&gt;();
+var tags = new Tags(input);
+input.add(&quot;ny&quot;);
+System.out.println(tags.values()); // [ny]
+</code></pre>
+<p>Recorden behåller samma listreferens, men listobjektet kan ändras. En undervisningsversion med <code>values = List.copyOf(values)</code> i den kompakta konstruktorn skyddar listans struktur. Om elementen själva är muterbara krävs dessutom eftertanke om dem. Point2 är enklare eftersom dess komponenter är primitiva <code>double</code>-värden.</p>
+<h2>Läs en konstruktor rad för rad</h2>
+<pre><code class="language-java">import java.util.Objects;
+
+public final class Circle {
+    private final Point2 center;
+    private final double radius;
+
+    public Circle(Point2 center, double radius) {
+        this.center = Objects.requireNonNull(center, &quot;center&quot;);
+        if (!Double.isFinite(radius) || radius &lt;= 0) {
+            throw new IllegalArgumentException(&quot;Radie måste vara positiv och ändlig&quot;);
+        }
+        this.radius = radius;
+    }
+
+    public Point2 getCenter() { return center; }
+    public double getRadius() { return radius; }
+}
+</code></pre>
+<p>Detta är en avsiktligt oföränderlig version för del 2. Senare behöver en flyttbar Circle andra fältdeklarationer eller annan representation; försök inte tilldela ett nytt centrum till detta final-fält.</p>
+<p><code>this.center</code> är fältet och <code>center</code> är parametern. <code>Objects.requireNonNull</code> returnerar samma referens om den finns och kastar annars <code>NullPointerException</code>. När ett giltigt Point2 redan garanterar ändliga koordinater behöver Circle inte läsa och kontrollera dem en gång till.</p>
+<p>Om radien är ogiltig kastar konstruktorn ett undantag. Anroparens <code>new Circle(...)</code> ger då ingen normal retur med en referens till en färdig cirkel. Det betyder inte att <code>new</code> returnerar <code>null</code>.</p>
+<p>Ordningen är betydelsefull för testet: om både centrum är <code>null</code> och radien är negativ kommer denna implementation först till null-kontrollen. Testa därför en felorsak i taget när du vill verifiera en viss regel.</p>
+<h2>Förvillkor, eftervillkor och felkontrakt</h2>
+<p>Ett metodnamn och en parameterlista beskriver inte hela löftet.</p>
+<table>
+<thead>
+<tr>
+<th>Del av kontraktet</th>
+<th>Circle-exempel</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Förvillkor</td>
+<td>Centrum finns; radien är positiv och ändlig</td>
+</tr>
+<tr>
+<td>Eftervillkor vid lyckad konstruktion</td>
+<td>Objektet har de angivna giltiga geometrivärdena</td>
+</tr>
+<tr>
+<td>Felkontrakt</td>
+<td>Null eller ogiltiga mått avvisas med avsedda undantag</td>
+</tr>
+<tr>
+<td>Frågas sidoeffekter</td>
+<td><code>getCenter()</code> ändrar inte geometrin</td>
+</tr>
+</tbody></table>
+<p>Ett test av returvärdet kontrollerar inte automatiskt frånvaron av sidoeffekter. Fråga därför efter centrum flera gånger och kontrollera även det tillstånd som ska vara kvar.</p>
+<h2>Konstruktordelegering och initialiseringsordning</h2>
+<p>Överlagrade konstruktorer har samma klassnamn men olika parameterlistor. <code>this(...)</code> låter en konstruktor återanvända en annan konstruktor i samma klass, så att validering inte behöver dupliceras.</p>
+<pre><code class="language-java">final class Radius {
+    private final double value;
+
+    Radius() { this(10); }
+
+    Radius(double value) {
+        if (!Double.isFinite(value) || value &lt;= 0) {
+            throw new IllegalArgumentException(&quot;Radie&quot;);
+        }
+        this.value = value;
+    }
+}
+</code></pre>
+<p><code>super(...)</code> väljer basklassens konstruktor. Det skapar inte ett separat basklassobjekt vid sidan av subklassobjektet. Objektet är en instans av subklassen och innehåller även den ärvda delens tillstånd.</p>
+<p>I den vanliga Java 17-kedjan får instansfälten först standardvärden. Basklassens fältinitialiserare och konstruktorkropp körs före subklassens fältinitialiserare och konstruktorkropp. Vid <code>this(...)</code> måste du dessutom följa delegationen till den konstruktor som fortsätter kedjan mot basklassen.</p>
+<p>Undvik anrop till metoder som subklasser kan åsidosätta från en konstruktor. Det dynamiska metodvalet kan nå subklassens implementation innan subklassens fält har fått sina uttryckliga initialvärden. Se också övning 3D.</p>
+<h2>Tester från kontraktet</h2>
+<p>Utgå från vad en klient kan observera. Kursen använder JUnit 5; följ projektets givna paket och beroenden. Ett exempel på testmetod:</p>
+<pre><code class="language-java">@Test
+void midpointReturnsNewValueWithoutChangingInputs() {
+    Point2 p = new Point2(2, 4);
+    Point2 q = new Point2(8, 10);
+
+    Point2 result = p.midpoint(q);
+
+    assertEquals(new Point2(5, 7), result);
+    assertEquals(new Point2(2, 4), p);
+    assertEquals(new Point2(8, 10), q);
+}
+</code></pre>
+<p>Lägg till <code>import org.junit.jupiter.api.Test;</code> och <code>import static org.junit.jupiter.api.Assertions.*;</code> i en testklass. I <code>assertEquals</code> ska <strong>förväntat</strong> värde stå först och <strong>faktiskt</strong> värde sedan. Då blir felmeddelandena lättare att tolka.</p>
+<pre><code class="language-java">assertThrows(IllegalArgumentException.class,
+             () -&gt; new Circle(new Point2(0, 0), -1));
+assertEquals(0.15, new Point2(0.1, 0)
+    .midpoint(new Point2(0.2, 0)).x(), 1e-12);
+</code></pre>
+<p><code>()</code> och pilen beskriver en handling som JUnit själv får köra inne i <code>assertThrows</code>. Om konstruktionen inte kastar avsett undantag misslyckas testet. Toleransen i det andra testet tillåter ett litet flyttalsfel; välj tolerans efter beräkning och kontrakt.</p>
+<section class="exercises" id="ovning2"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>Övning 2A – validering, grundnivå.</strong> Med Circle-konstruktorn ovan: vilka indata godtas? För avvisade fall, ange undantagstyp. Använd ett giltigt Point2 utom i sista raden.</p>
+<table>
+<thead>
+<tr>
+<th>Fall</th>
+<th>Radie/centrum</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>a</td>
+<td>Radie 5</td>
+</tr>
+<tr>
+<td>b</td>
+<td>Radie 0</td>
+</tr>
+<tr>
+<td>c</td>
+<td>Radie -2</td>
+</tr>
+<tr>
+<td>d</td>
+<td>Radie <code>Double.NaN</code></td>
+</tr>
+<tr>
+<td>e</td>
+<td>Radie <code>Double.POSITIVE_INFINITY</code></td>
+</tr>
+<tr>
+<td>f</td>
+<td>Centrum <code>null</code>, radie 5</td>
+</tr>
+</tbody></table>
+<p><strong>Övning 2B – skydda ett värde, mellannivå.</strong> Varför är <code>record Tags(List&lt;String&gt; values) {}</code> inte tillräcklig om en Tags ska behålla samma taggar? Skriv en version som tar en strukturell kopia och förklara vad den kopian skyddar.</p>
+<p><strong>Övning 2C – skriv ett kontraktstest, mellannivå.</strong> Skriv två separata JUnit-testmetoder: en som kontrollerar mittpunkten mellan <code>(2,4)</code> och <code>(8,10)</code> samt oförändrade argument, och en som kontrollerar att Point2 avvisar en NaN-koordinat. Förklara vilket fel respektive test kan upptäcka.</p>
+<p><strong>Övning 2D – skapa ett säkert ändrings-API, fördjupning.</strong> Anta att en annan, muterbar Circle-version har ett icke-finalt <code>radius</code>-fält. Skriv <code>setRadius(double radius)</code> så att en avvisad ändring lämnar det gamla värdet kvar. Beskriv hur du skulle testa det med <code>getRadius()</code>.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 2</summary><div><p><strong>2A.</strong> Endast a godtas. b–e avvisas med <code>IllegalArgumentException</code>. f avvisas med <code>NullPointerException</code>. Noll är inte en positiv radie i detta kontrakt; det är kontraktet som bestämmer, inte en generell Java-regel.</p>
+<p><strong>2B.</strong> Recordens final-referens når samma muterbara lista som anroparen. Ta en kopia vid konstruktion:</p>
+<pre><code class="language-java">import java.util.List;
+
+record Tags(List&lt;String&gt; values) {
+    Tags {
+        values = List.copyOf(values);
+    }
+}
+</code></pre>
+<p><code>List.copyOf</code> ger en lista vars struktur inte kan ändras genom dess API, och en senare <code>add</code> på ursprungslistan ändrar inte den sparade liststrukturen. Här är elementen String-värden, så de är också oföränderliga. Byter man elementtyp till något muterbart är en skyddad liststruktur fortfarande inte en djup kopia av elementen.</p>
+<p><strong>2C.</strong> Testerna kan skrivas så här inne i en JUnit-testklass:</p>
+<pre><code class="language-java">@Test
+void midpointHasRightValueAndNoInputMutation() {
+    Point2 p = new Point2(2, 4);
+    Point2 q = new Point2(8, 10);
+    Point2 m = p.midpoint(q);
+    assertEquals(new Point2(5, 7), m);
+    assertEquals(new Point2(2, 4), p);
+    assertEquals(new Point2(8, 10), q);
+}
+
+@Test
+void rejectsNaNCoordinate() {
+    assertThrows(IllegalArgumentException.class,
+        () -&gt; new Point2(Double.NaN, 0));
+}
+</code></pre>
+<p>Det första upptäcker fel mittpunktsformel och otillåten förändring av argumentvärden. Det andra upptäcker en saknad NaN-kontroll. Gröna beteendetester bevisar inte att fälten har deklarerats privata; strukturkrav behöver också granskas i koden.</p>
+<p><strong>2D.</strong> Kontrollera nästa värde innan fältet tilldelas:</p>
+<pre><code class="language-java">public void setRadius(double radius) {
+    if (!Double.isFinite(radius) || radius &lt;= 0) {
+        throw new IllegalArgumentException(&quot;Radie&quot;);
+    }
+    this.radius = radius;
+}
+</code></pre>
+<p>Skapa cirkeln med radie 5, spara det observerade värdet, använd <code>assertThrows</code> för <code>setRadius(-1)</code> och kontrollera därefter att radien fortfarande är 5. Ett test som bara ser undantaget missar en implementation som först lagrar -1 och sedan kastar.</p>
+<p><strong>Kontroll före nästa del:</strong> Förklara hur Point2 kan vara oföränderlig samtidigt som en figur flyttas, och varför en record med en lista kräver mer eftertanke.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="2"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap3">Nästa kapitel →</a></p></article><article class="chapter" id="kap3"><div class="eyebrow">Grunder · kapitel 3 av 14</div><h1>Interface, arv och dynamisk bindning</h1><div class="source-links">Original: <a href="original/F02.pdf">F2</a> · <a href="original/F03.pdf">F3</a> · <a href="original/F05.pdf">F5</a></div><p><strong>Bygger på:</strong> F2, PDF-sidor 2–14 och 17–20; F3, sidor 11–19; F5, sidor 2–18.</p>
+<p><strong>Efter delen ska du kunna:</strong> välja en referenstyp efter klientens behov, skilja överlagring från override och avgöra när koddelning via en basklass faktiskt passar geometrin.</p>
+<h2>Ett interface anger ett löfte</h2>
+<p>F2 börjar med ett litet ritkontrakt:</p>
+<pre><code class="language-java">public interface Drawable {
+    void draw(DrawingContext context);
+}
+
+public interface Figure extends Drawable {
+    Point2 getCenter();
+}
+</code></pre>
+<p>En Drawable lovar att kunna ritas. En Figure lovar dessutom att kunna svara på sitt centrum. <code>extends</code> mellan interface innebär att det mer specifika kontraktet inkluderar det andra.</p>
+<p>En klass som <code>implements Figure</code> måste ge de konkreta implementationer som inte redan är tillgängliga genom giltigt arv eller standardmetoder. Interfacets abstrakta instansmetoder är publika; implementerande metoder måste därför också vara <code>public</code>.</p>
+<p><code>new Figure()</code> fungerar inte direkt: ett interface är inget färdigt recept på ett konkret objekt. Däremot kan en Figure-variabel hänvisa till ett objekt av en klass som implementerar Figure.</p>
+<p>I senare labbsteg utökas kontraktet:</p>
+<pre><code class="language-java">public interface Movable {
+    void move(double dx, double dy);
+}
+
+public interface Figure extends Drawable, Movable {
+    Point2 getCenter();
+}
+</code></pre>
+<p>Det är en utveckling av modellen. Om en gammal konkret figurklass ännu saknar <code>move</code> blir den ofullständig i förhållande till det utökade kontraktet. Läs alltså alltid vilket labbsteg exemplet gäller.</p>
+<h2>Två typer måste hållas isär</h2>
+<pre><code class="language-java">Line line = new Line(new Point2(0, 0), new Point2(10, 0));
+Figure f = line;
+Movable m = f;
+Object o = f;
+</code></pre>
+<p>Det finns fortfarande ett enda Line-objekt. Inga objekt kopieras eller omvandlas när vi skapar de nya referenserna.</p>
+<table>
+<thead>
+<tr>
+<th>Referens</th>
+<th>Deklarerad typ</th>
+<th>Klienten får bland annat anropa</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>line</code></td>
+<td>Line</td>
+<td>Line-API och ärvda tillgängliga metoder</td>
+</tr>
+<tr>
+<td><code>f</code></td>
+<td>Figure</td>
+<td><code>draw</code>, <code>move</code>, <code>getCenter</code></td>
+</tr>
+<tr>
+<td><code>m</code></td>
+<td>Movable</td>
+<td><code>move</code>, men inte <code>getCenter</code> genom denna typ</td>
+</tr>
+<tr>
+<td><code>o</code></td>
+<td>Object</td>
+<td>Exempelvis <code>toString</code>, men inte <code>move</code> genom denna typ</td>
+</tr>
+</tbody></table>
+<p>Kompilatorn använder uttryckets deklarerade/statiska typ för att avgöra om ett anrop är tillåtet. Ett objekt blir därför inte mindre kapabelt av att en referens har en liten typ; klienten har bara ett mindre kontrakt att använda genom just den referensen.</p>
+<p>Detta ger en praktisk designregel: välj ett kontrakt som räcker för klientens uppgift. En renderingsmetod behöver ofta bara Drawable. Ett flyttverktyg behöver Movable. En klient som både behöver centrum och flyttning kan behöva Figure.</p>
+<h2>Polymorfism: samma anrop, olika arbete</h2>
+<pre><code class="language-java">static void nudge(Movable target) {
+    target.move(1, 0);
+}
+</code></pre>
+<p>När vi lämnar en Circle väljs cirkelns implementation av <code>move</code>; när vi lämnar en Line väljs linjens implementation. Circle kan behöva byta ett centrumvärde. Line måste flytta båda ändpunkterna. Klientmetoden behöver inte känna till skillnaden i representation.</p>
+<p>Detta kallas <strong>dynamisk bindning</strong> för de aktuella instansmetoderna: när en tillåten signatur väl är vald avgör objektets klass vilken override-implementation som körs. Skriv därför inte automatiskt en kedja med <code>instanceof Circle</code>, <code>instanceof Line</code> och så vidare för varje gemensam operation. Om beteendet redan finns i kontraktet kan objektet utföra det själv.</p>
+<p>När en figur ritas är samarbetet på samma sätt: klienten anropar <code>figure.draw(context)</code>, figurens implementation väljs och figuren anropar ritporten med sin geometri. Ritningen ska lämna figurens tillstånd oförändrat. DrawingContext är gränsen mot själva rittekniken.</p>
+<h2>Överlagring och override är olika mekanismer</h2>
+<p><strong>Överlagring</strong> innebär samma metodnamn men olika parameterlistor. Kompilatorn väljer vilken signatur som gäller utifrån argumentuttryckens typer. Bara olika returtyp räcker inte för att skapa en ny överlagring.</p>
+<p><strong>Override</strong>, att åsidosätta en instansmetod, innebär en ny implementation av en ärvd metod med motsvarande signatur. <code>@Override</code> låter kompilatorn kontrollera att detta faktiskt sker. Ett felskrivet namn eller en fel parameterlista ska inte tyst bli en annan metod.</p>
+<p>Följ detta exempel i två steg:</p>
+<pre><code class="language-java">class Reporter {
+    String describe(Object value) { return &quot;objekt&quot;; }
+    String describe(Movable value) { return &quot;flyttbar&quot;; }
+}
+
+class FigureReporter extends Reporter {
+    @Override
+    String describe(Movable value) { return &quot;flyttbar figur&quot;; }
+}
+
+Reporter reporter = new FigureReporter();
+Object object = line;
+Movable movable = line;
+System.out.println(reporter.describe(object));
+System.out.println(reporter.describe(movable));
+</code></pre>
+<p>Första anropet har ett argument med typen Object. Kompilatorn väljer <code>describe(Object)</code>. Det finns ingen ny override av just den signaturen i FigureReporter, så resultatet är <code>objekt</code>.</p>
+<p>Andra anropets argument har typen Movable. Kompilatorn väljer <code>describe(Movable)</code>. Mottagarobjektet är en FigureReporter, så dess override körs: <code>flyttbar figur</code>.</p>
+<p>Objektet som argumentet pekar på är samma Line i båda fallen. Skillnaden börjar med argumentuttryckets statiska typ. Mottagarobjektets klass avgör därefter implementationen av den valda instansmetoden.</p>
+<h2>Abstrakt klass: koddelning med antaganden</h2>
+<p>En abstrakt klass kan ha fält, konstruktorer och både konkreta och abstrakta metoder. Den går inte att instansiera direkt. En konkret subklass behöver fullgöra de återstående abstrakta löftena.</p>
+<p>En möjlig AbstractFigure kan lagra centrum och implementera <code>getCenter</code> och <code>move</code>. Men en sådan implementation bygger på ett antagande: att centrumfältet räcker för att beskriva den del av geometrin som ska flyttas. Det kan passa en viss cirkelrepresentation. Det räcker inte för en linje som ritas från två oförändrade ändpunktsfält. Att bara ändra ett extra centrumfält skulle då göra att frågan efter centrum och den ritade geometrin motsäger varandra.</p>
+<p>Återanvänd därför kod först när klasserna delar rätt beteendemässiga och representativa antaganden. Att flera klasser har en metod med samma namn räcker inte som motivering för en gemensam basklass.</p>
+<p>En klass kan i Java ärva från en klass men implementera flera interface. Interface hjälper alltså olika klasshierarkier att uppfylla gemensamma förmågor utan krav på samma lagrade representation.</p>
+<h2>Har-en, är-en och åtkomst</h2>
+<p>En Circle <strong>har</strong> ett centrum som är en Point2. Det gör inte cirkeln till en punkt. Att skriva <code>Circle extends Point2</code> skulle dessutom inte fungera för kursens record, eftersom records är finala. Den mer grundläggande modellfrågan är vilka klientlöften arvet skulle påstå: ska en cirkel verkligen kunna användas överallt där en punkt förväntas?</p>
+<p><code>private</code> håller representationen inom klassen. <code>public</code> anger den offentliga ytan. <code>protected</code> kan användas för avsedda utökningspunkter; i Java ger det också paketåtkomst, så det betyder inte enbart ”subklasser”. En subklass ska inte behöva godtycklig direkt åtkomst till alla fält för att kunna fungera.</p>
+<p>En cast skapar inte en ny figur och byter inte objektets klass. Den försöker behandla en befintlig referens som en mer specifik typ. Om objektet inte har den typen kan casten misslyckas med <code>ClassCastException</code>. En typkontroll kan vara motiverad för en verkligt specialiserad operation, men återkommande kontroller för samma gemensamma förmåga kan vara en signal om ett saknat eller dåligt använt kontrakt.</p>
+<section class="exercises" id="ovning3"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>Övning 3A – vad kompilerar, grundnivå?</strong> Anta den senare Figure-versionen som utökar Drawable och Movable samt en giltig <code>DrawingContext context</code>. För varje rad, ange om den kompilerar och varför.</p>
+<pre><code class="language-java">Figure f = new Circle(new Point2(0, 0), 5);
+Movable m = f;
+Drawable d = f;
+m.move(2, 0);       // a
+m.getCenter();     // b
+d.draw(context);   // c
+d.move(2, 0);      // d
+f.getCenter();     // e
+</code></pre>
+<p>Här avses kursens senare flyttbara Circle, inte den avsiktligt oföränderliga undervisningsversionen i del 2.</p>
+<p><strong>Övning 3B – välj metod, mellannivå.</strong> Utgå från Reporter/FigureReporter ovan. Vilka två strängar skrivs ut? Varför gör inte Lines klass att första anropet väljer <code>describe(Movable)</code>?</p>
+<p><strong>Övning 3C – skriv en klient, mellannivå.</strong> Skriv en metod <code>moveRight</code> som tar en Movable och flyttar den 10 enheter åt höger. Beskriv varför metoden kan användas för både Line och Circle utan typkontroll. Vilken parametertyp av de två, Drawable eller Movable, passar en metod som enbart ritar?</p>
+<p><strong>Övning 3D – konstruktorfälla, fördjupning.</strong> Förutsäg utskriften och förklara initialiseringsordningen:</p>
+<pre><code class="language-java">class Base {
+    Base() { System.out.println(value()); }
+    int value() { return -1; }
+}
+class Child extends Base {
+    private int n = 7;
+    @Override int value() { return n; }
+}
+// Kör: new Child();
+</code></pre>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 3</summary><div><p><strong>3A.</strong> a, c och e kompilerar. b gör det inte: Movable erbjuder inte <code>getCenter</code>. d gör det inte: Drawable erbjuder inte <code>move</code>. Alla referenser kan fortfarande nå samma Circle-objekt. Det är referenstypens tillgängliga kontrakt som begränsar vilka anrop som kan skrivas.</p>
+<p><strong>3B.</strong> <code>objekt</code> följt av <code>flyttbar figur</code>. Överlagringens signatur bestäms vid kompilering utifrån argumentuttryckets typ. Variabeln <code>object</code> har typen Object även om objektet som nås är en Line. Dynamisk bindning väljer sedan implementation av den signatur som redan valts; den gör inte om överlagringsvalet efter argumentobjektets klass.</p>
+<p><strong>3C.</strong></p>
+<pre><code class="language-java">static void moveRight(Movable target) {
+    target.move(10, 0);
+}
+</code></pre>
+<p>Varje konkret klass uppfyller Movable på sitt sätt. Circle flyttar centrum och Line flyttar ändpunkter, men klienten använder samma kontrakt. En metod som enbart ritar behöver Drawable, eftersom flyttförmåga inte behövs för dess uppgift.</p>
+<p><strong>3D.</strong> Utskriften är <code>0</code>. Child-objektets <code>int</code>-fält får först standardvärdet noll. När Base-konstruktorn anropar <code>value()</code> väljs Childs override dynamiskt. Childs fältinitialiserare <code>n = 7</code> har ännu inte körts. Först efter basklasskonstruktionen körs den. Undvik därför överstyrbara anrop i konstruktorer när de kan bero på ännu inte etablerat subklasstillstånd.</p>
+<p><strong>Kontroll före nästa del:</strong> Du ska kunna avgöra både om ett anrop är tillåtet och vilken implementation som körs. Ge sedan ett exempel där en basklass skulle dela fel antaganden om geometrin.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="3"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap4">Nästa kapitel →</a></p></article><article class="chapter" id="kap4"><div class="eyebrow">Samarbete · kapitel 4 av 14</div><h1>Samlingar och lambda: lagra objekt och skicka beteenden</h1><div class="source-links">Original: <a href="original/F07.pdf">F7</a></div><p><strong>Bygger på:</strong> F7, PDF-sidor 2–18. För lyssnare fortsätter vi i F8, sidor 3–9. <strong>Förkunskap:</strong> referenser, interface och metoder. <strong>Mål:</strong> kunna följa vad en lista innehåller och när ett sparat beteende faktiskt körs.</p>
+<h2>En lista håller referenser i en bestämd ordning</h2>
+<p>Ett ritprogram behöver komma ihåg flera figurer. I stället för separata variabler för varje cirkel använder vi en samling:</p>
+<pre><code class="language-java">List&lt;Figure&gt; figures = new ArrayList&lt;&gt;();
+figures.add(new Circle(new Point2(20, 20), 5));
+figures.add(new Line(new Point2(0, 0), new Point2(10, 0)));
+</code></pre>
+<p><code>List&lt;Figure&gt;</code> är variabelns typ. Den anger vilket samlingskontrakt klienten får använda och att elementen ska kunna behandlas som <code>Figure</code>. <code>ArrayList</code> är implementationen vi väljer. En cirkel och en linje kan finnas i samma lista därför att båda uppfyller Figure-kontraktet. Generics-parametern <code>&lt;Figure&gt;</code> betyder inte att objekten blir nya objekt av klassen Figure.</p>
+<p>Ordningen är betydelsefull. Om ritytan ritar från första till sista elementet hamnar den sist ritade figuren över tidigare figurer där de överlappar. Därför kan ordningen i listan också vara dokumentets ritordning. En samling är alltså inte bara en behållare; dess kontrakt kan bära en del av programmets betydelse. Se F7, sidor 2–3.</p>
+<pre><code class="language-java">for (Figure figure : figures) {
+    figure.move(10, 0);
+}
+</code></pre>
+<p>I varje varv innehåller den lokala variabeln <code>figure</code> en referens till ett element. Loopen kopierar inte figurerna. När <code>move</code> ändrar objektet är det samma figur som dokumentet redan känner till. Om två olika listor innehåller samma figurreferens ser båda den ändrade geometrin. F7, sida 4.</p>
+<h2>Listans struktur och elementens tillstånd är två olika saker</h2>
+<pre><code class="language-java">Circle circle = new Circle(new Point2(0, 0), 2);
+List&lt;Figure&gt; original = new ArrayList&lt;&gt;();
+original.add(circle);
+List&lt;Figure&gt; copy = List.copyOf(original);
+
+original.add(new Circle(new Point2(10, 0), 2));
+copy.get(0).move(3, 0);
+</code></pre>
+<p>Efteråt har <code>original</code> två element medan <code>copy</code> fortfarande har ett. Liststrukturerna är skilda. Båda når däremot samma första cirkel, som nu har centrum <code>(3, 0)</code>. <code>copy.add(...)</code> är inte tillåtet, men det innebär inte att <code>copy.get(0).move(...)</code> är förbjudet. Skyddet gäller vilka referenser listan innehåller och deras ordning, inte varje refererat objekts inre tillstånd.</p>
+<p>Det här kallas ofta en ytlig kopia: vi får en skyddad liststruktur med delade element. Den är användbar när dokumentet ska kunna lämna ut sina figurer utan att klienten kan lägga in eller ta bort listposter direkt. Den är däremot otillräcklig som en stabil historisk ögonblicksbild av muterbara figurer. F7, sida 5; kopplingen till historik behandlas i F14.</p>
+<h2>Ett funktionellt interface beskriver en form på ett beteende</h2>
+<p>Vanliga variabler kan hålla data som tal eller figurreferenser. En variabel kan också referera till ett objekt vars uppgift är att utföra en handling. Ett funktionellt interface har en enda abstrakt metod som bestämmer handlingens form.</p>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>Abstrakt metod</th>
+<th>Argument</th>
+<th>Resultat</th>
+<th>Typisk fråga</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>Runnable</code></td>
+<td><code>run()</code></td>
+<td>Inga</td>
+<td>Inget</td>
+<td>Vad ska göras senare?</td>
+</tr>
+<tr>
+<td><code>Predicate&lt;T&gt;</code></td>
+<td><code>test(T value)</code></td>
+<td>Ett värde</td>
+<td><code>boolean</code></td>
+<td>Uppfyller värdet ett villkor?</td>
+</tr>
+<tr>
+<td><code>Consumer&lt;T&gt;</code></td>
+<td><code>accept(T value)</code></td>
+<td>Ett värde</td>
+<td>Inget</td>
+<td>Vad ska göras med värdet?</td>
+</tr>
+<tr>
+<td>JUnits <code>Executable</code></td>
+<td><code>execute()</code></td>
+<td>Inga</td>
+<td>Inget; får kasta</td>
+<td>Vilken handling ska testas?</td>
+</tr>
+</tbody></table>
+<p>Tabellen beskriver den förenklade kärnan i föreläsningarnas exempel. De inbyggda typerna importeras från Java respektive JUnit. Definiera inte egna kopior av dem i projektet. F7, sidor 6–11 och 16.</p>
+<p>En namngiven klass kan implementera Runnable:</p>
+<pre><code class="language-java">final class PrintChange implements Runnable {
+    @Override
+    public void run() {
+        System.out.println(&quot;Ändrat&quot;);
+    }
+}
+
+Runnable action = new PrintChange();
+action.run();
+</code></pre>
+<p>En lambda beskriver samma sorts implementation mer kortfattat:</p>
+<pre><code class="language-java">Runnable action = () -&gt; System.out.println(&quot;Ändrat&quot;);
+</code></pre>
+<p>Läs <code>()</code> som ”inga argument”, pilen som ”utför detta” och uttrycket efter pilen som metodkroppen. Tilldelningen skriver inte ut texten. Det sker när någon anropar <code>action.run()</code>. Den skillnaden är grunden för både händelselyssnare och tester.</p>
+<pre><code class="language-java">Predicate&lt;Integer&gt; odd = n -&gt; n % 2 != 0;
+boolean a = odd.test(3); // true
+boolean b = odd.test(4); // false
+
+Consumer&lt;Figure&gt; moveRight = f -&gt; f.move(10, 0);
+figures.forEach(moveRight);
+</code></pre>
+<p><code>forEach</code> lämnar varje figurreferens som argument till beteendet. Det motsvarar en vanlig loop som anropar <code>move(10, 0)</code> på varje figur. En lambda gör inte flyttningen mer atomär: om den tredje figuren kastar ett undantag kan tidigare figurer redan ha flyttats. Behövs ”allt eller inget” måste det skyddet planeras separat.</p>
+<h2>Metodreferenser och fångade lokala värden</h2>
+<p>När lambdan bara lämnar vidare till en befintlig metod kan en metodreferens bli tydlig:</p>
+<pre><code class="language-java">Runnable first = () -&gt; panel.repaint();
+Runnable second = panel::repaint;
+</code></pre>
+<p>Båda beskriver en handling utan argument. Ingen av raderna utför målningen direkt. Det behövs fortfarande ett senare <code>run()</code>; <code>repaint</code> begär dessutom att Swing målar senare.</p>
+<p>Signaturen måste passa. <code>figures.forEach(Movable::move)</code> ger inte automatiskt <code>dx</code> och <code>dy</code> till <code>move</code>. <code>forEach</code> har bara en figur att lämna vidare. Därför är <code>f -&gt; f.move(10, 0)</code> rätt form i detta exempel. F7, sidor 13–14.</p>
+<pre><code class="language-java">double dx = 10;
+Consumer&lt;Figure&gt; action = f -&gt; f.move(dx, 0);
+// dx = 20; // skulle göra fångsten ogiltig
+</code></pre>
+<p>Den lokala variabel som lambdan fångar måste vara <code>final</code> eller effektivt final: den får inte tilldelas på nytt efter sin initialisering. Det betyder inte att alla objekt som en fångad referens når blir oföränderliga. En fångad lista kan exempelvis fortfarande ha ändringsbara element. F7, sida 15.</p>
+<h2>Genomgånget exempel: varför assertThrows tar en lambda</h2>
+<pre><code class="language-java">assertThrows(IllegalArgumentException.class,
+    () -&gt; new Circle(new Point2(0, 0), -1));
+</code></pre>
+<p>Förloppet är:</p>
+<ol>
+<li>Testet skapar en beskrivning av handlingen genom lambdan.</li>
+<li><code>assertThrows</code> tar emot den handlingen.</li>
+<li>JUnit anropar handlingens <code>execute()</code> i sin egen kontroll.</li>
+<li>Circle-konstruktorn körs och avvisar radien.</li>
+<li>JUnit jämför undantagets typ med den förväntade typen.</li>
+</ol>
+<p>Om konstruktionen körs före <code>assertThrows</code> får JUnit inte möjlighet att fånga den som den handling som ska testas. Poängen är alltså inte att göra undantaget ofarligt, utan att placera körningen inne i testets kontroll. F7, sidor 16–17.</p>
+<h2>Vanliga misstag</h2>
+<ul>
+<li>Att säga att en foreach-loop skapar kopior av figurerna. Den ger en referens åt gången.</li>
+<li>Att säga att <code>List.copyOf</code> fryser figurernas geometri. Det är liststrukturen som skyddas.</li>
+<li>Att förvänta sig ett metodanrop när en lambda registreras. Det måste finnas någon som senare anropar beteendet.</li>
+<li>Att använda metodreferens utan att kontrollera argument och returvärde.</li>
+</ul>
+<section class="exercises" id="ovning4"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>SL1 – Följ referenserna.</strong> En lista <code>a</code> innehåller en cirkel <code>c</code>. <code>b = List.copyOf(a)</code>. Sedan läggs en linje till i <code>a</code>, och <code>b.get(0).move(5, 0)</code> körs. Hur många element finns i varje lista? Har <code>c</code> flyttats? Motivera med en referensbild.</p>
+<p><strong>SL2 – Välj beteendets typ.</strong> Skriv lämplig funktionell typ och en lambda för: a) skriva ”Sparat” utan argument, b) testa om ett heltal är positivt, c) flytta en mottagen figur <code>(0, 7)</code>. Visa också anropet som faktiskt kör beteendet.</p>
+<p><strong>SL3 – Förutsäg utskriften.</strong> Vad skrivs ut och i vilken ordning?</p>
+<pre><code class="language-java">System.out.println(&quot;A&quot;);
+Runnable r = () -&gt; System.out.println(&quot;B&quot;);
+System.out.println(&quot;C&quot;);
+r.run();
+r.run();
+</code></pre>
+<p><strong>SL4 – Skriv testhandlingen.</strong> Skriv ett JUnit-test som förväntar <code>IllegalArgumentException</code> för en cirkel med radie noll. Förklara varför konstruktionen måste ligga inuti lambdan. Skriv därefter en rad som flyttar alla figurer 4 enheter i x-led med <code>forEach</code>.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 4</summary><div><p><strong>SL1.</strong> <code>a</code> har två element och <code>b</code> har ett. <code>a[0]</code>, <code>b[0]</code> och <code>c</code> når samma cirkel. Den har flyttats <code>(5, 0)</code> oavsett vilken av dessa referenser du använder för att läsa den. En riktig bild har två separata listobjekt men bara ett cirkelobjekt. Linjen nås enbart från <code>a</code>.</p>
+<p><strong>SL2.</strong></p>
+<pre><code class="language-java">Runnable saved = () -&gt; System.out.println(&quot;Sparat&quot;);
+saved.run();
+
+Predicate&lt;Integer&gt; positive = n -&gt; n &gt; 0;
+boolean result = positive.test(3); // true
+
+Consumer&lt;Figure&gt; moveDown = f -&gt; f.move(0, 7);
+moveDown.accept(figure);
+</code></pre>
+<p>Den första tar inga argument. Den andra måste returnera ett boolean. Den tredje tar en figur men returnerar inget. Namnet ”nedåt” för positivt y beror på koordinatsystemet; koden säger säkert att y ökar med 7.</p>
+<p><strong>SL3.</strong> Utskriften blir <code>A</code>, <code>C</code>, <code>B</code>, <code>B</code>, på var sin rad. Tilldelningen till <code>r</code> kör inte kroppen. Det finns två uttryckliga <code>run()</code>-anrop.</p>
+<p><strong>SL4.</strong></p>
+<pre><code class="language-java">@Test
+void zeroRadiusIsRejected() {
+    assertThrows(IllegalArgumentException.class,
+        () -&gt; new Circle(new Point2(0, 0), 0));
+}
+
+// I en metod där figures finns:
+figures.forEach(f -&gt; f.move(4, 0));
+</code></pre>
+<p><code>assertThrows</code> behöver kunna starta den prövade handlingen själv. Då kan det kontrollera undantaget. <code>forEach</code> lämnar i sin tur varje figur som lambdans <code>f</code>.</p>
+<p><strong>Kontroll före nästa kapitel:</strong> Du kan förklara skillnaden mellan att spara en referens, att spara en handling och att utföra handlingen.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="4"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap5">Nästa kapitel →</a></p></article><article class="chapter" id="kap5"><div class="eyebrow">Samarbete · kapitel 5 av 14</div><h1>Händelser, verktyg och Observer: från musgest till modell</h1><div class="source-links">Original: <a href="original/F06.pdf">F6</a> · <a href="original/F08.pdf">F8</a> · <a href="original/F15.pdf">F15</a></div><p><strong>Bygger på:</strong> F6, sidor 2–27; F8, sidor 2–24; jämförelse med F15, sidor 2–9. <strong>Mål:</strong> kunna följa en hel gest och placera ansvar, tillfälligt tillstånd och notifiering på rätt ställe.</p>
+<h2>Samma musrörelse kan betyda olika saker</h2>
+<p>Ett tryck följt av dragning kan skapa en cirkel, flytta en figur eller göra något annat beroende på valt verktyg. Panelen behöver inte ha alla dessa regler i en stor villkorssats. Den kan lämna händelser vidare till ett objekt som uppfyller <code>Tool</code>:</p>
+<pre><code class="language-java">public interface Tool {
+    void pressed(Point2 point, boolean extend);
+    void dragged(Point2 point);
+    void released(Point2 point);
+    void cancel();
+    void drawPreview(DrawingContext context);
+}
+</code></pre>
+<p>Panelen tar emot Swings <code>MouseEvent</code> och översätter dess uppgifter till ett domännära <code>Point2</code> och en flagga. Verktyget behöver därmed inte läsa tekniska musevent direkt. <code>extend</code> anger om markeringen ska utökas. Panelens anrop kan vara <code>tool.pressed(point(event), event.isShiftDown())</code>. Objektets klass avgör om CircleTool eller MoveTool utför metoden. F6, sidor 3–6.</p>
+<p>Här används <strong>State</strong>: det aktiva verktygsobjektet representerar det läge som styr hur nästa händelse tolkas. Det finns också tillstånd <em>inne i</em> ett verktyg: exempelvis om en cirkelgest har startat och vilket centrum den har. Dessa två nivåer är lätta att blanda ihop. Panelen kan ha CircleTool valt samtidigt som det verktyget väntar i vila utan aktiv gest.</p>
+<h2>En cirkelgest behöver minnas mellan metodanrop</h2>
+<p><code>pressed</code>, <code>dragged</code> och <code>released</code> sker vid olika tillfällen. Därför behöver centrum och aktuell slutpunkt vara fält i verktygsobjektet. Lokala variabler i <code>pressed</code> skulle försvinna när det anropet är klart.</p>
+<table>
+<thead>
+<tr>
+<th>Händelse</th>
+<th>Verktygets tillstånd</th>
+<th>Dokumentet</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>pressed((10,20), false)</code></td>
+<td>centrum och slutpunkt sätts till <code>(10,20)</code></td>
+<td>Oförändrat</td>
+</tr>
+<tr>
+<td><code>dragged((13,24))</code></td>
+<td>slutpunkten blir <code>(13,24)</code></td>
+<td>Oförändrat</td>
+</tr>
+<tr>
+<td><code>drawPreview(...)</code></td>
+<td>läser centrum och slutpunkt</td>
+<td>Oförändrat</td>
+</tr>
+<tr>
+<td><code>released((13,24))</code></td>
+<td>beräknar radie, skapar, rensar gesten</td>
+<td>Får en ny cirkel med radie 5</td>
+</tr>
+</tbody></table>
+<p>Radien är avståndet mellan punkterna: skillnaderna är 3 och 4, så avståndet är 5. Point2 kan använda <code>Math.hypot(dx, dy)</code> för beräkningen. <code>distance</code> returnerar ett tal och ändrar inga punkter. <code>translated</code> returnerar i stället ett nytt punktvärde. Gemensam avståndsberäkning hör hemma i Point2 så att både verktyg och träfftest kan återanvända den. F6, sidor 10–16; F8, sidor 16–17.</p>
+<p>En förhandsvisning ritas via <code>drawPreview</code> men förs inte in i dokumentets figurlista. Den är ett tillfälligt förslag. Vid <code>released</code> ska den slutliga musupp-punkten användas: den behöver inte vara exakt samma som senaste dragpunkten. Nollradie ger ingen cirkel i det här verktygsflödet. <code>cancel</code> sätter centrum och slutpunkt till <code>null</code>, så en gammal gest inte senare kan skapa en figur.</p>
+<p>Vid verktygsbyte ska panelen först anropa det <strong>gamla</strong> verktygets <code>cancel</code>, därefter spara det nya verktyget. Om referensen byts först riskerar du att rensa fel verktyg. F6, sidor 7 och 15.</p>
+<h2>Flyttverktyget har två olika versioner i kursen</h2>
+<p>I <strong>labb 2</strong>, som F6 visar, ändras modellen under dragning:</p>
+<pre><code class="language-java">target.move(point.x() - last.x(), point.y() - last.y());
+document.changed();
+last = point;
+</code></pre>
+<p>Delta beräknas från <strong>föregående</strong> muspunkt. Start <code>(20,20)</code>, drag <code>(23,24)</code> och släpp <code>(25,25)</code> ger först <code>(3,4)</code> och sedan <code>(2,1)</code>: totalt <code>(5,5)</code>. <code>released</code> gör det sista delsteget och avslutar sedan. Escape avslutar gesten men flyttningen som redan skett behålls. F6, sidor 20–24.</p>
+<p>I <strong>labb 4</strong>, som F15 visar, ändrar dragning bara tillfälligt preview-tillstånd. Vid släpp beräknas hela förskjutningen från startpunkten och ett kommando skickas till History. Escape före släpp lämnar geometrin oförändrad och skapar inget kommando. Efter släpp rensas gesten även om exekveringen får fel. F15, sidor 2–5.</p>
+<table>
+<thead>
+<tr>
+<th>Fråga</th>
+<th>Labb 2, F6</th>
+<th>Labb 4, F15</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ändras modellen vid <code>dragged</code>?</td>
+<td>Ja</td>
+<td>Nej, bara preview</td>
+</tr>
+<tr>
+<td>Vilken delta används?</td>
+<td>Från senaste punkt</td>
+<td>Total delta från start vid släpp</td>
+</tr>
+<tr>
+<td>Vad gör Escape före släpp?</td>
+<td>Stoppar; utförd flytt behålls</td>
+<td>Stoppar; modellen är fortfarande oförändrad</td>
+</tr>
+<tr>
+<td>Hur många historiksteg?</td>
+<td>Denna version använder direkt flyttning</td>
+<td>En färdig gest ger ett kommando</td>
+</tr>
+</tbody></table>
+<p>Flyttverktyget behöver också välja rätt figur. Eftersom sista elementet ritas överst söker träfftestet bakifrån genom figurlistan. Det första träffade objektet blir målet. Utan Shift töms den tidigare markeringen först och den träffade figuren markeras. Med Shift behålls övrig markering och den träffade figurens markering växlas med <code>toggle</code>; därefter sätts <code>target</code> till <code>null</code> så att ingen flyttgest startar. Detta är en uttalad regel i det givna verktyget, inte en allmän regel som Java bestämmer. F6, sidor 18–19.</p>
+<h2>Modellen meddelar via ett litet lyssnarkontrakt</h2>
+<p>En figur kan flyttas utan att känna DrawingPanel. Ändå behöver panelen få veta att bilden behöver uppdateras. I <strong>Observer</strong> registrerar intresserade mottagare ett beteende hos modellen:</p>
+<pre><code class="language-java">// I panelens konstruktor:
+document.addListener(this::repaint);
+</code></pre>
+<p>Dokumentet sparar en Runnable-referens. Det anropar inte <code>run</code> när lyssnaren läggs till. Vid ändring körs de registrerade handlingarna:</p>
+<pre><code class="language-java">public void changed() {
+    for (Runnable listener : List.copyOf(listeners)) {
+        listener.run();
+    }
+}
+</code></pre>
+<p>Kedjan i labb 2 blir <code>move</code> lyckas → <code>document.changed()</code> → lyssnarens <code>run()</code> → panelens <code>repaint()</code> → Swing målar senare. Dokumentet behöver känna Runnable-kontraktet, men inte panelens konkreta klass. Två paneler kan registrera var sin lyssnare och läsa samma dokument. F8, sidor 3–11.</p>
+<p>Kopian av lyssnarlistan gör att just den genomgången har en stabil liststruktur även om registreringen ändras under ett lyssnaranrop. Det är samma skillnad mellan liststruktur och element som tidigare: lyssnarobjekten själva kopieras inte.</p>
+<p><strong>State</strong>, <strong>Strategy</strong> och <strong>Observer</strong> besvarar olika frågor. State handlar här om hur nästa händelse tolkas i aktivt läge. Strategy väljer en algoritm eller regel. Observer avgör vilka som får veta att något ändrats. Att alla kan använda interface gör dem inte till samma mönster. F8, sida 15.</p>
+<h2>Ändringsnotifiering och preview-målning har olika orsaker</h2>
+<p>CircleTool ändrar inte dokumentet under dragning, men preview behöver fortfarande uppdateras. Därför kan panelen begära repaint efter en musgest utan en modellnotifiering. Det betyder ”visa det tillfälliga läget”, inte ”dokumentet har ändrats”. F8, sida 14.</p>
+<p>Vem ska då anropa <code>changed</code> efter en beständig ändring? Det beror på kontraktet. I F8 ändrar <code>MoveTool</code> en figur direkt och meddelar sedan dokumentet. Dokumentets <code>add</code> går däremot via <code>replace</code>, som redan notifierar. Ett extra <code>changed</code> i CircleTool skulle då meddela samma dokumentändring ytterligare en gång. I F15 är det MoveCommand och RotateCommand som notifierar efter sina lyckade geometriska ändringar; AddCommand och GroupCommand använder <code>replace</code>, som redan gör det. F8, sidor 12–14; F15, sida 8.</p>
+<h2>Ett fel ska inte lämna halva ändringen kvar</h2>
+<p>Anta att en linjes startpunkt kan översättas men att slutpunktens nya koordinat blir oändlig och avvisas. Följande ordning är riskabel:</p>
+<pre><code class="language-java">start = start.translated(dx, dy);
+end = end.translated(dx, dy);
+</code></pre>
+<p>Om den andra raden kastar har den första redan ändrat linjen. Beräkna i stället allt före första tilldelningen:</p>
+<pre><code class="language-java">Point2 nextStart = start.translated(dx, dy);
+Point2 nextEnd = end.translated(dx, dy);
+start = nextStart;
+end = nextEnd;
+</code></pre>
+<p>Nu lämnar en avvisad beräkning båda fälten oförändrade. Det skyddar en enskild Line-operation, inte automatiskt en hel grupp av flera figurer. Gruppens förkontroll behandlas i F10 och F12. <code>document.changed()</code> ska ske först efter en lyckad modelländring. Ett undantag före den raden gör att ingen framgångsnotifiering skickas. F8, sidor 18–23.</p>
+<section class="exercises" id="ovning5"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>HO1 – Följ cirkelgesten.</strong> Anropa <code>pressed((2,3), false)</code>, <code>dragged((5,7))</code>, <code>cancel()</code> och sedan <code>released((5,7))</code>. Hur många cirklar skapas? Vad blir skillnaden om cancel tas bort? Beskriv också dokumentet före släpp.</p>
+<p><strong>HO2 – Beräkna flyttningen.</strong> Anta att musned utan Shift träffar en giltig målfigur och att alla flyttningar lyckas. Start är <code>(10,10)</code>, två dragpunkter är <code>(13,12)</code> och <code>(15,16)</code>, släpp sker på <code>(18,17)</code>. Beräkna varje delta i F6-versionen. Jämför med F15-versionens enda kommando. Vad händer om Escape körs i stället för släpp, direkt efter den andra dragpunkten?</p>
+<p><strong>HO3 – Pröva notifieringen utan fönster.</strong> Skriv en Runnable-lyssnare som räknar anrop. Registrera den och kontrollera att registreringen inte ökar räknaren. Anropa <code>changed()</code> två gånger och kontrollera resultatet. Beskriv hur testet kompletteras vid en avvisad flyttning.</p>
+<p><strong>HO4 – Hitta två ansvarsfel.</strong> Ett CircleTool kör <code>document.add(circle); document.changed();</code>. Ett Line.move tilldelar <code>start</code> innan det beräknar nästa <code>end</code>. Förklara problemen och skriv principen för korrigeringen. Varför räcker det inte att lägga en catch i History?</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 5</summary><div><p><strong>HO1.</strong> Ingen cirkel skapas. Cancel har rensat centrum, så released får inte avsluta den gamla gesten. Utan cancel skapas en cirkel med centrum <code>(2,3)</code> och radie 5. Före släpp finns den endast som preview; dokumentets lista är oförändrad. Testet hittar en cancel som glömmer att rensa den aktiva gesten.</p>
+<p><strong>HO2.</strong> F6 ger <code>(3,2)</code>, <code>(2,4)</code> och slutligen <code>(3,1)</code>, totalt <code>(8,7)</code>. F15 lämnar modellen orörd under båda draghändelserna och skapar vid släpp ett MoveCommand med <code>(8,7)</code>. Escape efter andra dragningen lämnar i F6 redan genomförda <code>(5,6)</code> kvar, medan F15 inte har utfört någon beständig flyttning. Detta är varför man måste veta vilket labbsteg man läser.</p>
+<p><strong>HO3.</strong></p>
+<pre><code class="language-java">int[] calls = {0};
+document.addListener(() -&gt; calls[0]++);
+assertEquals(0, calls[0]);
+document.changed();
+document.changed();
+assertEquals(2, calls[0]);
+</code></pre>
+<p>Den fångade lokala referensen <code>calls</code> tilldelas inte på nytt; arrayelementet kan ändå ändras. För feltestet sparar du geometrin och räknarens värde, kör <code>assertThrows</code> runt flytten följd av <code>changed</code>, och kontrollerar båda efteråt. Kontrollera hela relevanta geometrin, inte enbart att ett undantag inträffade. Ingen extra notifiering ska ha skickats.</p>
+<p><strong>HO4.</strong> <code>add</code> notifierar redan via <code>replace</code> i föreläsningens dokument. Ta bort verktygets extra <code>changed</code>. I linjen ska båda nya punkterna först beräknas i lokala variabler och därefter tilldelas. History kan avstå från att uppdatera sina stackar vid fel, men det rullar inte automatiskt tillbaka fält som en figur redan har ändrat. Den operation som muterar måste skydda sitt kontrakt.</p>
+<p><strong>Kontroll före nästa kapitel:</strong> Du kan på ett papper skilja händelse, gesttillstånd, beständig modelländring, notifiering och framtida målning.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="5"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap6">Nästa kapitel →</a></p></article><article class="chapter" id="kap6"><div class="eyebrow">Struktur och design · kapitel 6 av 14</div><h1>Composite och rotation</h1><div class="source-links">Original: <a href="original/F09.pdf">F9</a> · <a href="original/F10.pdf">F10</a> · <a href="original/F12.pdf">F12</a></div><p><strong>Underlag:</strong> F9, PDF-sidor 2–18; F10, PDF-sidor 3–13; F12, PDF-sidor 5 och 19–22. Exemplen nedan är förklaringar och studieövningar, inte ytterligare labbkrav. Kodutdragen använder föreläsningarnas typer och är inte ett komplett startprojekt.</p>
+<p><strong>Förkunskaper:</strong> Du behöver förstå interface, polymorfism, referenser, listor och varför en operation ska lämna objekt giltiga.</p>
+<p><strong>Mål:</strong> Du ska kunna följa ett anrop genom ett figurträd, beräkna ett gruppcentrum och förklara varför grupprotation behöver en gemensam pivot och förkontroll.</p>
+<h2>En figur kan vara en helhet</h2>
+<p>Anta att du ritar ett trafikljus av en rektangel och tre cirklar. Du vill kunna flytta trafikljuset som en enda symbol. Senare ska flera trafikljus och vägmarkeringar kunna ingå i en större korsning.</p>
+<p>Ett första försök är att göra en särskild metod för varje nivå: <code>drawCircle</code>, <code>drawTrafficLight</code> och <code>drawIntersection</code>. Då måste klienten känna till vilka delar varje helhet består av. När en ny slags helhet tillkommer måste klienten lära sig mer.</p>
+<p>Composite löser det genom att låta både grundfiguren och gruppen uppfylla <code>Figure</code>. Ett löv är en figur utan exponerade delar, exempelvis <code>Circle</code>. En sammansättning är en figur som innehåller andra figurer, exempelvis <code>CompositeFigure</code>. Klienten kan anropa <code>draw</code>, <code>move</code> och <code>rotate</code> genom samma kontrakt.</p>
+<p>Gruppen blir alltså själv ett objekt med figurförmågor. Den är inte bara en lista som klienten måste hantera på egen hand. Det är detta som gör att en grupp kan innehålla en annan grupp. Se F9, sidor 3–5.</p>
+<pre><code class="language-java">Figure a = new Line(new Point2(10, 0), new Point2(20, 0));
+Figure b = new Circle(new Point2(20, 0), 2);
+Figure c = new Rectangle(new Point2(20, -2), 10, 4);
+
+Figure g2 = new CompositeFigure(List.of(b, c));
+Figure g1 = new CompositeFigure(List.of(a, g2));
+</code></pre>
+<p>Objektstrukturen är:</p>
+<pre><code class="language-text">g1
+├── a: Line
+└── g2: CompositeFigure
+    ├── b: Circle
+    └── c: Rectangle
+</code></pre>
+<p><code>g1</code> har två direkta barn: <code>a</code> och <code>g2</code>. Den har inte tre direkta barn. <code>b</code> och <code>c</code> ligger en nivå längre ned. Skilj därför mellan <em>direkta delar</em> och <em>alla underliggande grundfigurer</em>.</p>
+<h2>Var uppstår rekursionen?</h2>
+<p>En grupp kan rita sina barn så här:</p>
+<pre><code class="language-java">public void draw(DrawingContext context) {
+    for (Figure child : parts) {
+        child.draw(context);
+    }
+}
+</code></pre>
+<p>Vid <code>g1.draw(context)</code> händer följande:</p>
+<ol>
+<li><code>g1</code> anropar <code>a.draw(context)</code>. Linjen skickar sina ritoperationer till ritkontexten.</li>
+<li><code>g1</code> anropar <code>g2.draw(context)</code>.</li>
+<li><code>g2</code> kör samma gruppimplementation och anropar i sin tur <code>b.draw(context)</code> och <code>c.draw(context)</code>.</li>
+<li>När <code>g2</code> är klar återgår kontrollen till <code>g1</code>.</li>
+</ol>
+<p>Metoden innehåller inget uttryck som bokstavligen heter <code>this.draw(...)</code>. Rekursionen uppstår ändå, eftersom ett barns dynamiska typ kan vara <code>CompositeFigure</code>. En grupp anropar samma sorts beteende på en mindre del av trädet. Grundfigurerna avslutar kedjan genom att faktiskt rita. Se F9, sidor 9–10.</p>
+<p>Barnens ordning spelar roll. Om figurer målas ovanpå varandra blir den senare ritade figuren normalt den översta. En grupp får därför inte sortera sina barn godtyckligt.</p>
+<h2>Vad ska parts() betyda?</h2>
+<p>Föreläsningarnas kontrakt ger alla figurer en fråga om direkta delar:</p>
+<pre><code class="language-java">public interface Figure extends Drawable, Movable, Rotatable {
+    Point2 getCenter();
+
+    default List&lt;Figure&gt; parts() {
+        return List.of();
+    }
+}
+</code></pre>
+<p>En <code>Circle</code> kan ärva standardresultatet: en tom lista. En <code>CompositeFigure</code> returnerar sina direkta barn. Då kan en klient vandra genom ett träd utan att först fråga om objektets konkreta klass. En tom lista avslutar vandringen naturligt. Se F9, sidor 7–8.</p>
+<p><code>parts()</code> är en fråga. Den delar inte upp en grupp i dokumentet, tömmer inte gruppen och skapar inte kopior av barnen.</p>
+<p>Fältet kan skyddas så här:</p>
+<pre><code class="language-java">private final List&lt;Figure&gt; parts;
+
+public CompositeFigure(List&lt;Figure&gt; parts) {
+    this.parts = List.copyOf(parts);
+}
+
+@Override
+public List&lt;Figure&gt; parts() {
+    return parts;
+}
+</code></pre>
+<p><code>List.copyOf</code> gör liststrukturen omodifierbar. Om klienten ändrar sin ursprungliga lista efter konstruktionen ska gruppens medlemslista inte påverkas. Däremot är barnen fortfarande samma figurobjekt. Att skydda liststrukturen och att förbjuda mutation av figurerna är två olika löften.</p>
+<h2>Gruppens centrum är ett kontrakt</h2>
+<p>I dessa föreläsningar definieras gruppens centrum som medelvärdet av de <strong>direkta barnens centrum</strong>. En tom grupp har centrum <code>(0, 0)</code>. En nästlad grupp räknas som ett barn. Se F9, sida 14.</p>
+<p>Anta att gruppen <code>g</code> har två barn vid <code>(0, 0)</code> och <code>(10, 0)</code>. Då blir dess centrum <code>(5, 0)</code>. Anta sedan att <code>root</code> har barnen <code>g</code> och en cirkel vid <code>(100, 0)</code>. Då blir:</p>
+<pre><code class="language-text">g.center    = ((0 + 10) / 2, 0) = (5, 0)
+root.center = ((5 + 100) / 2, 0) = (52.5, 0)
+</code></pre>
+<p>Det är inte medelvärdet av alla tre lövcentrum, vilket skulle vara ungefär <code>(36.67, 0)</code>. Det är inte heller centrum av en omslutande rektangel eller ett masscentrum. Sådana regler kan vara rimliga i andra program, men du måste följa det kontrakt som gäller här.</p>
+<p>Konsekvensen är att trädets struktur kan påverka beräknat centrum även om grundfigurerna ligger kvar på samma koordinater. Därför är gruppcentrum mer än en fråga om vilken bild som syns på skärmen.</p>
+<h2>Rotation behöver en tydlig pivot</h2>
+<p>En pivot är punkten som en rotation sker kring. Föreläsningen använder två operationer:</p>
+<pre><code class="language-java">void rotate(double radians);
+void rotate(double radians, Point2 pivot);
+</code></pre>
+<p>Varianten med ett argument väljer figurens eget centrum som pivot. Varianten med två argument får pivoten uttryckligen. Vinkeln anges i radianer: ett helt varv är <code>2 * Math.PI</code> och ett kvarts varv är <code>Math.PI / 2</code>. Se F9, sidor 11–13.</p>
+<p>För ett punktvärde <code>(x, y)</code> och pivot <code>(px, py)</code> kan beräkningen förstås i tre steg:</p>
+<ol>
+<li>Flytta till ett koordinatsystem där pivoten är origo: <code>dx = x - px</code>, <code>dy = y - py</code>.</li>
+<li>Rotera förskjutningen med vinkeln <code>v</code>:
+<code>rx = dx*cos(v) - dy*sin(v)</code> och <code>ry = dx*sin(v) + dy*cos(v)</code>.</li>
+<li>Flytta tillbaka: <code>(px + rx, py + ry)</code>.</li>
+</ol>
+<p>I det matematiska koordinatsystemet motsvarar en positiv vinkel moturs. På en bildskärm där y ökar nedåt kan samma koordinatberäkning uppfattas som medurs. Följ därför koordinaterna och projektets kontrakt när du kontrollerar resultatet.</p>
+<p>För cirklar med centrum <code>(10, 0)</code> och <code>(20, 0)</code> ger ett kvarts varv kring <code>(0, 0)</code> centrum <code>(0, 10)</code> respektive <code>(0, 20)</code>. Radierna ändras inte. Om varje cirkel i stället roteras kring sitt eget centrum står båda centrumen kvar. En cirkels kontur ser då likadan ut, trots att operationen kan vara korrekt.</p>
+<p>En grupp måste skicka vidare <strong>samma pivot</strong> till alla barn:</p>
+<pre><code class="language-java">TransformChecks.rotation(this, radians, pivot);
+for (Figure child : parts) {
+    child.rotate(radians, pivot);
+}
+</code></pre>
+<p>Om du skriver <code>child.rotate(radians)</code> väljer varje barn sitt eget centrum. Det håller inte ihop gruppen som en gemensamt roterad helhet. Samma externa pivot måste även nå barnen i en nästlad grupp.</p>
+<h2>En roterad rektangel behöver bevara formen</h2>
+<p>För en rektangel som alltid ligger längs koordinataxlarna kan ett hörn, bredd och höjd räcka. Efter en godtycklig rotation räcker de värdena inte ensamma för att beskriva orienteringen. Du behöver exempelvis bevara fyra hörn i kantordning eller bevara ett centrum, mått och en vinkel.</p>
+<p>Föreläsningens ritport har <code>polygon(List&lt;Point2&gt; vertices)</code>. Den ritar en sluten kontur genom hörnen och tillbaka till första hörnet. Hörnen måste ligga i kantordning; en godtycklig ordning kan ge korsande linjer. Figuren ansvarar fortfarande för att rektangelns räta vinklar och motstående sidors längder bevaras. Ritporten ritar det den får. Se F9, sidor 15–16 och F12, sida 21.</p>
+<h2>Varför ska hela gruppen förkontrolleras?</h2>
+<p>En flyttning kan ge ogiltiga koordinater, exempelvis genom att en ändlig beräkning övergår till oändlighet. Om du först flyttar barn 1 och sedan upptäcker felet i barn 2, har gruppen blivit delvis ändrad. Det bryter löftet att en avvisad operation ska lämna geometrin oförändrad.</p>
+<p>Lösningen i föreläsningarna är att kontrollera hela operationen före första mutationen. <code>TransformChecks.translation</code> respektive <code>TransformChecks.rotation</code> kontrollerar geometrin innan barnen ändras. F12, sida 22 beskriver att kontrollen använder ritoperationerna för att läsa geometrin utan mutation. Efter lyckad kontroll kan ändringsfasen börja.</p>
+<p>Det är inte samma sak som att bara fånga ett undantag efteråt. <code>catch</code> återställer inga redan ändrade koordinater automatiskt. Förkontrollen och figurernas egna kontrakt måste tillsammans ge den önskade säkerheten. Se F10, sida 12.</p>
+<h2>Vanliga misstag</h2>
+<ul>
+<li>Att beräkna centrum från samtliga löv när kontraktet säger direkta barn.</li>
+<li>Att tro att <code>parts()</code> gör en uppdelning i dokumentet.</li>
+<li>Att skicka <code>rotate(v)</code> till varje barn när hela gruppen ska använda en gemensam pivot.</li>
+<li>Att behandla <code>List.copyOf</code> som en djup kopia av muterbara figurer.</li>
+<li>Att ändra barnen medan resten av gruppens indata fortfarande kontrolleras.</li>
+</ul>
+<section class="exercises" id="ovning6"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>Övning C1 – Följ anropen.</strong> En grupp <code>root</code> har barnen <code>a</code> och <code>g</code>. Gruppen <code>g</code> har barnen <code>b</code> och <code>c</code>. Alla tre grundfigurer överlappar. Skriv anropsordningen för <code>root.draw(ctx)</code>. Vilken grundfigur ritas sist?</p>
+<p><strong>Övning C2 – Räkna centrum.</strong> <code>g</code> har barncentrum <code>(2, 4)</code> och <code>(6, 8)</code>. <code>root</code> har barnen <code>g</code> och en cirkel med centrum <code>(20, 10)</code>. Beräkna båda gruppcentrum. Beräkna även vad du skulle få om du felaktigt tog medelvärdet av alla löv.</p>
+<p><strong>Övning C3 – Hitta rotationsfelet.</strong> En grupps implementation gör <code>for (Figure child : parts) child.rotate(radians);</code>. Gruppen ska roteras ett kvarts varv kring <code>(0, 0)</code>. Barnen är cirklar vid <code>(10, 0)</code> och <code>(20, 0)</code>. Vad blir fel? Visa den avgörande kodraden som måste ändras.</p>
+<p><strong>Övning C4 – Skriv ett kontraktstest.</strong> Skriv ett JUnit-test som använder de två cirklarna från C3 och kontrollerar resultatet av en gemensam rotation. Använd tolerans för beräknade <code>double</code>-värden.</p>
+<p><strong>Övning C5 – Resonera om felvägen.</strong> En grupp har tre barn. En föreslagen flyttning är giltig för de första två men ogiltig för det tredje. Beskriv vad som kan gå fel i en enkel flyttloop och hur ett test ska skilja en säker implementation från en halv mutation.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 6</summary><div><p><strong>C1.</strong> Anropen går <code>root.draw → a.draw → g.draw → b.draw → c.draw</code>. <code>g.draw</code> återgår först när båda dess barn är klara. <code>c</code> är sista grundfiguren och ritas därför sist i denna ordning. Gruppens egen metod behöver inte rita någon extra kontur.</p>
+<p><strong>C2.</strong> <code>g</code> får centrum <code>((2+6)/2, (4+8)/2) = (4, 6)</code>. <code>root</code> får <code>((4+20)/2, (6+10)/2) = (12, 8)</code>. Ett felaktigt lövmedelvärde blir <code>((2+6+20)/3, (4+8+10)/3) = (28/3, 22/3)</code>, ungefär <code>(9.33, 7.33)</code>. Skillnaden visar varför den hierarkiska regeln måste vara uttrycklig.</p>
+<p><strong>C3.</strong> Varje barn väljer eget centrum och cirklarnas centrum blir kvar på <code>(10, 0)</code> respektive <code>(20, 0)</code>. Gruppmetoden ska, efter lyckad kontroll, anropa <code>child.rotate(radians, pivot);</code>. Samma argument <code>pivot</code> ska användas genom hela trädet.</p>
+<p><strong>C4.</strong> Ett möjligt testutdrag, med föreläsningarnas typer:</p>
+<pre><code class="language-java">@Test
+void rotatesBothChildrenAroundSameExternalPivot() {
+    Circle a = new Circle(new Point2(10, 0), 2);
+    Circle b = new Circle(new Point2(20, 0), 3);
+    Figure group = new CompositeFigure(List.of(a, b));
+
+    group.rotate(Math.PI / 2, new Point2(0, 0));
+
+    assertEquals(0, a.getCenter().x(), 1e-9);
+    assertEquals(10, a.getCenter().y(), 1e-9);
+    assertEquals(0, b.getCenter().x(), 1e-9);
+    assertEquals(20, b.getCenter().y(), 1e-9);
+    assertSame(a, group.parts().get(0));
+    assertSame(b, group.parts().get(1));
+}
+</code></pre>
+<p>Toleransen hanterar avrundningsfel från trigonometrin. Identitetskontrollerna prövar dessutom att rotationen inte ersatte figurerna med nya objekt.</p>
+<p><strong>C5.</strong> En enkel loop kan hinna mutera barn 1 och 2 innan barn 3 kastar. Ett test sparar observerbar geometri för samtliga barn, försöker flytta, kräver förväntat undantag och jämför sedan all geometri med före-läget. Enbart <code>assertThrows</code> räcker inte, eftersom även en halv mutation kan kasta rätt undantag. Lösningen enligt föreläsningarna är förkontroll av hela trädet före första ändringen.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="6"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap7">Nästa kapitel →</a></p></article><article class="chapter" id="kap7"><div class="eyebrow">Struktur och design · kapitel 7 av 14</div><h1>Ägarskap, likhet och generiska samlingar</h1><div class="source-links">Original: <a href="original/F10.pdf">F10</a> · <a href="original/F11.pdf">F11</a></div><p><strong>Underlag:</strong> F10, PDF-sidor 2–14; F11, PDF-sidor 2–17. Läs gärna kapitlet efter Composite, eftersom skillnaden mellan lista, objekt och trädstruktur är central här.</p>
+<p><strong>Mål:</strong> Du ska kunna gruppera och dela upp utan att klona figurer, välja rätt sorts likhet och förstå vad <code>List&lt;? extends Figure&gt;</code> respektive <code>List&lt;? super Circle&gt;</code> tillåter.</p>
+<h2>En plats i dokumentet är inte samma sak som en referens</h2>
+<p>Anta att dokumentets toppnivå är <code>[a, b]</code> och att du skapar en grupp <code>g</code> med barnet <code>a</code>. Om du sedan låter toppnivån vara <code>[a, b, g]</code> förekommer samma figurobjekt på två platser i dokumentträdet. Vid en vandring över hela dokumentet kan <code>a</code> bli ritad eller flyttad två gånger.</p>
+<p>Föreläsningarnas dokumentregel är därför att samma figurobjekt får finnas på endast en plats i dokumentträdet. Om <code>a</code> blir barn till <code>g</code> ska <code>a</code> tas bort från toppnivån. Det hindrar inte att en lokal variabel, ett verktyg eller ett test fortfarande har en referens till <code>a</code>. Regeln gäller placeringar i dokumentets struktur, inte att det bara får finnas en referens i hela programmet. Se F10, sidor 3 och 10.</p>
+<p>Detta är en viktig skillnad vid UML-modellering. Composite beskriver hur del och helhet erbjuder gemensamt beteende. En diamant i UML uttrycker ytterligare relationer om del/helhet och eventuellt ägarskap. Motivera relationens betydelse utifrån modellens regler; välj inte en symbol enbart för att klassnamnet innehåller ordet Composite.</p>
+<h2>Gruppering ändrar strukturen</h2>
+<p>Utgångsläget är <code>[a, b, c]</code>, där <code>c</code> ritas sist och överst. Användaren markerar <code>a</code> och <code>c</code>. Gruppen <code>g</code> skapas med delarna <code>[a, c]</code>, och dokumentets nya toppnivå blir <code>[b, g]</code>. Se F10, sida 5.</p>
+<p>Tre saker behöver bevaras:</p>
+<ol>
+<li><strong>Identitet:</strong> Gruppens delar är samma <code>a</code> och <code>c</code> som tidigare. De klonas inte.</li>
+<li><strong>Geometri:</strong> Koordinater och mått ändras inte av själva grupperingen.</li>
+<li><strong>Inbördes ordning:</strong> <code>a</code> ligger före <code>c</code> även inne i gruppen.</li>
+</ol>
+<p>Gruppen ersätter den översta valda figurens plats enligt föreläsningens regel. Det kan ändra överlappningen mot en ovald figur: tidigare ritades <code>a</code> före <code>b</code>, men efter grupperingen ritas hela <code>g</code> efter <code>b</code>. Därmed ritas även <code>a</code> efter <code>b</code>. Gruppering kan alltså påverka ritordningen mellan utvalda och ovalda figurer, trots bevarad geometri.</p>
+<p>Ett säkert arbetssätt är att bygga nästa toppnivålista först och därefter göra ett dokumentbyte med <code>replace(next)</code>. Då behöver dokumentet inte passera flera synliga mellanlägen medan figurer plockas bort och läggs tillbaka. Se F10, sida 6.</p>
+<h2>Uppdelning går en nivå ned</h2>
+<p>Anta att dokumentet är <code>[x, g, y]</code>, där <code>g.parts()</code> är <code>[a, h]</code> och <code>h.parts()</code> är <code>[b, c]</code>. Uppdelning av <code>g</code> ger <code>[x, a, h, y]</code>. Den nästlade gruppen <code>h</code> är fortfarande en grupp. Uppdelningen är alltså inte en rekursiv plattning. Se F10, sida 7.</p>
+<p>En gemensam regel kan uttryckas så här för en markerad figur:</p>
+<pre><code class="language-java">List&lt;Figure&gt; children = figure.parts();
+List&lt;Figure&gt; replacements = children.isEmpty()
+        ? List.of(figure)
+        : children;
+next.addAll(replacements);
+</code></pre>
+<p>En grundfigur ger en tom lista och blir kvar. Även en tom grupp ger en tom lista och blir kvar enligt kursens regel. Det är ett medvetet kontrakt; du ska inte ta bort en tom grupp som en oavsiktlig följd av att lägga till noll barn.</p>
+<p>Den gamla gruppen <code>g</code> tömmer inte sin barnlista. Om en annan referens fortfarande når <code>g</code> kan den fortfarande fråga efter dess delar. Det är dokumentets toppnivå som ersätts. Se F10, sidor 8–9.</p>
+<h2>Tre frågor som liknar varandra men har olika svar</h2>
+<table>
+<thead>
+<tr>
+<th>Fråga</th>
+<th>Vad jämförs?</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Är det samma objekt?</td>
+<td>Referensidentitet med <code>==</code></td>
+<td>Är just denna figur markerad?</td>
+</tr>
+<tr>
+<td>Har objekten samma värde?</td>
+<td><code>equals</code> enligt typens kontrakt</td>
+<td>Har två Point2 samma koordinater?</td>
+</tr>
+<tr>
+<td>Ska objekten ligga på samma sorteringsposition?</td>
+<td>En <code>Comparator</code></td>
+<td>Har två figurer samma centrum-x?</td>
+</tr>
+</tbody></table>
+<p>Två <code>Point2</code>-objekt kan vara olika objekt men samma punktvärde. Eftersom <code>Point2</code> är ett record är dess <code>equals</code> värdebaserad. <code>p == q</code> kan därför vara <code>false</code> samtidigt som <code>p.equals(q)</code> är <code>true</code>. Se F11, sidor 2–3.</p>
+<p>Två cirklar kan däremot vara två separata redigerbara figurer med samma geometri. När användaren markerar den ena ska den andra inte automatiskt vara markerad. <code>Selection.contains</code> i föreläsningarna använder därför <code>==</code>. En vanlig <code>List.contains</code> använder <code>equals</code>. Metoder med samma namn kan alltså ha olika likhetskontrakt. Se F11, sidor 4–5.</p>
+<p>En sortering efter x-koordinat säger ännu mindre om identitet. Om två figurer båda har centrum-x <code>10</code> kan jämförelsen ge noll, men de behöver varken vara samma figur eller ha samma geometri.</p>
+<h2>Hashning bygger på ett avtal</h2>
+<p>En <code>HashSet</code> eller <code>HashMap</code> använder en hashkod för att hitta ett område där den kan söka efter objekt. Därför måste objekt som är lika enligt <code>equals</code> också ha samma <code>hashCode</code>. Det omvända behöver inte gälla: olika objekt får ha samma hashkod, och då får <code>equals</code> skilja dem åt. Se F11, sida 6.</p>
+<p>Om du lägger in två Point2 med samma koordinater i en <code>HashSet&lt;Point2&gt;</code> blir mängdens storlek ett. Du har lagt in två referenser, men bara ett distinkt punktvärde enligt mängdens likhetsregel.</p>
+<p>En risk uppstår om de fält som styr <code>equals</code> och <code>hashCode</code> ändras medan objektet används som nyckel i en hashbaserad samling. Objektet kan då ligga kvar på en plats som valdes med den gamla hashkoden, samtidigt som en sökning använder den nya. Undvik därför nycklar vars relevanta värde kan ändras under lagringen. Föreläsningens oföränderliga Point2 passar bättre som värdenyckel än ett muterbart namnobjekt. Se F11, sida 7.</p>
+<h2>Hur upptäcker dokumentet upprepad identitet?</h2>
+<p>F11, sida 8 använder en <code>IdentityHashMap</code> under en trädvandring. Den jämför nycklar med objektidentitet och påverkas därför inte av att två olika figurer råkar ha lika geometri.</p>
+<pre><code class="language-java">private static void visit(
+        Figure figure,
+        IdentityHashMap&lt;Figure, Boolean&gt; seen) {
+    if (seen.put(figure, Boolean.TRUE) != null) {
+        throw new IllegalArgumentException(&quot;Upprepad figur&quot;);
+    }
+    for (Figure child : figure.parts()) {
+        visit(child, seen);
+    }
+}
+</code></pre>
+<p>Skapa <code>seen</code> en gång före hela dokumentvandringen. Om du skapar en ny karta för varje gren upptäcker du inte att två olika grenar når samma objekt. Koden markerar ett objekt innan den går vidare till dess barn. En återkomst till samma identitet avvisas i stället för att vandringen fortsätter obegränsat.</p>
+<h2>Varför är List<Circle> inte List<Figure>?</h2>
+<p>En Circle kan användas som Figure, men en <code>List&lt;Circle&gt;</code> får ändå inte tilldelas till <code>List&lt;Figure&gt;</code>:</p>
+<pre><code class="language-java">List&lt;Circle&gt; circles = new ArrayList&lt;&gt;();
+// List&lt;Figure&gt; figures = circles; // kompileringsfel
+</code></pre>
+<p>Anta att tilldelningen tilläts. Då skulle klienten kunna skriva <code>figures.add(new Line(...))</code>. Samma lista skulle nu innehålla en Line, trots att <code>circles</code> lovar att dess element är Circle. Förbudet skyddar det löftet. Generiska listtyper är invarianta på detta sätt. Se F11, sida 9.</p>
+<h2>extends: läs genom en gemensam övre gräns</h2>
+<p>Om metoden bara behöver hämta element som Figure kan den ta emot en lista av någon okänd undertyp till Figure:</p>
+<pre><code class="language-java">static void moveAll(List&lt;? extends Figure&gt; items) {
+    for (Figure figure : items) {
+        figure.move(1, 0);
+    }
+}
+</code></pre>
+<p>Här kan både <code>List&lt;Circle&gt;</code> och <code>List&lt;Figure&gt;</code> användas. Metoden vet att varje hämtat element åtminstone kan behandlas som Figure. Den vet däremot inte exakt vilken elementtyp listan lovar. Därför får metoden inte lägga till en godtycklig Circle eller Line.</p>
+<p><code>? extends</code> betyder inte att listan eller figurerna är oföränderliga. Metoden ovan flyttar figurerna. Wildcard-typen förhindrar heller inte i sig alla strukturella operationer, som borttagning; om en sådan operation fungerar beror även på listans implementation. Typgränsen reglerar vilka elementtyper som är säkra att använda. Se F11, sidor 10–11.</p>
+<h2>super: en mottagare av Circle</h2>
+<p>Om metoden ska lägga in Circle-objekt används i stället en nedre gräns:</p>
+<pre><code class="language-java">static void addCircle(List&lt;? super Circle&gt; target, Circle circle) {
+    target.add(circle);
+}
+</code></pre>
+<p><code>List&lt;Circle&gt;</code>, <code>List&lt;Figure&gt;</code> och <code>List&lt;Object&gt;</code> kan alla vara mottagare. De kan alla lagra en Circle utan att bryta sitt elementkontrakt. Men vid läsning vet metoden bara att ett godtyckligt element är Object. En <code>List&lt;Object&gt;</code> kan ju redan innehålla en sträng. Se F11, sida 12.</p>
+<p>Minnesregel: en källa som producerar värden åt din metod passar ofta med <code>extends</code>; en mottagare som tar emot värden passar ofta med <code>super</code>. Börja ändå med att fråga vad metoden faktiskt ska läsa och skriva, inte med att gissa en wildcard.</p>
+<h2>Generiska metoder och stackar</h2>
+<p>En egen typparameter kan bevara samband mellan in- och utdata:</p>
+<pre><code class="language-java">static &lt;T&gt; T identity(T value) {
+    return value;
+}
+</code></pre>
+<p>Vid <code>Point2 p = identity(new Point2(1, 2));</code> kan kompilatorn härleda Point2 som relevant resultattyp. Metoden behöver inte returnera Object och tvinga klienten att casta.</p>
+<p>På samma sätt kan en <code>Stack&lt;T&gt;</code> lagra och lämna tillbaka element av samma typ. <code>Stack&lt;Command&gt;</code> passar senare för historik. Java behöver inte skapa en separat källkodsimplementation av stacken för varje typ. Använd typargument och undvik råa typer som <code>List</code> utan <code>&lt;...&gt;</code>, eftersom de försvagar kompilatorns kontroll. Se F11, sidor 13–16.</p>
+<section class="exercises" id="ovning7"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>Övning A1 – Gruppera och dela upp.</strong> Dokumentet är <code>[a,b,c]</code>. Gruppera <code>a</code> och <code>c</code> till <code>g</code> enligt föreläsningens regel. Skriv toppnivå och barnlista. Dela därefter upp <code>g</code>. Förklara varför du inte nödvändigtvis får exakt den ursprungliga toppnivåordningen tillbaka.</p>
+<p><strong>Övning A2 – Nästlad och tom grupp.</strong> Dokumentet är <code>[x,g,e,y]</code>. <code>g.parts()</code> är <code>[a,h]</code>, <code>h.parts()</code> är <code>[b,c]</code> och <code>e</code> är en tom grupp. Både <code>g</code> och <code>e</code> är markerade och ska delas upp. Skriv resultatet. Ska <code>g.parts()</code> ändras?</p>
+<p><strong>Övning A3 – Välj rätt kontroll.</strong> Välj <code>assertSame</code>, <code>assertEquals</code> eller en kontroll av sorteringsresultat: (a) gruppering ska bevara samma Circle-objekt, (b) en beräknad mittpunkt ska ha värdet <code>(5,7)</code>, (c) figurer ska ordnas från lägre till högre centrum-x. Förklara också varför två lika x-koordinater inte bevisar identitet.</p>
+<p><strong>Övning A4 – Tillåtna anrop.</strong> Vilka av följande anrop fungerar typmässigt? Anta modifierbara listor. Förklara varje svar.</p>
+<pre><code class="language-java">List&lt;Circle&gt; circles = new ArrayList&lt;&gt;();
+List&lt;Figure&gt; figures = new ArrayList&lt;&gt;();
+List&lt;Object&gt; objects = new ArrayList&lt;&gt;();
+
+moveAll(circles);
+moveAll(figures);
+moveAll(objects);
+addCircle(circles, circle);
+addCircle(figures, circle);
+addCircle(objects, circle);
+</code></pre>
+<p><strong>Övning A5 – Hitta två designfel.</strong> En dokumentkontroll skapar en ny vanlig <code>HashSet&lt;Figure&gt;</code> i varje rekursivt anrop och använder den för att hitta upprepade figurer. Förklara varför detta inte uppfyller ett uttryckligt identitetskontrakt och varför upprepade objekt i olika grenar kan missas.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 7</summary><div><p><strong>A1.</strong> Efter gruppering är toppnivån <code>[b,g]</code> och <code>g.parts()</code> är <code>[a,c]</code>. Efter uppdelning är toppnivån <code>[b,a,c]</code>. Uppdelningen ersätter gruppen på dess nuvarande plats med dess direkta barn. Den minns inte automatiskt vilka positioner barnen hade före grupperingen. Att ångra en gruppering med exakt återställd ursprungsordning kräver historikinformation, vilket behandlas i Command-delen av kursen.</p>
+<p><strong>A2.</strong> Resultatet blir <code>[x,a,h,e,y]</code>. <code>h</code> är fortfarande en grupp med <code>[b,c]</code>. Den tomma gruppen <code>e</code> blir kvar. <code>g.parts()</code> ändras inte: även om <code>g</code> inte längre ligger på toppnivån innehåller objektet fortfarande samma delar. Det är dokumentets struktur som byts ut.</p>
+<p><strong>A3.</strong> (a) <code>assertSame(original, group.parts().get(0))</code>, eftersom identitet ska bevaras. (b) <code>assertEquals(new Point2(5,7), actual)</code>, eftersom Point2 har värdelikhet; för beräkningar med känslig flyttalsavrundning kan koordinater kontrolleras med tolerans. (c) kontrollera ordningen enligt Comparatorn eller jämför den förväntade ordnade listans referenser. Samma x säger bara att sorteringsnycklarna är lika. Två olika figurer kan dela den nyckeln.</p>
+<p><strong>A4.</strong> <code>moveAll(circles)</code> och <code>moveAll(figures)</code> fungerar. <code>moveAll(objects)</code> fungerar inte, eftersom Object inte garanterar Figure-beteende. Samtliga tre <code>addCircle</code>-anrop fungerar: Circle kan lagras i en lista av Circle, Figure eller Object. <code>circle</code> antas vara ett giltigt Circle-objekt. Typmässig tillåtelse säger inte att varje konkret listimplementation tillåter tillägg, men uppgiften antar modifierbara listor.</p>
+<p><strong>A5.</strong> En vanlig HashSet använder <code>equals</code> och <code>hashCode</code>. Det gör kontrollen beroende av figurernas värdelikhet, trots att dokumentregeln gäller just samma objekt. Använd en identitetsbaserad struktur. Dessutom måste samma <code>seen</code> delas genom hela vandringen; annars ser varje gren bara sin egen nya, tomma mängd. Föreläsningens <code>IdentityHashMap</code> med en gemensam karta löser båda problemen.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="7"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap8">Nästa kapitel →</a></p></article><article class="chapter" id="kap8"><div class="eyebrow">Struktur och design · kapitel 8 av 14</div><h1>SOLID och design</h1><div class="source-links">Original: <a href="original/F12.pdf">F12</a></div><p><strong>Underlag:</strong> F12, PDF-sidor 2–23; kopplingar till F9–F11. Det här kapitlet hjälper dig att motivera designbeslut utifrån ett konkret förändringsbehov.</p>
+<p><strong>Mål:</strong> Du ska kunna förklara varje SOLID-princip med ett CAD-exempel och samtidigt säga vilken förändring, vilket kontrakt och vilken klient ditt resonemang gäller.</p>
+<h2>Börja med ett problem som går att se</h2>
+<p>Designprinciper blir användbara när de förklarar en konkret kostnad. Anta att en ny figurtyp kräver ändringar i ritpanelen, i gruppens ritloop, i exporten och i varje testhjälp som räknar upp klasser. Då sprids kunskap om figurtyper till många ställen. Risken är att ett ställe glöms bort.</p>
+<p>Fråga därför: Vilket beteende vill klienten använda? Vilken kunskap måste klienten ha? Vilken sorts förändring vill vi kunna göra med få följdändringar? SOLID ger fem sätt att undersöka sådana frågor. Det är inte ett krav att skapa fler interface eller klasser i varje situation.</p>
+<h2>SRP: samla ansvar som har samma skäl att ändras</h2>
+<p>Single Responsibility Principle handlar om sammanhängande ansvar och skäl till förändring. En Circle känner sin geometri och ser till att radien är giltig. Ett användargränssnitt bestämmer hur ett fel presenteras. En lagringsdel bestämmer hur figurens värden skrivs till ett format. Dessa regler kan förändras av olika skäl. Se F12, sidor 3–5.</p>
+<p>Anta att <code>Circle.setRadius</code> både kontrollerar radien, visar en Swing-dialog och skriver en loggrad i ett visst filformat. Då påverkas Circle om du byter från dialogrutor till text i formuläret, även om geometrireglerna är identiska. Klassen får tekniska beroenden som inte behövs för själva cirkelbegreppet.</p>
+<p>Ett tydligare samarbete är att figuren avvisar ogiltig geometri genom sitt felkontrakt. Anroparen som kan hjälpa användaren fångar felet och väljer presentation. Samma figur kan då användas i GUI, test eller ett annat gränssnitt.</p>
+<p>SRP betyder inte att en klass bara får ha en metod. <code>getCenter</code>, <code>move</code>, <code>rotate</code> och <code>draw</code> kan höra ihop med figurens ansvar. Bedöm om klassens uppgifter utgör en begriplig helhet, inte bara antalet metoder.</p>
+<p>F12 visar också ansvar på olika nivåer: Point2 kan beräkna ett nytt roterat punktvärde, grundfiguren uppdaterar sin representation och gruppen delegerar till barnen med gemensam pivot. Det minskar onödig duplicering utan att lägga all geometri i en enda stor klass.</p>
+<h2>OCP: skydda en klient mot en bestämd sorts utökning</h2>
+<p>Open/Closed Principle betyder att en vald klient kan vara öppen för nya varianter av ett beteende utan att själva klientkoden behöver ändras. Föreläsningens ritloop är:</p>
+<pre><code class="language-java">for (Figure figure : document.figures()) {
+    figure.draw(context);
+}
+</code></pre>
+<p>En ny Triangle som uppfyller Figure och själv beskriver sin ritning kan fungera i samma loop. En <code>CompositeFigure</code> som delegerar <code>child.draw(context)</code> behöver inte heller känna till trianglar. Se F12, sidor 6–9.</p>
+<p>Jämför med en klient som skriver <code>if (figure instanceof Circle) ... else if (figure instanceof Rectangle) ...</code>. Där måste en ny gren införas för Triangle. Om den uppräkningen finns på flera ställen sprids ändringen.</p>
+<p>Men OCP betyder inte att en ny figurtyp aldrig kräver ändringar någonstans. Användaren behöver kunna välja eller skapa triangeln. Lagringsmappningen behöver kunna spara och läsa den. Den polymorfa ritloopen är skyddad mot denna utökning; hela programmet är inte automatiskt färdigt. F12, sida 11 påpekar dessutom att en central typväxling i lagringsformatet kan vara en rimlig projektstart.</p>
+<p>Ställ en exakt fråga: &quot;Kan ritklienten hantera en ny Figure-implementation utan ändring?&quot; Det är mer användbart än att hävda att hela systemet alltid måste vara stängt för ändring.</p>
+<h2>LSP: en undertyp måste hålla klientens löften</h2>
+<p>Liskov Substitution Principle handlar om utbytbarhet i beteendet. Om en klient förväntar sig ett visst kontrakt från Rectangle måste en undertyp som används där uppfylla det kontraktet.</p>
+<p>Tänk dig att Rectangle lovar att bredd och höjd kan ändras oberoende. En klient sätter först bredden till 8 och sedan höjden till 3 och förväntar sig area 24. En Square som ändrar båda måtten varje gång för att bevara lika sidor kan bryta klientens förväntan. Problemet är inte ordet kvadrat i matematiken; problemet är det programmerade kontraktet för mutation. Se F12, sidor 12 och 18.</p>
+<p>En lösning kan vara att Square använder en intern Rectangle men bara exponerar operationer som bevarar kvadratregeln. Det är komposition och delegering: &quot;har en&quot; i stället för att lova att vara utbytbar mot hela Rectangle-gränssnittet.</p>
+<p>LSP hjälper också att tolka till synes tomma operationer. En cirkel som roteras kring sitt eget centrum kan se likadan ut och ändå uppfylla kontraktet. Samma cirkel ska kunna byta centrum vid rotation kring en extern pivot. En Line som ignorerar alla rotationer bryter däremot rotationslöftet. Bedöm beteendet mot det specifika kontraktet, inte bara om bilden råkade se förändrad ut. Se F12, sida 19.</p>
+<p>Även en nollvinkel behöver följa argumentvalideringen i kontraktet. Att &quot;inget ska flyttas&quot; är inte ett generellt skäl att hoppa över kontroll av exempelvis en ogiltig pivot.</p>
+<h2>ISP: ge klienten det kontrakt den behöver</h2>
+<p>Interface Segregation Principle riktar uppmärksamheten mot klientens behov. En metod som bara ska rita behöver vanligtvis Drawable. En metod som bara ska flytta kan använda Movable. Den behöver inte automatiskt känna till Figurens centrum, rotation eller delar. Se F12, sida 13.</p>
+<pre><code class="language-java">static void render(Drawable item, DrawingContext context) {
+    item.draw(context);
+}
+</code></pre>
+<p>En liten parameterstyrd förmåga gör metoden användbar även för objekt som kan ritas men inte är fullständiga redigerbara figurer. Samtidigt kan Figure vara ett rimligt sammansatt kontrakt där klienten verkligen behöver flera figurförmågor.</p>
+<p><code>Figure.parts()</code> visar att ISP kan innebära en avvägning. Fördelen med en gemensam fråga är att uppdelning och trädvandring kan fungera utan typkontroller. Kostnaden är att även ett löv erbjuder en strukturell fråga. I föreläsningen är tom lista ett meningsfullt svar: figuren har inga exponerade delar. Därför behöver metoden inte vara ett onaturligt tvång. Se F12, sida 14.</p>
+<p>Skapa inte ett interface per metod av vana. Undersök om det finns en klient som får ett tydligare och mer stabilt kontrakt av uppdelningen.</p>
+<h2>DIP och DI: skilj beroendets riktning från hur det lämnas in</h2>
+<p>Dependency Inversion Principle innebär i föreläsningens exempel att en redigeringstjänst använder ett lagringskontrakt, exempelvis <code>DrawingStore</code>, i stället för att själv behöva känna till filimplementationens detaljer. En filimplementation och en minnesimplementation uppfyller samma kontrakt. Se F12, sidor 15–16.</p>
+<pre><code class="language-java">final class EditorService {
+    private final DrawingStore store;
+
+    EditorService(DrawingStore store) {
+        this.store = Objects.requireNonNull(store);
+    }
+}
+</code></pre>
+<p>Dependency Injection, DI, är här mekanismen som lämnar in det valda beroendet genom konstruktorn. Kod vid uppstarten kan skapa en filimplementation; ett test kan skapa en minnesimplementation. Ingen särskild DI-ram behövs för denna form av konstruktorinjektion.</p>
+<p>Skillnaden är värd att kunna formulera: DIP handlar om att den viktiga klienten bygger på ett lämpligt kontrakt. DI handlar om hur klienten får den implementation som används. Ett injicerat beroende till en mycket konkret klass blir inte automatiskt en väl vald abstraktion bara för att det kom via en konstruktor.</p>
+<h2>Kohesion och koppling hjälper dig bedöma resultatet</h2>
+<p>Kohesion är hur väl en klass uppgifter hör ihop. Koppling är vad den behöver känna till om andra delar. Du vill kunna förklara varför en förändring hamnar i en viss klass och vilka andra delar som behöver påverkas.</p>
+<p>Om en geometriregel ändras ska det vara begripligt vilka figurer eller geometrihjälpare som berörs. Om ett felmeddelandes utseende ändras ska du kunna hitta GUI-ansvaret. Om filformatet ändras ska du kunna hitta mappning och lagring. Målet är begriplig fördelning av kunskap, inte att varje del saknar beroenden. Ett samarbete utan några beroenden alls skulle inte kunna göra något tillsammans. Se F12, sida 17.</p>
+<h2>En liten metod för att granska en design</h2>
+<p>Ta en konkret förändring, till exempel &quot;lägg till en triangel&quot;. Gör sedan följande:</p>
+<ol>
+<li>Beskriv det beteende användaren ska få: skapa, rita, flytta, rotera och lagra triangeln.</li>
+<li>Följ vilka kontrakt som redan stödjer detta: Figure, ritportens polygonoperation och lagringens dataflöde.</li>
+<li>Markera vilka klienter som bör kunna lämnas oförändrade, exempelvis den allmänna ritloopen.</li>
+<li>Markera de kopplingar som faktiskt behövs, exempelvis nytt skapandeverktyg och lagringsmappning.</li>
+<li>Välj tester för nya figurens löften och för att den fungerar som barn i en grupp.</li>
+</ol>
+<p>Detta ger ett granskningsbart resonemang. Det räcker inte att skriva &quot;vi använder SOLID&quot; utan att förklara vad designen gör lättare eller säkrare.</p>
+<section class="exercises" id="ovning8"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>Övning D1 – Hitta ansvarsblandningen.</strong> <code>Circle.move</code> räknar nya koordinater och visar dessutom en Swing-dialog vid ogiltig flytt. Vilka två skäl till förändring blandas? Beskriv ett bättre samarbete utan att skriva ett helt program.</p>
+<p><strong>Övning D2 – Utöka med Triangle.</strong> En klient har den polymorfa ritloopen ovan och en grupp delegerar draw till sina barn. Vilka av dessa behöver ändras för att rita Triangle? Vilka andra delar kan ändå behöva ny kod för att användaren ska få komplett triangelstöd?</p>
+<p><strong>Övning D3 – Pröva utbytbarhet.</strong> Rectangle-kontraktet lovar att <code>setWidth(8)</code> bevarar höjden och att <code>setHeight(3)</code> bevarar bredden. En Square-implementation sätter båda måtten lika i varje setter. Visa en konkret klientsekvens som avslöjar kontraktsbrottet och föreslå ett alternativ.</p>
+<p><strong>Övning D4 – Välj parametertyp.</strong> Vilket av Drawable, Movable och Figure är ett rimligt kontrakt för (a) en metod som bara anropar draw, (b) en metod som bara anropar move, (c) en metod som både frågar efter centrum och vandrar direkta delar? Motivera utifrån behov, inte namnets storlek.</p>
+<p><strong>Övning D5 – Skilj DIP från DI.</strong> En <code>EditorService</code> skapar själv <code>new FileDrawingStore(...)</code>. Du vill kunna testa tjänsten utan en verklig fil. Beskriv vilket kontrakt tjänsten ska använda, hur implementationen lämnas in och vilken kod som väljer mellan fil och minne. Förklara vad som är DIP respektive DI.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 8</summary><div><p><strong>D1.</strong> Geometrins giltighetsregler och GUI:ts felpresentation blandas. Circle bör följa sitt kontrakt och avvisa den ogiltiga flytten utan halv mutation. En lämplig anropare i GUI-flödet kan fånga felet och välja dialogruta eller annan återkoppling. Geometriklassen behöver då inte ändras enbart för att presentationssättet byts.</p>
+<p><strong>D2.</strong> Varken den allmänna ritloopen eller gruppens <code>child.draw(context)</code> behöver en ny typgren om Triangle uppfyller kontraktet. Triangle behöver egen giltig representation och implementation av figurförmågorna. Skapandeverktyg, GUI-val och lagringsmappning behöver stödja den nya typen. OCP-bedömningen gäller här ritklienten och den aktuella sortens utökning.</p>
+<p><strong>D3.</strong> En klient kan köra <code>r.setWidth(8); r.setHeight(3);</code> och därefter kräva bredd 8, höjd 3 och area 24. Om <code>r</code> är den beskrivna Square blir den till sist 3×3 och area 9. Ett alternativ är separata kontrakt där Square bara erbjuder operationer som bevarar lika sidor, eventuellt genom att delegera till en intern Rectangle. Du kan också utforma ett annat gemensamt kontrakt som båda faktiskt kan hålla; poängen är att inte lova oberoende måttändringar från Square.</p>
+<p><strong>D4.</strong> (a) Drawable räcker eftersom metoden bara behöver ritförmågan. (b) Movable räcker för flyttförmågan. (c) Figure är rimligt eftersom klienten behöver getCenter och parts enligt föreläsningarnas sammansatta figurkontrakt. Ett mindre interface är bra när det motsvarar det verkliga behovet, men det ska fortfarande erbjuda alla operationer klienten behöver.</p>
+<p><strong>D5.</strong> Låt tjänsten använda <code>DrawingStore</code> och få det i konstruktorn. Uppstartskoden väljer en <code>FileDrawingStore</code>; testet lämnar in en implementation i minnet. Att tjänstens beroende uttrycks som lagringskontraktet är DIP i detta exempel. Att implementationen levereras utifrån genom konstruktorn är DI. Testet kan då pröva tjänstens beteende utan att dess resultat beror på åtkomst till en verklig fil.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="8"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap9">Nästa kapitel →</a></p></article><article class="chapter" id="kap9"><div class="eyebrow">Historik och fel · kapitel 9 av 14</div><h1>Command och historik: gör handlingar möjliga att ångra</h1><div class="source-links">Original: <a href="original/F13.pdf">F13</a> · <a href="original/F15.pdf">F15</a></div><p><strong>Underlag:</strong> F13 s. 2–21 och F15 s. 2–12. Läs efter kapitlen om interface, verktyg och grupper.</p>
+<p><strong>Efter kapitlet ska du kunna:</strong> beskriva vem som skapar, utför och minns ett kommando; rita undo- och redo-stackarna; göra en hel musgest till ett ångersteg; förklara vad som måste ske vid fel.</p>
+<h2>Varför ett vanligt metodanrop inte räcker</h2>
+<p>Om du anropar <code>circle.move(10, 0)</code> har cirkeln flyttats. Men anropet skapar ingen varaktig beskrivning av vad du gjorde. En Ångra-knapp behöver åtminstone veta vilken figur som flyttades, med vilken förskjutning och när det skedde i förhållande till andra ändringar.</p>
+<p>Command-mönstret gör handlingen till ett objekt. Ett <code>MoveCommand</code> sparar målfiguren, dokumentet och förskjutningen. Objektet kan utföra handlingen och ångra den. Konstruktionen av kommandot ska i detta upplägg bara spara uppgifterna; den ska inte flytta figuren.</p>
+<pre><code class="language-java">interface Command {
+    void execute();
+    void undo();
+}
+</code></pre>
+<p>History kan nu använda samma interface för flyttning, rotation och gruppering. Det är polymorfism igen: History anropar <code>command.undo()</code> och objektets klass bestämmer hur ångrandet går till. History behöver ingen lista med <code>if (command instanceof MoveCommand)</code>.</p>
+<h2>Ansvarsfördelningen steg för steg</h2>
+<table>
+<thead>
+<tr>
+<th>Del</th>
+<th>Ansvar</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>MoveTool</td>
+<td>Tolkar gesten och skapar ett kommando vid släpp</td>
+</tr>
+<tr>
+<td>MoveCommand</td>
+<td>Vet mål, förskjutning och hur handlingen utförs/ångras</td>
+</tr>
+<tr>
+<td>Figure</td>
+<td>Genomför flyttningen och skyddar geometrins regler</td>
+</tr>
+<tr>
+<td>DrawingDocument</td>
+<td>Publicerar ändringen till lyssnare</td>
+</tr>
+<tr>
+<td>History</td>
+<td>Anropar kommandon och håller ordning på historiken</td>
+</tr>
+</tbody></table>
+<p>I föreläsningens <code>MoveCommand</code> är utförandet en flytt med <code>(dx,dy)</code> och ångrandet en flytt med <code>(-dx,-dy)</code>. Detta är en invers operation. Det är ett annat designval än att lagra två positioner och sätta tillbaka dem. Flyttalsberäkningar kan innebära små avrundningsskillnader, så numeriska tester behöver lämplig tolerans.</p>
+<p>Kodutdraget förutsätter kursens Figure- och DrawingDocument-typer:</p>
+<pre><code class="language-java">public void execute() {
+    figure.move(dx, dy);
+    document.changed();
+}
+
+public void undo() {
+    figure.move(-dx, -dy);
+    document.changed();
+}
+</code></pre>
+<p>Om <code>move</code> kastar ett undantag kommer programflödet inte fram till <code>changed</code>. Men detta skyddar bara notifieringen. Figuren måste också se till att den inte har hunnit ändra halva sin geometri innan felet uppstår.</p>
+<h2>Två stackar och varför ordningen spelar roll</h2>
+<p>En stack följer LIFO: det som lades dit sist tas ut först. Ångra ska börja med den senaste lyckade handlingen. Redo ska börja med den senast ångrade handlingen.</p>
+<p>Vi skriver stackar som <code>[topp, ... , botten]</code>. Startläget är två tomma stackar.</p>
+<table>
+<thead>
+<tr>
+<th>Händelse</th>
+<th>Undo</th>
+<th>Redo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>execute(A)</td>
+<td>[A]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>execute(B)</td>
+<td>[B,A]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>undo()</td>
+<td>[A]</td>
+<td>[B]</td>
+</tr>
+<tr>
+<td>redo()</td>
+<td>[B,A]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>undo()</td>
+<td>[A]</td>
+<td>[B]</td>
+</tr>
+<tr>
+<td>execute(C), lyckas</td>
+<td>[C,A]</td>
+<td>[]</td>
+</tr>
+</tbody></table>
+<p>Efter ett nytt lyckat C har du valt en ny väg efter A. Den tidigare B-vägen finns därför inte kvar som redo. Om C avvisas ska däremot läget fortfarande vara <code>[A]</code> och <code>[B]</code>.</p>
+<p>Här är ett komplett, förenklat History som använder Java-standardbiblioteket. Lägg till <code>Command</code> ovan i samma fil utan <code>public</code>, eller i en separat fil.</p>
+<pre><code class="language-java">import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Objects;
+
+final class History {
+    private final Deque&lt;Command&gt; undo = new ArrayDeque&lt;&gt;();
+    private final Deque&lt;Command&gt; redo = new ArrayDeque&lt;&gt;();
+
+    public void execute(Command command) {
+        Objects.requireNonNull(command).execute();
+        undo.push(command);
+        redo.clear();
+    }
+
+    public void undo() {
+        if (undo.isEmpty()) return;
+        Command command = undo.peek();
+        command.undo();
+        undo.pop();
+        redo.push(command);
+    }
+
+    public void redo() {
+        if (redo.isEmpty()) return;
+        Command command = redo.peek();
+        command.execute();
+        redo.pop();
+        undo.push(command);
+    }
+
+    public int undoCount() { return undo.size(); }
+    public int redoCount() { return redo.size(); }
+}
+</code></pre>
+<p><code>peek()</code> hämtar posten utan att ta bort den. Först efter lyckat <code>undo()</code> eller <code>execute()</code> flyttas posten. Om anropet kastar finns posten kvar på sin ursprungliga stack. Lägg också märke till att <code>redo()</code> anropar kommandots execute direkt. Om den i stället anropade <code>History.execute(command)</code> skulle alla övriga redo-poster raderas.</p>
+<h2>En hel dragning ska bli en handling</h2>
+<p>I F6, labb 2, flyttas figuren direkt i flera små steg under dragningen. Då räknar verktyget skillnaden mellan föregående muspunkt och nästa. Den varianten är bra för att förstå händelser, men den ger inte automatiskt ett enda ångersteg.</p>
+<p>I F15, labb 4, är upplägget ändrat:</p>
+<ol>
+<li>Vid <code>pressed</code> sparas startpunkten och målfiguren.</li>
+<li>Vid <code>dragged</code> sparas aktuell muspunkt. Preview visar ett förslag. Figuren har ännu inte flyttats.</li>
+<li>Vid <code>released</code> beräknas hela förskjutningen från start till släpp.</li>
+<li>Ett kommando skapas och körs genom History.</li>
+<li>Gesttillståndet rensas, även om utförandet misslyckas.</li>
+</ol>
+<p>Start <code>(10,20)</code>, mellansteg <code>(13,22)</code>, släpp <code>(18,25)</code> ger alltså kommandot <code>(8,5)</code>. Du ska inte både ha flyttat modellen under dragningen och sedan lägga på hela <code>(8,5)</code> vid släpp; då räknas rörelsen två gånger.</p>
+<p>Om användaren avbryter före släpp lämnar preview-varianten modellen oförändrad och skapar inget kommando. Om förskjutningen är noll skapas inget flyttkommando enligt F15 s. 5. Samma grundidé används för rotation, men då måste den valda pivoten också sparas.</p>
+<h2>Rotation och gruppering behöver olika minne</h2>
+<p>En rotation sparar vinkel och pivot. Undo använder negativ vinkel och samma pivot. Att räkna fram en ny pivot från den ändrade geometrin kan ge ett annat rotationscentrum och därmed fel resultat.</p>
+<p>Gruppering ändrar objektstruktur, ordning och markering. I F13 sparar GroupCommand före- och efterlistor. Redo ska använda samma gruppobjekt som det första lyckade utförandet. En ny grupp varje gång skulle ändra identiteten. Dessa listor är strukturellt minne; de är inte en djup kopia av varje figurs geometri.</p>
+<p>Notifiering måste också ha en bestämd ägare. F15 skiljer på kommandon som ändrar en figur direkt och därför anropar <code>changed</code>, och kommandon som använder <code>document.replace</code>, vilket redan notifierar. Ett extra <code>changed</code> i det senare fallet ger dubbel notifiering.</p>
+<h2>Vanliga misstag</h2>
+<ul>
+<li>Att tömma redo innan kommandot har lyckats. Då försvinner en giltig redo-väg vid ett avvisat försök.</li>
+<li>Att ta bort en stackpost innan operationen har lyckats. Då tappas posten vid fel.</li>
+<li>Att tro att History reparerar felaktig geometri. Den hanterar ordningen, inte generell återställning.</li>
+<li>Att skapa en historikpost för varje musrörelse i preview-varianten.</li>
+<li>Att låta en gammal gest leva kvar efter verktygsbyte.</li>
+</ul>
+<section class="exercises" id="ovning9"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><h3>H1 · Spåra stackarna · grund</h3>
+<p>Utför <code>execute(A), execute(B), execute(C), undo(), undo(), redo(), execute(D)</code>. Skriv båda stackarna efter varje steg, med toppen först. Vilka kommandon kan till sist ångras respektive göras om?</p>
+<h3>H2 · Hitta historikfelet · mellan</h3>
+<p>En metod gör <code>redo.clear(); command.execute(); undo.push(command);</code>. Förklara felet med ett konkret läge där redo innehåller B. Skriv den korrigerade ordningen och förklara vad som händer om execute kastar.</p>
+<h3>H3 · Räkna en gest · mellan</h3>
+<p>Start är <code>(2,3)</code>. Tre dragged-händelser har punkterna <code>(5,4)</code>, <code>(8,7)</code> och <code>(9,9)</code>. Släpp sker vid <code>(12,13)</code>. Vilket flyttkommando skapas i F15-varianten? Hur många beständiga flyttningar sker under dragged? Vad ska Escape före släpp göra?</p>
+<h3>H4 · Utforma ett historiktest · fördjupning</h3>
+<p>Du har kört ett giltigt A och sedan undo. Beskriv ett test som försöker köra ett ogiltigt B. Testet ska kontrollera mer än att ett undantag kastas. Avsluta med redo av A. Vilket fel i History och vilket fel i Figure kan testet skilja på?</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 9</summary><div><h3>H1 · Facit</h3>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>Undo</th>
+<th>Redo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>[A]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>B</td>
+<td>[B,A]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>C</td>
+<td>[C,B,A]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>undo</td>
+<td>[B,A]</td>
+<td>[C]</td>
+</tr>
+<tr>
+<td>undo</td>
+<td>[A]</td>
+<td>[B,C]</td>
+</tr>
+<tr>
+<td>redo</td>
+<td>[B,A]</td>
+<td>[C]</td>
+</tr>
+<tr>
+<td>D</td>
+<td>[D,B,A]</td>
+<td>[]</td>
+</tr>
+</tbody></table>
+<p>D, B och A kan ångras, i den ordningen. C är inte längre redo eftersom en ny handling skapade en annan fortsättning.</p>
+<h3>H2 · Facit</h3>
+<p>Om undo är <code>[A]</code> och redo <code>[B]</code>, och det nya C avvisas, ska båda stackarna vara kvar som de var. Den felaktiga metoden hinner radera B innan den vet om C går att utföra. Rätt ordning är <code>command.execute(); undo.push(command); redo.clear();</code>. När execute kastar hoppas de två senare raderna över. Modellen måste separat garantera att den avvisade operationen inte har lämnat ändringar.</p>
+<h3>H3 · Facit</h3>
+<p><code>dx = 12 - 2 = 10</code>, <code>dy = 13 - 3 = 10</code>. Ett kommando med <code>(10,10)</code> körs vid släpp. Under dragged sker noll beständiga flyttningar i denna variant. Escape rensar start, mål och preview och lämnar modellen samt historiken oförändrade. De tre mellanstegen ska inte summeras som om de vore separata förskjutningar från start.</p>
+<h3>H4 · Facit</h3>
+<p>Spara figurens geometri, markering om relevant, undo-/redo-antal och notifieringsantal efter att A ångrats. Kör B med <code>assertThrows</code>. Kontrollera att alla sparade observationer är oförändrade. Kör sedan redo och kontrollera A:s avsedda resultat. Om redo är borta trots oförändrad geometri finns sannolikt ett bokföringsfel. Om stackarna är rätt men geometrin har ändrats finns ett fel i figurens eller kommandots felhantering. Kontrollera både antal och redo-beteende: rätt antal bevisar inte ensamt att rätt kommando finns kvar.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="9"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap10">Nästa kapitel →</a></p></article><article class="chapter" id="kap10"><div class="eyebrow">Historik och fel · kapitel 10 av 14</div><h1>Undantag, kontraktstester och säker refaktorering</h1><div class="source-links">Original: <a href="original/F03.pdf">F3</a> · <a href="original/F04.pdf">F4</a> · <a href="original/F08.pdf">F8</a> · <a href="original/F16.pdf">F16</a></div><p><strong>Underlag:</strong> F3 s. 4–8, F4 s. 14–23, F8 s. 18–23 och F16 s. 2–22.</p>
+<p><strong>Efter kapitlet ska du kunna:</strong> följa programflödet när ett undantag kastas; skilja <code>throw</code>, <code>throws</code>, <code>catch</code> och <code>finally</code>; testa även tillståndet efter ett fel; ändra struktur utan att ändra observerbart beteende.</p>
+<h2>Ett undantag är ett avbrutet normalt förlopp</h2>
+<p>Ett felaktigt argument kan göra att en operation inte kan uppfylla sitt löfte. En cirkel med negativ radie ska därför inte skapas som om allt vore bra. Konstruktionen avvisas genom ett undantag. Ett lyckat anrop följer normalvägen; ett kastat undantag följer en annan väg genom anropskedjan.</p>
+<pre><code class="language-java">try {
+    System.out.println(&quot;före&quot;);
+    throw new IllegalArgumentException(&quot;fel&quot;);
+} catch (IllegalArgumentException error) {
+    System.out.println(&quot;fångat&quot;);
+} finally {
+    System.out.println(&quot;städning&quot;);
+}
+System.out.println(&quot;efter&quot;);
+</code></pre>
+<p>Utskriften är före, fångat, städning, efter. Om ingen matchande catch finns här går undantaget vidare till anroparen efter finally. Det avbrutna try-blocket återupptas inte där felet inträffade.</p>
+<h2>Checked och unchecked</h2>
+<p><code>Throwable</code> är övertypen. Under den finns bland annat <code>Exception</code> och <code>Error</code>. <code>RuntimeException</code> är en underklass till Exception. RuntimeException och dess undertyper är unchecked; Error och dess undertyper är också unchecked. Övriga Throwable-typer är checked i föreläsningens indelning.</p>
+<p>Unchecked betyder att kompilatorn inte kräver att du fångar eller deklarerar dem. Det betyder inte att de aldrig inträffar eller att de är oviktiga. Checked betyder att ett möjligt undantag som kan lämna metoden måste fångas eller deklareras. Båda sorterna kastas när programmet körs.</p>
+<table>
+<thead>
+<tr>
+<th>Ord</th>
+<th>Vad det gör</th>
+<th>Vad det inte gör</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>throw</td>
+<td>Kastar ett undantagsobjekt här</td>
+<td>Deklarerar inte hela metodens felkontrakt</td>
+</tr>
+<tr>
+<td>throws</td>
+<td>Anger undantag som får lämna metoden</td>
+<td>Fångar eller reparerar inte felet</td>
+</tr>
+<tr>
+<td>catch</td>
+<td>Tar emot ett matchande undantag</td>
+<td>Återupptar inte den avbrutna raden</td>
+</tr>
+<tr>
+<td>finally</td>
+<td>Kör städningen när detta kontrollflöde lämnar try/catch</td>
+<td>Återställer inte automatiskt modellen</td>
+</tr>
+<tr>
+<td>try-with-resources</td>
+<td>Stänger deklarerade resurser</td>
+<td>Ersätter inte catch/throws för checked fel</td>
+</tr>
+</tbody></table>
+<p>Exempel med standardbiblioteket, som behöver importerna <code>java.io.IOException</code>, <code>java.nio.file.Files</code> och <code>java.nio.file.Path</code>:</p>
+<pre><code class="language-java">static String readText(Path path) throws IOException {
+    return Files.readString(path);
+}
+</code></pre>
+<p>Metoden lämnar beslutet till sin anropare. GUI-lagret kan fånga IOException och erbjuda ett nytt filval. Geometriobjektet ska däremot inte behöva känna till dialogrutor för att avvisa en felaktig radie. Detta förenar felkontrakt och ansvarsfördelning.</p>
+<p>Catch-block prövas uppifrån. En specifik <code>InvalidRadiusException</code> ska fångas före dess övertyp <code>IllegalArgumentException</code>. Om det breda blocket kommer först kan det specifika aldrig nås; den ordningen kompilerar inte.</p>
+<h2>Oförändrat tillstånd efter avvisad operation</h2>
+<p>En linje har två ändpunkter. Följande tanke är farlig: beräkna och tilldela den första, beräkna och tilldela sedan den andra. Om andra beräkningen misslyckas är linjen halvflyttad.</p>
+<p>Gör i stället alla beräkningar och valideringar i lokala variabler innan du publicerar det nya tillståndet:</p>
+<pre><code class="language-java">Point2 nextStart = start.translated(dx, dy);
+Point2 nextEnd = end.translated(dx, dy);
+start = nextStart;
+end = nextEnd;
+</code></pre>
+<p>Kodutdraget förutsätter att translated returnerar en giltig ny punkt eller kastar utan att ändra den gamla. Det förutsätter också att övriga kontraktskontroller sker före tilldelningarna. För grupper måste motsvarande förkontroll omfatta hela trädet innan någon del ändras. History kan inte gissa vilka delar som redan flyttats.</p>
+<h2>Hur ett bra kontraktstest byggs</h2>
+<p>Ett test behöver ett utgångsläge, en handling och observationer. Fråga vilket löfte du prövar. Ett test av mittpunkt ska inte bara konstatera att metoden kör utan fel, utan kontrollera resultatet och att ursprungspunkterna är oförändrade.</p>
+<pre><code class="language-java">Point2 p = new Point2(2, 4);
+Point2 q = new Point2(8, 10);
+Point2 m = p.midpoint(q);
+assertEquals(new Point2(5, 7), m);
+assertEquals(new Point2(2, 4), p);
+assertEquals(new Point2(8, 10), q);
+</code></pre>
+<p>Detta är ett JUnit-utdrag, med kursens Point2 och statiska imports från <code>org.junit.jupiter.api.Assertions</code>. Den första kontrollen prövar returvärdet. De sista två prövar frånvaron av sidoeffekter.</p>
+<p>För beräknade double-värden kan exakt likhet bli fel test eftersom decimaltal inte alltid kan representeras exakt i binärt flyttal. <code>assertEquals(0.15, actual, 1e-12)</code> anger en tolerans. Välj toleransen efter problemet; den ska inte vara så stor att ett riktigt geometrifel döljs. <code>assertSame</code> testar samma objekt, medan <code>assertEquals</code> använder likhetskontraktet.</p>
+<p>Testa både normala fall, gränser och fel. Om kontraktet kräver positiv ändlig radie är noll, negativt värde, NaN och oändlighet olika viktiga felindata. Skapa ett eget utgångsläge i varje test så att testordningen inte påverkar resultatet.</p>
+<p>Ett grönt beteendetest visar inte automatiskt att ett fält är private. Representationens synlighet granskas i koden. Tester prövar valda beteenden; de är inte bevis för alla möjliga körningar.</p>
+<h2>Refaktorering som ett kontrollerat steg</h2>
+<p>Refaktorering ändrar strukturen medan det observerbara beteendet bevaras. Skriv eller välj först ett test som uttrycker kontraktet. Gör en liten strukturändring, kör testet och jämför. Om du samtidigt ändrar geometri, notifieringar och filformat blir det svårt att veta vad som orsakade en skillnad.</p>
+<p>Exempel: att flytta duplicerad punktrotation till <code>Point2.rotated</code> kan vara refaktorering om resultat, felbeteende och sidoeffekter bevaras. Att dessutom acceptera NaN där det tidigare avvisades är en beteendeförändring och måste behandlas separat.</p>
+<section class="exercises" id="ovning10"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><h3>E1 · Följ kontrollflödet · grund</h3>
+<p>En metod skriver A i try, kastar IOException, skriver B efter kastet, skriver C i catch för IOException, D i finally och E efter hela konstruktionen. Vilka bokstäver skrivs? Vad ändras om catch tas bort och metoden deklarerar throws IOException? Behandla detta som en flödesskiss, inte som kod med en direkt onåbar sats efter throw.</p>
+<h3>E2 · Korrigera en checked felväg · mellan</h3>
+<p><code>static String read(Path p) { return Files.readString(p); }</code> kompilerar inte. Visa två principiellt olika lösningar. Förklara vem som väljer åtgärd i respektive lösning och varför <code>throws</code> inte betyder att felet är löst.</p>
+<h3>E3 · Testa mer än undantaget · mellan</h3>
+<p>En grupp med tre delar ska flyttas. Den sista delens föreslagna koordinat blir oändlig. Skriv en testplan som upptäcker om de första två delarna har flyttats innan felet uppstår. Ta även med notifiering och historik.</p>
+<h3>E4 · Välj rätt assertion · fördjupning</h3>
+<p>Välj assertion och motivera: (a) en grupp innehåller samma Circle-instans som före gruppering; (b) en mittpunkt är <code>(5,7)</code>; (c) en beräknad x-koordinat är ungefär 0.15; (d) en konstruktor avvisar NaN. Räcker sista kontrollen för att visa att en redan befintlig modell är oförändrad?</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 10</summary><div><h3>E1 · Facit</h3>
+<p>A, C, D, E. B nås inte. Utan catch skrivs A och D, sedan lämnar undantaget metoden och E nås inte på denna felväg. <code>throws IOException</code> gör att anroparen behöver fånga eller själv deklarera IOException; det startar inte om try-blocket.</p>
+<h3>E2 · Facit</h3>
+<p>Den första lösningen lämnar beslutet till anroparen:</p>
+<pre><code class="language-java">static String read(Path path) throws IOException {
+    return Files.readString(path);
+}
+</code></pre>
+<p>Den andra lösningen fångar felet där klienten kan agera. Här byter vi till en visningsoperation som inte lovar ett returvärde vid misslyckad läsning:</p>
+<pre><code class="language-java">static void showText(Path path) {
+    try {
+        String text = Files.readString(path);
+        System.out.println(text);
+    } catch (IOException error) {
+        System.out.println(&quot;Kunde inte läsa filen.&quot;);
+    }
+}
+</code></pre>
+<p>Importera <code>java.io.IOException</code>, <code>java.nio.file.Files</code> och <code>java.nio.file.Path</code>. I det första fallet väljer anroparen åtgärden; i det andra väljer <code>showText</code> att rapportera felet och avsluta visningsförsöket. Att tyst returnera en tom sträng från den ursprungliga String-metoden skulle blanda ihop läsfel med en verkligt tom fil om kontraktet inte uttryckligen gör den skillnaden. <code>throws</code> är information om felvägen, inte återställning.</p>
+<h3>E3 · Facit</h3>
+<p>Spara geometrin för samtliga delar och relevanta strukturreferenser. Förbered en redo-post genom en lyckad handling följd av undo. Spara stackarnas läge och notifieringsräknaren. Kör den ogiltiga gruppflytten med assertThrows. Kontrollera varje dels geometri, inte bara gruppens centrum: ett oförändrat medelvärde kan dölja enskilda fel. Kontrollera också oförändrad ordning/identitet, oförändrade stackar, ingen notifiering och fungerande redo av den gamla posten. Lösningen i implementationen är förkontroll av hela operationen före första mutation.</p>
+<h3>E4 · Facit</h3>
+<p>(a) <code>assertSame(expectedCircle, actualPart)</code>. (b) <code>assertEquals(new Point2(5,7), actual)</code> när Point2 har värdelikhet. (c) <code>assertEquals(0.15, actualX, 1e-12)</code> med en motiverad tolerans. (d) <code>assertThrows(IllegalArgumentException.class, () -&gt; new Point2(Double.NaN, 0))</code>. Sista kontrollen säger att rätt sorts fel kastas, men inte hur andra objekt påverkas. En redan befintlig modell kräver separata observationer före och efter.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="10"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap11">Nästa kapitel →</a></p></article><article class="chapter" id="kap11"><div class="eyebrow">Historik och fel · kapitel 11 av 14</div><h1>Memento: ett stabilt tillstånd att återvända till</h1><div class="source-links">Original: <a href="original/F14.pdf">F14</a></div><p><strong>Underlag:</strong> F14 s. 2–22. Detta är ett frivilligt designalternativ i materialet, inte ett uttalat krav i labb 4 eller projektet.</p>
+<p><strong>Efter kapitlet ska du kunna:</strong> skilja en invers handling från sparat tillstånd; förklara Mementos roller; se varför en ytlig kopia inte automatiskt fryser muterbara figurer.</p>
+<h2>Problemet med flera delsteg</h2>
+<p>Tänk en makrohandling som först flyttar en cirkel och sedan försöker sätta en negativ radie. Det första steget kan ha lyckats när det andra avvisas. History lägger visserligen inte till en lyckad historikpost, men det återställer inte den genomförda flytten. Vi behöver antingen säker förkontroll eller en genomtänkt återställningsmekanism för hela handlingen.</p>
+<p>F14 visar ett separat exempeldokument, MementoDrawing. Det är inte labbens DrawingDocument. Exemplet använder oföränderliga CircleValue-värden med id, koordinater och radie. Varje ändring ersätter värden/lista i stället för att mutera gamla värdeobjekt. Därför kan en tidigare lista vara ett stabilt sparat tillstånd.</p>
+<h2>De tre rollerna</h2>
+<table>
+<thead>
+<tr>
+<th>Roll</th>
+<th>I exemplet</th>
+<th>Ansvar</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Originator</td>
+<td>MementoDrawing</td>
+<td>Känner representationen, skapar och återläser memento</td>
+</tr>
+<tr>
+<td>Memento</td>
+<td>Nästlat tillståndsobjekt</td>
+<td>Kapslar in ett stabilt sparat tillstånd</td>
+</tr>
+<tr>
+<td>Caretaker</td>
+<td>AtomicMacro</td>
+<td>Förvarar before/after utan att läsa innehållet</td>
+</tr>
+</tbody></table>
+<p>En snapshot är en ögonblicksbild. Memento är ett sätt att kapsla in en sådan bild så att den som förvarar den inte behöver få tillgång till dokumentets interna representation. En godtycklig offentlig lista med alla fält är därför inte automatiskt Memento-mönstret.</p>
+<p>Ägaren kan också kontrollera att ett memento hör till just detta dokument. Ett memento från en annan ritning ska inte råka återställas in i den aktuella.</p>
+<h2>Före, försök, efter eller återställning</h2>
+<p>Första execute följer i teorins exempel denna ordning:</p>
+<ol>
+<li>Spara startläget lokalt.</li>
+<li>Kör samtliga delsteg.</li>
+<li>Om allt lyckas, spara efterläget och behåll before/after.</li>
+<li>Om ett delsteg kastar RuntimeException, återställ startläget och kasta samma fel vidare.</li>
+<li>Publicera bara ett lyckat slutläge, inte mellanlägena.</li>
+</ol>
+<p>Undantaget måste fortsätta till History. Om makrot fångar felet, återställer och sedan returnerar normalt tror History att handlingen lyckades och bokför den.</p>
+<p>Undo återställer före-läget. Redo återställer efter-läget; delstegen körs inte igen i F14:s variant. Det skiljer sig från labbens inversbaserade MoveCommand, där redo använder execute för att flytta framåt igen.</p>
+<h2>Varför List.copyOf inte räcker i alla modeller</h2>
+<p><code>List.copyOf(figures)</code> ger en skyddad liststruktur, men elementreferenserna pekar fortfarande på samma figurer. Om en figur är muterbar kommer både originallistan och kopian att se dess nya koordinater. Kopian har inte bevarat de gamla koordinaterna.</p>
+<p>F14:s delning är säker därför att både listan och dess CircleValue-element är oföränderliga. Om du vill överföra idén till muterbara CAD-figurer måste du bestämma hur geometri fångas och hur identitet bevaras. Att ersätta allt med kloner kan bryta andra referenser till gamla figurer. Stabilt id eller återställning av befintliga objekt är möjliga designval, men inget av dem sker automatiskt genom att kopiera listan.</p>
+<section class="exercises" id="ovning11"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><h3>M1 · Välj strategi · grund</h3>
+<p>Förklara varför en ensam flyttning kan ångras med en invers, medan ett makro med flera olika delsteg kan behöva ett sparat före-läge. Är Memento enda möjliga lösningen?</p>
+<h3>M2 · Kopian som ändrades · mellan</h3>
+<p><code>before = List.copyOf(figures)</code> följs av <code>figures.get(0).move(10,0)</code>. Figuren är muterbar. Varför visar även <code>before.get(0)</code> den nya geometrin? Rita referenserna och föreslå vad som måste sparas för ett stabilt tillstånd.</p>
+<h3>M3 · Makro med fel · fördjupning</h3>
+<p>Start: centrum <code>(0,0)</code>, radie 5, undo tom, redo innehåller A. Makrot flyttar till <code>(20,0)</code> och försöker sedan sätta radien till -1. Beskriv slutläget med F14:s återställning. Vad blir fel om catch återställer men inte kastar vidare?</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 11</summary><div><h3>M1 · Facit</h3>
+<p>Flyttningen har en enkel motsatt operation: <code>(dx,dy)</code> följs av <code>(-dx,-dy)</code>. Ett makro kan innehålla operationer där tidigare värden krävs eller där ett sent fel kommer efter tidigare mutationer. Ett före-läge kan då ge en samlad återställning. Memento är inte enda lösningen; exempelvis fullständig förkontroll eller korrekt kompensering kan passa andra kontrakt. Valet beror på vad som måste kunna återställas.</p>
+<h3>M2 · Facit</h3>
+<p>Två listor pekar på samma figur. En skyddad lista hindrar add/remove, men hindrar inte move på elementet. Spara stabila geometrivärden/strukturer eller använd en representation med oföränderliga värden. Bestäm samtidigt hur andra referenser till figuren ska fortsätta avse rätt identitet vid återställning.</p>
+<h3>M3 · Facit</h3>
+<p>Centrum är åter <code>(0,0)</code> och radien 5. Undo är fortfarande tom och redo innehåller A. Inget lyckat mellanläge notifieras. Om catch återställer men returnerar normalt fortsätter History efter execute och lägger till makrot samt tömmer redo. Modellen kan se återställd ut, men historiken har fått en misslyckad handling och tappat A.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="11"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap12">Nästa kapitel →</a></p></article><article class="chapter" id="kap12"><div class="eyebrow">GUI och lagring · kapitel 12 av 14</div><h1>Swing: bygg gränssnittet och måla från modellen</h1><div class="source-links">Original: <a href="original/F06.pdf">F6</a> · <a href="original/F17.pdf">F17</a></div><p><strong>Bygger på:</strong> F17, sidor 4–27; EDT-grunden även i F6, sida 25. <strong>Mål:</strong> kunna skapa ett litet gränssnitt där händelser ändrar modellen och målningen läser den. F17 nämner F19 om längre arbete, men F19 ingår inte i ditt material och behandlas inte här.</p>
+<h2>Fönster, innehåll och komponenter har olika roller</h2>
+<p><code>JFrame</code> är programmets fönster. En <code>JPanel</code> är en yta eller behållare inuti det. <code>JLabel</code> visar text. <code>JButton</code> är en knapp. Att skapa knappen gör inte att den vet vad ett klick ska innebära; beteendet kopplas in med en lyssnare.</p>
+<p>Ett typiskt startflöde är att skapa ramen, välja innehåll, anropa <code>pack</code> och sedan visa den. <code>pack</code> beräknar storleken från innehållets önskade storlekar. I ett fristående övningsprogram gör <code>EXIT_ON_CLOSE</code> att programmet avslutas när ramen stängs. F17, sidor 4–7.</p>
+<p>Swing-arbetet samordnas på <strong>EDT</strong>, Event Dispatch Thread. Föreläsningens <code>SwingUtilities.invokeLater(Example::show)</code> registrerar <code>show</code> för senare körning på EDT. Metodreferensen kör inte show på den plats där den skrivs. Mus- och knapphanteringen ska göra kort arbete, så tråden hinner ta emot nästa händelse och uppdatera skärmen. F17, sida 5; F6, sida 25.</p>
+<h2>Layout anger hur utrymmet fördelas</h2>
+<p>Du behöver inte beräkna varje knapps pixelposition själv. Varje panel kan ha en egen layout, och paneler kan nästlas:</p>
+<table>
+<thead>
+<tr>
+<th>Layout eller behållare</th>
+<th>Roll</th>
+<th>Användning i övningen</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>BorderLayout</code></td>
+<td>Fördelar ytan i fem regioner</td>
+<td>Knapprad NORTH, rityta CENTER, status SOUTH</td>
+</tr>
+<tr>
+<td><code>FlowLayout</code></td>
+<td>Lägger komponenter i ett flöde</td>
+<td>Flera knappar bredvid varandra</td>
+</tr>
+<tr>
+<td><code>GridLayout</code></td>
+<td>Ger lika stora celler, fylls radvis</td>
+<td>Etikett och val på varje formulärrad</td>
+</tr>
+<tr>
+<td><code>JTabbedPane</code></td>
+<td>Visar en av flera flikar</td>
+<td>Rita och Hjälp</td>
+</tr>
+<tr>
+<td><code>JScrollPane</code></td>
+<td>Omsluter innehåll med rullning</td>
+<td>En lista eller större textyta</td>
+</tr>
+</tbody></table>
+<p>De två sista är behållare, inte layout managers. I BorderLayout ska flera knappar inte läggas som separata konkurrerande komponenter i samma NORTH-region. Samla dem i en underpanel med FlowLayout och placera den panelen i NORTH. En WEST-panel kan i sin tur ha en egen NORTH-region för formuläret. Regionnamnet är alltid relativt den panel som anropet gäller. F17, sidor 8–16.</p>
+<p><code>JComboBox&lt;String&gt;</code> visar val ur en samling strängar. <code>JList&lt;String&gt;</code> visar en lista; <code>SINGLE_SELECTION</code> begränsar valet till ett alternativ. Listans markering och data har egna Swing-modeller. Dessa ska inte förväxlas med ritprogrammets domänmodell. En vald rad kan ge ett förslag till formuläret utan att den beständiga ritningen ändras. F17, sidor 12 och 15.</p>
+<h2>Behåll tillståndet i modellen, inte i den tillfälliga målningen</h2>
+<p>Föreställ dig att du klickar ”Visa cirkel”. Det är frestande att se klicket som ett direkt ritkommando till skärmen. Men fönstret kan täckas över, byta storlek eller behöva målas igen. Därför behöver programmet lagra vad som ska visas.</p>
+<p>Modellen kan exempelvis hålla figurval och färg. Knapplyssnaren läser kontrollerna och uppdaterar modellen. Därefter anropas <code>repaint</code>. När Swing senare anropar <code>paintComponent</code> läser panelen modellens aktuella värden och återskapar bilden. F17, sidor 20–24.</p>
+<pre><code class="language-text">Klick → lyssnare → ändra modell → begär repaint
+                                         ↓ senare
+                              paintComponent läser modell
+</code></pre>
+<p><code>paintComponent</code> ska inte flytta figuren, lägga till en ny figur eller ändra modellen. Antalet målningar är inget användaren har beställt som redigeringssteg. Om varje målning flyttade cirkeln skulle exempelvis en storleksändring kunna ändra dokumentet. Börja med <code>super.paintComponent(g)</code> så panelens vanliga bakgrund målas före din grafik. F17, sidor 19 och 23.</p>
+<h2>Genomgånget körbart exempel</h2>
+<p>Följande är ett fristående undervisningsexempel för Java 17, inspirerat av F17. Det använder en liten visningsmodell, inte hela labbens Figure-modell. Spara som <code>SwingStudy.java</code> och kör som en Java-applikation. Alla imports som exemplet behöver finns med.</p>
+<pre><code class="language-java">import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Graphics;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
+
+public final class SwingStudy {
+    private static final class PreviewModel {
+        private String shape = &quot;Cirkel&quot;;
+        private Color colour = Color.BLUE;
+
+        void select(String shape, Color colour) {
+            this.shape = shape;
+            this.colour = colour;
+        }
+    }
+
+    private static final class DrawingPanel extends JPanel {
+        private final PreviewModel model;
+
+        DrawingPanel(PreviewModel model) {
+            this.model = model;
+            setBackground(Color.WHITE);
+            setPreferredSize(new Dimension(600, 350));
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            super.paintComponent(g);
+            g.setColor(model.colour);
+            int x = getWidth() / 2 - 50;
+            int y = getHeight() / 2 - 50;
+            switch (model.shape) {
+                case &quot;Cirkel&quot; -&gt; g.fillOval(x, y, 100, 100);
+                case &quot;Rektangel&quot; -&gt; g.fillRect(x, y, 100, 100);
+                case &quot;Linje&quot; -&gt; g.drawLine(x, y, x + 100, y + 100);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(SwingStudy::show);
+    }
+
+    private static void show() {
+        PreviewModel model = new PreviewModel();
+        DrawingPanel canvas = new DrawingPanel(model);
+        JComboBox&lt;String&gt; shapes = new JComboBox&lt;&gt;(
+            new String[] {&quot;Cirkel&quot;, &quot;Rektangel&quot;, &quot;Linje&quot;});
+        JComboBox&lt;String&gt; colours = new JComboBox&lt;&gt;(
+            new String[] {&quot;Blå&quot;, &quot;Röd&quot;});
+        JButton apply = new JButton(&quot;Visa&quot;);
+        JLabel status = new JLabel(&quot;Cirkel visas i Blå&quot;);
+
+        apply.addActionListener(event -&gt; {
+            String shape = (String) shapes.getSelectedItem();
+            Color colour = colours.getSelectedIndex() == 0
+                ? Color.BLUE : Color.RED;
+            model.select(shape, colour);
+            status.setText(shape + &quot; visas i &quot; + colours.getSelectedItem());
+            canvas.repaint();
+        });
+
+        JPanel buttons = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        buttons.add(shapes);
+        buttons.add(colours);
+        buttons.add(apply);
+
+        JPanel root = new JPanel(new BorderLayout(8, 8));
+        root.add(buttons, BorderLayout.NORTH);
+        root.add(canvas, BorderLayout.CENTER);
+        root.add(status, BorderLayout.SOUTH);
+
+        JFrame frame = new JFrame(&quot;DVG345 - Swingövning&quot;);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setContentPane(root);
+        frame.pack();
+        frame.setLocationByPlatform(true);
+        frame.setVisible(true);
+    }
+}
+</code></pre>
+<p>Följ klicket ”Rektangel, Röd” i detalj. Först ändrar användaren de två kontrollernas val. Visningsmodellen är fortfarande blå cirkel. Vid klicket anropar Swing den registrerade ActionListener-handlingen. Den läser valen, skriver rektangel och rött i modellen, uppdaterar status och begär repaint. Vid nästa målning läses de nya modellvärdena. Om du därefter ändrar fönstrets storlek kommer rektangeln att målas igen med samma val men en ny centrering utifrån panelens bredd och höjd.</p>
+<p>Metodens argument till <code>fillOval</code> är x, y, bredd och höjd. De är inte centrum och radie. Därför tar vi bort 50 från mittpunkten för en figur med diameter 100. Skillnaden mellan ritportens cirkelbegrepp och Swings rektangulära begränsningsruta är ett exempel på varför tekniköversättning hör hemma vid gränsen till GUI:t.</p>
+<p>Exemplets switch är avgränsad till tre alternativ i en visningsövning, precis som F17. I det utbyggda CAD-programmet kan ritytan i stället gå igenom Figure-objekt och låta deras polymorfa <code>draw</code> beskriva geometrin. Förväxla inte en enkel demonstration av komponenter med hela projektets slutliga arkitektur.</p>
+<h2>Vanliga misstag</h2>
+<ul>
+<li>Att bara ändra en variabel i formuläret och förvänta sig att en separat modell automatiskt får samma värde.</li>
+<li>Att anropa <code>paintComponent</code> själv i stället för att begära repaint.</li>
+<li>Att lägga modelländringar i målningen, vilket gör tillståndet beroende av Swings omritningar.</li>
+<li>Att lägga flera knappar direkt i samma BorderLayout-region utan underpanel.</li>
+<li>Att behandla <code>invokeLater</code> som om den körde metoden omedelbart på anropsplatsen.</li>
+</ul>
+<section class="exercises" id="ovning12"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p><strong>SW1 – Förklara komponentträdet.</strong> Rita en JFrame med en root-panel. Root har knapprad NORTH, rityta CENTER och status SOUTH. Ange layout för root och knapprad. Var ska en JScrollPane placeras om en hjälpyta ska ligga i en separat flik?</p>
+<p><strong>SW2 – Följ värdena.</strong> Starta exemplet på nytt. Du väljer Linje och Röd men har ännu inte klickat Visa. Vilken figur visar exemplet? Vad ändras vid klicket? Vad händer efter att fönstret täcks över och sedan blir synligt igen?</p>
+<p><strong>SW3 – Lägg till Återställ.</strong> Utöka exemplet med en knapp som återställer både kontroller, modell och status till blå cirkel och begär ommålning. Skriv lyssnaren. Förklara varför det inte räcker att endast återställa komboboxarna.</p>
+<p><strong>SW4 – Felsök en målning.</strong> En student lägger <code>model.x += 10;</code> i paintComponent och säger att repaint betyder ”flytta figuren”. Förklara två problem. Beskriv rätt ansvarsfördelning och varför muslyssnaren bör göra kort arbete på EDT.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 12</summary><div><p><strong>SW1.</strong> Root har BorderLayout. Dess NORTH-barn är en separat JPanel med FlowLayout som innehåller flera knappar och val. CENTER kan innehålla JTabbedPane med ritytan i fliken Rita och <code>new JScrollPane(help)</code> i fliken Hjälp. Om flikarna används är det flikbehållaren, inte en andra konkurrerande rityta, som läggs i root.CENTER. Statusetiketten ligger i SOUTH.</p>
+<p><strong>SW2.</strong> Före klicket visar modellen fortfarande sin tidigare blå cirkel; formulärvalen och visningsmodellen är separata tillstånd. Klicket kopierar valen till modellen, ändrar status och begär repaint. Den senare målningen läser röd linje. När fönstret blir synligt igen läses samma modellvärden, så linjen finns kvar. Programmet behöver inte minnas en gammal Graphics-instans.</p>
+<p><strong>SW3.</strong> Skapa knappen, lägg den i <code>buttons</code>, och registrera:</p>
+<pre><code class="language-java">JButton reset = new JButton(&quot;Återställ&quot;);
+buttons.add(reset);
+reset.addActionListener(event -&gt; {
+    shapes.setSelectedIndex(0);
+    colours.setSelectedIndex(0);
+    model.select(&quot;Cirkel&quot;, Color.BLUE);
+    status.setText(&quot;Cirkel visas i Blå&quot;);
+    canvas.repaint();
+});
+</code></pre>
+<p>I detta exempel har komboboxarna ingen egen lyssnare som uppdaterar modellen. Enbart <code>setSelectedIndex</code> ändrar därför det som formuläret visar, men lämnar modellens tidigare figur och färg kvar. Lyssnaren återställer alla berörda delar till ett överensstämmande läge.</p>
+<p><strong>SW4.</strong> Swing kan måla av många skäl, så <code>model.x += 10</code> kan flytta figuren utan en avsiktlig redigeringshandling. En repaint-begäran ger dessutom inget löfte om en separat målning för varje anrop; den är en begäran om att uppdatera bilden. Låt en avsiktlig händelse ändra modellen, och låt paintComponent enbart läsa och rita dess aktuella tillstånd. EDT samordnar GUI-händelser och målning; långt arbete i en lyssnare hindrar tråden från att svara på nya händelser. F19:s mer utvecklade behandling av långsamt arbete ingår inte i underlaget.</p>
+<p><strong>Kontroll före nästa del:</strong> Du kan starta exemplet, förklara ett klick från registrerad lyssnare till senare målning och ändra fönsterstorlek utan att modellens val förändras.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="12"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap13">Nästa kapitel →</a></p></article><article class="chapter" id="kap13"><div class="eyebrow">GUI och lagring · kapitel 13 av 14</div><h1>JSON och lagring: spara betydelsen av ritningen</h1><div class="source-links">Original: <a href="original/F18.pdf">F18</a></div><p><strong>Underlag:</strong> F18 s. 2–26. Läs efter objektstruktur, felhantering och DIP.</p>
+<p><strong>Efter kapitlet ska du kunna:</strong> läsa och skriva ritningsdata som JSON; skilja syntax, format och domänregler; beskriva ett säkert öppna-/spara-flöde; testa lagring genom ett interface.</p>
+<h2>Vad ska överleva när programmet stängs?</h2>
+<p>En sparad ritning behöver information för att återskapa dokumentets innehåll: figurtyper, geometri, stil, ritordning och gruppernas nästling. Ett fönster, en knapp, Graphics-objektet, en lyssnare och en halvfärdig musgest hör däremot till en viss körning. De byggs upp igen när programmet startar.</p>
+<p>I projektets öppna-flöde enligt F18 blir markering och historik tomma. Nya figurinstanser skapas från sparade värden. Därför betyder en lyckad round-trip inte att <code>oldCircle == loadedCircle</code> måste vara sant. Den betyder att relevanta värden, ordning och struktur motsvarar det sparade dokumentet.</p>
+<h2>JSON:s byggstenar</h2>
+<p>Ett JSON-objekt skrivs inom <code>{ }</code> och har namngivna medlemmar. Namnet är en sträng, kolon skiljer namn från värde och komma skiljer medlemmar. En array skrivs inom <code>[ ]</code> och bevarar elementordningen. JSON:s värdetyper är sträng, tal, boolean, null, objekt och array.</p>
+<pre><code class="language-json">{
+  &quot;formatVersion&quot;: 1,
+  &quot;figures&quot;: [
+    {
+      &quot;type&quot;: &quot;circle&quot;,
+      &quot;center&quot;: { &quot;x&quot;: 100, &quot;y&quot;: 80 },
+      &quot;radius&quot;: 25
+    }
+  ]
+}
+</code></pre>
+<p><code>25</code> är ett tal; <code>&quot;25&quot;</code> är en sträng. <code>figures: []</code> betyder här en tom ritning. Medlemmen måste skrivas med citattecken i riktig JSON, som i kodexemplet ovan. Typnyckeln <code>circle</code> är en del av vårt format. Den behöver inte bytas bara för att en Java-klass döps om.</p>
+<p>Strängar kan innehålla åäö i UTF-8. Citattecken och radbrytningar måste representeras korrekt. Låt ett JSON-bibliotek hantera syntax och escapning i stället för att sätta ihop text med strängkonkatenering.</p>
+<h2>En grupp blir en nästlad datastruktur</h2>
+<pre><code class="language-json">{
+  &quot;formatVersion&quot;: 1,
+  &quot;figures&quot;: [
+    {
+      &quot;type&quot;: &quot;group&quot;,
+      &quot;parts&quot;: [
+        {
+          &quot;type&quot;: &quot;circle&quot;,
+          &quot;center&quot;: { &quot;x&quot;: 10, &quot;y&quot;: 20 },
+          &quot;radius&quot;: 5
+        },
+        {
+          &quot;type&quot;: &quot;line&quot;,
+          &quot;start&quot;: { &quot;x&quot;: 0, &quot;y&quot;: 0 },
+          &quot;end&quot;: { &quot;x&quot;: 30, &quot;y&quot;: 40 }
+        }
+      ]
+    }
+  ]
+}
+</code></pre>
+<p>Dokumentets figures är en ordnad lista av figurposter. En grupp har i sin tur en ordnad lista av delar. Samma läsregel används rekursivt för varje del. För ett ägt träd, där samma figur inte förekommer på flera ställen, behövs vanligen inte objekt-id i filen. Om modellen i stället tillåter delade korsreferenser måste formatet ta hänsyn till dem; det är en annan struktur än föreläsningens ägda träd.</p>
+<h2>Tre kontroller som svarar på olika frågor</h2>
+<table>
+<thead>
+<tr>
+<th>Kontroll</th>
+<th>Fråga</th>
+<th>Exempel på fel</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>JSON-syntax</td>
+<td>Kan texten tolkas som JSON?</td>
+<td>Saknad avslutande klammer</td>
+</tr>
+<tr>
+<td>Dokumentformat</td>
+<td>Stämmer version, fält och datatyper?</td>
+<td>radius är en sträng eller versionen är okänd</td>
+</tr>
+<tr>
+<td>Domän</td>
+<td>Kan data bilda giltiga figurer?</td>
+<td>Radien är -25</td>
+</tr>
+</tbody></table>
+<p>Ett JSON-bibliotek kan läsa ett negativt tal utan problem. Det betyder inte att en Circle får ha negativ radie. Efter syntax och formatkontroller ska data fortfarande gå igenom objektens validering. Konstruktorns skydd ska inte kopplas bort bara för att informationen kommer från en fil.</p>
+<p>En formatversion anger vilken tolkning som gäller. Ett nytt valfritt fält kan ha ett dokumenterat standardvärde. Byter du enheter eller betydelsen av ett fält kan migrering behövas. En okänd version ska avvisas tydligt enligt föreläsningen; att gissa kan ge en ritning som ser rimlig ut men har fel värden.</p>
+<h2>Öppna utan att förstöra det gamla</h2>
+<p>Tänk att filens första nio figurer är giltiga och den tionde är felaktig. Om du först tömmer det aktuella dokumentet och därefter lägger till en figur i taget har användaren förlorat sitt gamla arbete och fått en halv ny ritning.</p>
+<p>Bygg därför ett förslag vid sidan av:</p>
+<ol>
+<li>Läs filinnehållet.</li>
+<li>Tolka JSON och kontrollera dokumentformatet.</li>
+<li>Skapa och validera hela det nya figurträdet.</li>
+<li>Först efter framgång: ersätt dokumentet och tillämpa öppna-flödets regler för markering och historik.</li>
+<li>Vid fel: behåll det gamla dokumentet, markeringen och historiken och ge användaren återkoppling.</li>
+</ol>
+<p>Detta följer samma idé som för en säker flyttning: räkna och kontrollera först, publicera ändringen efteråt. Tyst felhantering som visar en tom ritning som om öppningen lyckats bryter den avsikten.</p>
+<p>Vid sparning ska du på motsvarande sätt undvika att först radera den fungerande filen. Skriv ett nytt förslag innan den gamla filen ersätts. Exakt ersättningsstrategi och felgarantier beror på filsystem och valt API; anta inte att varje flytt alltid är atomär. Handboken föreskriver ingen otestad universallösning.</p>
+<h2>Ett lagringsinterface gör tekniken utbytbar</h2>
+<pre><code class="language-java">interface DrawingStore {
+    void save(DrawingSnapshot data) throws IOException;
+    DrawingSnapshot load() throws IOException;
+}
+</code></pre>
+<p>Detta är en kontraktsskiss; DrawingSnapshot är projektets dokumentdata, inte en här levererad färdig klass. En FileDrawingStore känner filen och formatet. En EditorService känner i stället bara interfacet och kan få implementationen genom konstruktorn. Det är dependency injection. Att tjänsten beror på ett abstrakt lagringskontrakt uttrycker DIP.</p>
+<p>Testet kan lämna in en minnesimplementation eller en implementation som avsiktligt kastar IOException. Då går det att testa beslutet vid läsfel utan att vara beroende av en viss trasig fil på datorn. Notera skillnaden mot Memento: här betyder snapshot data för lagring; ordet gör inte automatiskt lagringsflödet till Memento-mönstret.</p>
+<p>Try-with-resources stänger resurser även när blocket lämnas på grund av fel. Det löser resursens livslängd. Det avgör inte om användaren ska välja en annan fil och det ersätter inte catch eller throws.</p>
+<section class="exercises" id="ovning13"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><h3>J1 · Läs data · grund</h3>
+<p>Utgå från den första cirkelfilen i kapitlet. Ange formatversion, antal toppnivåfigurer, centrum och radie. Vad ändras i betydelse om radius blir <code>&quot;25&quot;</code>? Vad betyder en tom figures-array?</p>
+<h3>J2 · Skriv en nästlad ritning · mellan</h3>
+<p>Skriv ett JSON-dokument med version 1. Första toppnivåfiguren ska vara en grupp med cirklarna <code>(0,0), radie 2</code> och <code>(10,0), radie 3</code>. Andra toppnivåfiguren ska vara en linje från <code>(1,1)</code> till <code>(4,5)</code>. Bevara den angivna ordningen.</p>
+<h3>J3 · Placera felet i rätt lager · mellan</h3>
+<p>Klassificera fyra fel: sista klammern saknas; radius är <code>&quot;25&quot;</code>; radius är -25; formatVersion är 99. Vad ska hända med det gamla dokumentet vid vart och ett av felen?</p>
+<h3>J4 · Utforma round-trip och feltest · fördjupning</h3>
+<p>Du sparar en nästlad grupp med överlappande figurer och läser den igen. Lista vilka observationer som ska jämföras och vilka identitetskrav som inte följer av filformatet. Beskriv sedan ett separat test där load kastar IOException och det gamla dokumentet ska överleva.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 13</summary><div><h3>J1 · Facit</h3>
+<p>Version 1, en toppnivåfigur, centrum <code>(100,80)</code>, radie 25. <code>&quot;25&quot;</code> är en sträng och bryter det visade formatets krav på ett tal. Det är fortfarande giltig JSON-syntax. En tom figures-array anger en tom ritning, inte i sig ett läsfel.</p>
+<h3>J2 · Facit</h3>
+<pre><code class="language-json">{
+  &quot;formatVersion&quot;: 1,
+  &quot;figures&quot;: [
+    {
+      &quot;type&quot;: &quot;group&quot;,
+      &quot;parts&quot;: [
+        { &quot;type&quot;: &quot;circle&quot;, &quot;center&quot;: {&quot;x&quot;: 0, &quot;y&quot;: 0}, &quot;radius&quot;: 2 },
+        { &quot;type&quot;: &quot;circle&quot;, &quot;center&quot;: {&quot;x&quot;: 10, &quot;y&quot;: 0}, &quot;radius&quot;: 3 }
+      ]
+    },
+    {
+      &quot;type&quot;: &quot;line&quot;,
+      &quot;start&quot;: {&quot;x&quot;: 1, &quot;y&quot;: 1},
+      &quot;end&quot;: {&quot;x&quot;: 4, &quot;y&quot;: 5}
+    }
+  ]
+}
+</code></pre>
+<p>Gruppen kommer före linjen i figures och cirkeln vid origo före den andra cirkeln i parts. Dessa arrayordningar ska bevaras vid läsning och skrivning.</p>
+<h3>J3 · Facit</h3>
+<p>Saknad klammer är syntaxfel. Strängradie är format-/typfel. Negativ numerisk radie är domänfel. Version 99 är ett formatversionsfel om programmet inte stöder den. Vid samtliga misslyckade öppningar behålls det gamla dokumentet, markeringen och historiken. Användaren får återkoppling; programmet ska inte signalera lyckad öppning.</p>
+<h3>J4 · Facit</h3>
+<p>Jämför geometri, figurtyper, stil som formatet stöder, toppnivåordning, varje grupps delordning och nästling. Överlappningen gör ritordningen observerbar. Kräv inte samma Java-instans för gamla och inlästa figurer: de konstrueras på nytt. Kontrollera också projektflödets tomma markering och historik efter lyckad öppning. I feltestet förbereder du ett befintligt dokument med markering och en relevant historik, använder en DrawingStore som kastar IOException och kontrollerar att alla dessa observationer är bevarade, att ingen framgång signaleras och att användaren får ett felmeddelande enligt klientens kontrakt.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="13"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#kap14">Nästa kapitel →</a></p></article><article class="chapter" id="kap14"><div class="eyebrow">Helhet · kapitel 14 av 14</div><h1>UML och helheten: se hur delarna samarbetar</h1><div class="source-links">Original: <a href="original/F01.pdf">F1</a> · <a href="original/F02.pdf">F2</a> · <a href="original/F05.pdf">F5</a> · <a href="original/F06.pdf">F6</a> · <a href="original/F10.pdf">F10</a> · <a href="original/F13.pdf">F13</a> · <a href="original/F15.pdf">F15</a></div><p><strong>Underlag:</strong> F1 s. 19–23; F2 s. 12–19 och 21; F5 s. 17; F6 s. 16 och 23; F10 s. 10; F13 s. 5 och 11–18; F15 s. 3 och 7. Förklaringarna och slutövningarna är studieförslag.</p>
+<p><strong>Efter kapitlet ska du kunna:</strong> välja rätt diagram för rätt fråga och beskriva ett helt redigeringsflöde utan att blanda ihop typ, objekt och metodanrop.</p>
+<h2>Klassdiagram: vilka typer och löften finns?</h2>
+<p>Ett klassdiagram beskriver struktur på typnivå. En ruta kan innehålla klassens namn, attribut och operationer. Det visar inte att en viss cirkel skapades klockan tio eller att en knapp just klickades.</p>
+<p>Notation som används i föreläsningarna:</p>
+<table>
+<thead>
+<tr>
+<th>Notation</th>
+<th>Betydelse</th>
+<th>Exempel</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>«interface»</code></td>
+<td>Rutan beskriver ett interface</td>
+<td>Drawable</td>
+</tr>
+<tr>
+<td><code>-</code> före medlem</td>
+<td>private</td>
+<td><code>- radius: double</code></td>
+</tr>
+<tr>
+<td><code>+</code> före medlem</td>
+<td>public</td>
+<td><code>+ getCenter(): Point2</code></td>
+</tr>
+<tr>
+<td><code>namn: Typ</code></td>
+<td>Attributets/parameterns typ</td>
+<td><code>center: Point2</code></td>
+</tr>
+<tr>
+<td><code>metod(p: Typ): Resultat</code></td>
+<td>Operationens signatur</td>
+<td><code>draw(context: DrawingContext): void</code></td>
+</tr>
+<tr>
+<td>Heldragen linje med tom triangel</td>
+<td>Generalisering/extends</td>
+<td>Figure-interface utökar Drawable</td>
+</tr>
+<tr>
+<td>Streckad linje med tom triangel</td>
+<td>Realisering/implements</td>
+<td>Circle implementerar Figure</td>
+</tr>
+</tbody></table>
+<p>Triangeln pekar mot den mer allmänna typen. Circle blir inte en separat cirkel plus ett separat Figure-objekt bara för att två rutor finns i diagrammet. En enda Circle-instans uppfyller kontraktet.</p>
+<p>En vanlig referensrelation visar att en typ känner till en annan. Rollen <code>center: Point2</code> uttrycker att en cirkel har en punkt som centrum. Gör inte om den till ett arv bara för att båda hör till geometri. En relation kan också ha multiplicitet, exempelvis många figurreferenser i ett dokument.</p>
+<p>F10 påminner om att en tom eller fylld diamant behöver motiveras av regler för del/helhet och ägarskap. Att programmet använder Composite-mönstret väljer inte automatiskt en viss UML-diamant åt dig. Skriv först vilka objekt som får delas och vem som ansvarar för strukturen.</p>
+<h2>Objektdiagram: vilka konkreta objekt delas just nu?</h2>
+<p>När frågan gäller alias är ett objektdiagram bättre. Rita exempelvis ett objekt <code>c1: Circle</code> och ett punktobjekt med värden <code>(0,0)</code>. Rita variablerna <code>a</code> och <code>b</code> som två referenser till samma <code>c1</code>, samt cirkelns centrumreferens till punktobjektet. Diagrammet visar ett ögonblick under körning.</p>
+<p>Men låt inte en variabelruta och ett objekt få samma betydelse. Om både a och b pekar på samma cirkel ska du rita ett cirkelobjekt och två referenser, inte två cirklar som råkar ha samma radie. Om c är skapad med ett nytt new ska den ha ett eget objekt även om värdena är identiska.</p>
+<p>Objektdiagram är särskilt bra för att pröva gruppering: samma a och c flyttas från toppnivålistan in i gruppens barnlista. Geometrin kan vara oförändrad samtidigt som referensstrukturen byts.</p>
+<h2>Sekvensdiagram: vem anropar vem, i vilken ordning?</h2>
+<p>Ett sekvensdiagram beskriver ett förlopp. Deltagare skrivs <code>namn: Typ</code>. Tiden går nedåt längs livslinjerna. En heldragen pil visar ett anrop; en streckad pil visar återgång. Det är ett anropsflöde, inte i sig en beskrivning av flera parallella trådar.</p>
+<p>För en flyttning genom historiken kan du läsa samarbetet så här:</p>
+<pre><code class="language-text">MoveTool -&gt; History: execute(command)
+History -&gt; MoveCommand: execute()
+MoveCommand -&gt; Figure: move(dx, dy)
+Figure --&gt; MoveCommand: normal retur
+MoveCommand -&gt; DrawingDocument: changed()
+DrawingDocument -&gt; lyssnare: run()
+lyssnare -&gt; panel: repaint()
+MoveCommand --&gt; History: normal retur
+History: push undo, clear redo
+</code></pre>
+<p>Här ligger ändringen i Figure, notifieringen i dokumentflödet och bokföringen i History. Om Figure kastar avbryts normalvägen. Då ska varken framgångsnotifiering eller lyckad historikbokföring ske. Kom ihåg att en eventuell framtida <code>paintComponent</code> sker senare efter repaint-begäran; den är inte samma sak som repaint-anropet.</p>
+<h2>CRC: kontrollera ansvar innan du kodar</h2>
+<p>CRC står för Class, Responsibilities, Collaborators: klass, ansvar och samarbeten. Ett kort för MoveCommand kan säga: &quot;Vet mål och förskjutning. Kan utföra och ångra flytten. Samarbetar med Figure och DrawingDocument.&quot; Ett kort för History kan säga: &quot;Minns ordningen och anropar Command. Behöver inte känna cirkelgeometri.&quot;</p>
+<p>Om du inte kan skriva klassens ansvar tydligt finns ofta en oklarhet att reda ut före implementationen. En lista över alla fält är inte samma sak som en förklaring av ansvaret.</p>
+<section class="exercises" id="ovning14"><div class="eyebrow">Prova själv först</div><h2>Övningar</h2><p>Den här uppgiften för samman kursens delar. Gör den först på papper, sedan i kod om du har labbprojektet. Alla steg är studieövningar, inte nya inlämningskrav.</p>
+<h3>U1 · Välj diagram · grund</h3>
+<p>Välj klassdiagram, objektdiagram eller sekvensdiagram för följande frågor: (a) Figure utökar Drawable; (b) två variabler når samma Circle; (c) en knapp orsakar undo och notifiering; (d) en grupp innehåller två befintliga figurinstanser. Motivera varje val.</p>
+<h3>U2 · Fördela ansvar · mellan</h3>
+<p>Skriv CRC-kort för Circle, DrawingDocument, MoveTool, MoveCommand, History och FileDrawingStore. Varje kort ska ha en mening om ansvaret och högst tre viktiga samarbeten. Markera vilken del som validerar radien, vilken som minns undo-ordningen och vilken som kan filformatet.</p>
+<h3>U3 · Följ en hel användning · fördjupning</h3>
+<p>Utgå från två cirklar a och b med centrum <code>(0,0)</code> och <code>(10,0)</code>, båda med radie 2. Topplistan är <code>[a,b]</code> och båda är markerade.</p>
+<ol>
+<li>Gruppera dem till g och spara ett historiksteg.</li>
+<li>Flytta g med <code>(4,6)</code> genom ett kommando.</li>
+<li>Rotera g med <code>Math.PI/2</code> runt den externa pivoten <code>(0,0)</code> genom ett kommando.</li>
+<li>Ångra rotationen, ångra flytten och gör sedan om flytten.</li>
+<li>Spara och öppna ritningen igen.</li>
+</ol>
+<p>Beskriv efter varje steg centrum, trädstruktur och stackar. Kräv samma figuridentiteter under redigeringen men skilj på dem och de nya instanserna vid filöppning. Ange också när notifieringar hör hemma.</p>
+<h3>U4 · Bryt flödet med ett fel · fördjupning</h3>
+<p>I läget direkt efter att rotationen ångrats försöker du utföra en ogiltig flyttning som skulle ge en icke-ändlig koordinat. Beskriv vad som måste vara kvar och varför den tidigare rotationen fortfarande ska kunna göras om. Föreslå vilka observationer som gör testet starkare än en ensam assertThrows.</p>
+</section><details class="answers"><summary>Visa facit och förklaringar för kapitel 14</summary><div><h3>U1 · Facit</h3>
+<p>(a) Klassdiagram: relation mellan typer. (b) Objektdiagram: konkreta referenser och alias. (c) Sekvensdiagram: ordnade anrop mellan deltagare. (d) Objektdiagram när du vill visa just de två instanserna; ett klassdiagram kan beskriva att grupper i allmänhet kan ha Figure-barn, men visar inte deras konkreta identitet.</p>
+<h3>U2 · Facit</h3>
+<table>
+<thead>
+<tr>
+<th>Klass</th>
+<th>Sammanhängande ansvar</th>
+<th>Viktiga samarbeten</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Circle</td>
+<td>Bevara och använda giltig cirkelgeometri</td>
+<td>Point2, DrawingContext</td>
+</tr>
+<tr>
+<td>DrawingDocument</td>
+<td>Hålla ordnad dokumentstruktur och publicera ändringar</td>
+<td>Figure, Runnable-lyssnare</td>
+</tr>
+<tr>
+<td>MoveTool</td>
+<td>Tolka gesten till ett mål och en förskjutning</td>
+<td>panel/händelsegräns, dokument, History</td>
+</tr>
+<tr>
+<td>MoveCommand</td>
+<td>Utföra och ångra en bestämd flyttning</td>
+<td>Figure, DrawingDocument</td>
+</tr>
+<tr>
+<td>History</td>
+<td>Bevara ordningen för undo/redo och anropa handlingar</td>
+<td>Command</td>
+</tr>
+<tr>
+<td>FileDrawingStore</td>
+<td>Läsa och skriva dokumentdata med valt format</td>
+<td>DrawingSnapshot, JSON-bibliotek, fil-API</td>
+</tr>
+</tbody></table>
+<p>Exakta klasskopplingar beror på labbens API. Viktigast är att Circle skyddar radien, History minns ordningen och lagringsimplementationen känner filformatet. GUI:t väljer hur fel visas för användaren.</p>
+<h3>U3 · Facit</h3>
+<p>Låt G vara grupperingskommandot, M flyttkommandot och R rotationskommandot. Stacktoppen skrivs först.</p>
+<table>
+<thead>
+<tr>
+<th>Steg</th>
+<th>a:s centrum</th>
+<th>b:s centrum</th>
+<th>Undo</th>
+<th>Redo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Start</td>
+<td>(0,0)</td>
+<td>(10,0)</td>
+<td>[]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>G</td>
+<td>(0,0)</td>
+<td>(10,0)</td>
+<td>[G]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>M</td>
+<td>(4,6)</td>
+<td>(14,6)</td>
+<td>[M,G]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>R</td>
+<td>(-6,4)</td>
+<td>(-6,14)</td>
+<td>[R,M,G]</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>undo R</td>
+<td>(4,6)</td>
+<td>(14,6)</td>
+<td>[M,G]</td>
+<td>[R]</td>
+</tr>
+<tr>
+<td>undo M</td>
+<td>(0,0)</td>
+<td>(10,0)</td>
+<td>[G]</td>
+<td>[M,R]</td>
+</tr>
+<tr>
+<td>redo M</td>
+<td>(4,6)</td>
+<td>(14,6)</td>
+<td>[M,G]</td>
+<td>[R]</td>
+</tr>
+</tbody></table>
+<p>Koordinaterna anges som idealvärden; numerisk rotation testas med tolerans. Efter G och under de återstående redigeringsstegen är toppnivån <code>[g]</code> och g:s delar <code>[a,b]</code>. Ingen av dessa redigeringar ska klona a eller b. Gruppcentrum efter M är <code>(9,6)</code> och efter R <code>(-6,9)</code>.</p>
+<p>Spara ska fånga det aktuella innehållet: g med a vid <code>(4,6)</code> och b vid <code>(14,6)</code>, ordning och radier. Själva sparningen ger inte automatiskt ett geometriskt redigeringssteg. Vid lyckad öppning skapas enligt F18 nya instanser med motsvarande sparade värden och struktur, och markering samt historik är tomma. Gamla Java-identiteter behöver därför inte återkomma.</p>
+<p>Beständiga lyckade ändringar ska notifieras av den del som äger notifieringen i respektive kontrakt. Används replace, lägg inte till en extra changed. En preview kan däremot kräva ommålning utan beständig dokumentändring. Det är inte korrekt att räkna varje paintComponent som en notifiering eller en ny handling.</p>
+<h3>U4 · Facit</h3>
+<p>Direkt efter undo R är a <code>(4,6)</code>, b <code>(14,6)</code>, undo <code>[M,G]</code> och redo <code>[R]</code>. Den ogiltiga flytten ska lämna båda figurerna, gruppstrukturen, ordningen, relevanta markeringar och historiken kvar. Ingen framgångsnotifiering ska ske. R ska fortfarande finnas och kunna göras om, eftersom den nya handlingen aldrig lyckades.</p>
+<p>Spara och jämför varje barns geometri, figurobjektens identitet, toppnivå-/barnordning, undo-/redo-läge och notifieringsantal. Kör till sist redo och kontrollera rotationsresultatet. Detta avslöjar både halv mutation, kloning, fel ordning, dubbel notifiering och en redo-väg som raderats för tidigt.</p>
+</div></details><label class="complete"><input type="checkbox" data-done="14"> Jag kan förklara och använda det här kapitlet utan facit</label><p class="next"><a href="#begrepp">Repetera begreppen →</a></p></article><section class="appendix" id="begrepp"><h1>Begrepp att kunna förklara</h1>
+<table>
+<thead>
+<tr>
+<th>Begrepp</th>
+<th>Förklaring i kursens sammanhang</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Abstraktion</td>
+<td>Det klienten behöver kunna göra utan att känna representationen</td>
+</tr>
+<tr>
+<td>Inkapsling</td>
+<td>Klassen kontrollerar vägar till representation och ändringar</td>
+</tr>
+<tr>
+<td>Identitet</td>
+<td>Vilket enskilt objekt en referens når</td>
+</tr>
+<tr>
+<td>Värdelikhet</td>
+<td>Objekt jämförs efter värden enligt equals-kontraktet</td>
+</tr>
+<tr>
+<td>Alias</td>
+<td>Flera referenser når samma objekt</td>
+</tr>
+<tr>
+<td>Invariant</td>
+<td>Regel som giltiga objekt och lyckade operationer ska bevara</td>
+</tr>
+<tr>
+<td>Förvillkor</td>
+<td>Det anropet kräver av klienten</td>
+</tr>
+<tr>
+<td>Eftervillkor</td>
+<td>Det som lovas efter ett lyckat anrop</td>
+</tr>
+<tr>
+<td>Felkontrakt</td>
+<td>Vad som avvisas och vilket tillstånd som ska vara kvar</td>
+</tr>
+<tr>
+<td>Mutable/immutable</td>
+<td>Tillstånd kan ändras / förblir oföränderligt efter konstruktion</td>
+</tr>
+<tr>
+<td>Härlett attribut</td>
+<td>En egenskap som beräknas ur annan information</td>
+</tr>
+<tr>
+<td>Interface</td>
+<td>Kontrakt för vilka operationer en typ erbjuder</td>
+</tr>
+<tr>
+<td>Statisk typ</td>
+<td>Typen kompilatorn använder för att kontrollera uttrycket</td>
+</tr>
+<tr>
+<td>Dynamisk typ</td>
+<td>Det faktiska objektets klass vid körning</td>
+</tr>
+<tr>
+<td>Polymorfism</td>
+<td>Ett gemensamt kontrakt används för flera implementationer</td>
+</tr>
+<tr>
+<td>Överlagring</td>
+<td>Samma namn, olika parameterlistor; signaturen väljs vid kompilering</td>
+</tr>
+<tr>
+<td>Override</td>
+<td>En implementation av en ärvd metod med motsvarande signatur</td>
+</tr>
+<tr>
+<td>Komposition</td>
+<td>Ett objekt använder eller innehåller andra objekt för sitt beteende</td>
+</tr>
+<tr>
+<td>Lambda</td>
+<td>En kort implementation av ett funktionellt interfaces handling</td>
+</tr>
+<tr>
+<td>Metodreferens</td>
+<td>Ett befintligt metodanrop används som beteende med passande signatur</td>
+</tr>
+<tr>
+<td>Observer</td>
+<td>Registrerade mottagare får veta när något ändrats</td>
+</tr>
+<tr>
+<td>State</td>
+<td>Aktivt tillståndsobjekt påverkar hur nästa händelse hanteras</td>
+</tr>
+<tr>
+<td>Strategy</td>
+<td>En utbytbar algoritm eller regel</td>
+</tr>
+<tr>
+<td>Composite</td>
+<td>Del och helhet används genom samma kontrakt i ett träd</td>
+</tr>
+<tr>
+<td>Pivot</td>
+<td>Den punkt en rotation sker kring</td>
+</tr>
+<tr>
+<td>Generics</td>
+<td>Typparametrar som uttrycker och kontrollerar samband mellan typer</td>
+</tr>
+<tr>
+<td>Hashkod</td>
+<td>Underlag för hashbaserad placering; lika objekt måste ha lika hashkod</td>
+</tr>
+<tr>
+<td>Kohesion</td>
+<td>Hur väl klassens uppgifter hör ihop</td>
+</tr>
+<tr>
+<td>Koppling</td>
+<td>Vilka andra delar och detaljer en del behöver känna till</td>
+</tr>
+<tr>
+<td>DI</td>
+<td>Beroendet lämnas in utifrån, exempelvis i konstruktorn</td>
+</tr>
+<tr>
+<td>DIP</td>
+<td>Klienten använder ett lämpligt abstrakt kontrakt för beroendet</td>
+</tr>
+<tr>
+<td>Command</td>
+<td>Ett objekt som beskriver en handling som kan utföras och ångras</td>
+</tr>
+<tr>
+<td>Memento</td>
+<td>Inkapslat sparat tillstånd som dess ägare kan återställa</td>
+</tr>
+<tr>
+<td>LIFO</td>
+<td>Sist in, först ut; ordningen som passar undo-stackar</td>
+</tr>
+<tr>
+<td>Atomär ändring</td>
+<td>Hela den avsedda ändringen lyckas eller lämnar det relevanta tillståndet oförändrat</td>
+</tr>
+<tr>
+<td>EDT</td>
+<td>Swing-tråden som samordnar GUI-händelser och målning</td>
+</tr>
+<tr>
+<td>Round-trip</td>
+<td>Spara, läs igen och jämför relevanta observerbara värden</td>
+</tr>
+<tr>
+<td>Refaktorering</td>
+<td>Strukturändring med bevarat observerbart beteende</td>
+</tr>
+</tbody></table>
+</section><section class="appendix" id="original"><h1>Originalföreläsningar</h1><p>Oförändrade kopior av samtliga 18 PDF-filer. Tabellens kapitelnummer visar var de används i handboken. Sidangivelser i kapitlen avser PDF-sidor räknade från 1.</p><table><thead><tr><th>Föreläsning</th><th>PDF-sidor</th><th>Kapitel</th></tr></thead><tbody><tr><td><a href="original/F01.pdf">F1</a></td><td>25</td><td><a href="#kap1">1</a>, <a href="#kap14">14</a></td></tr><tr><td><a href="original/F02.pdf">F2</a></td><td>23</td><td><a href="#kap2">2</a>, <a href="#kap3">3</a>, <a href="#kap14">14</a></td></tr><tr><td><a href="original/F03.pdf">F3</a></td><td>22</td><td><a href="#kap2">2</a>, <a href="#kap3">3</a>, <a href="#kap10">10</a></td></tr><tr><td><a href="original/F04.pdf">F4</a></td><td>26</td><td><a href="#kap1">1</a>, <a href="#kap2">2</a>, <a href="#kap10">10</a></td></tr><tr><td><a href="original/F05.pdf">F5</a></td><td>20</td><td><a href="#kap3">3</a>, <a href="#kap14">14</a></td></tr><tr><td><a href="original/F06.pdf">F6</a></td><td>28</td><td><a href="#kap5">5</a>, <a href="#kap12">12</a>, <a href="#kap14">14</a></td></tr><tr><td><a href="original/F07.pdf">F7</a></td><td>19</td><td><a href="#kap4">4</a></td></tr><tr><td><a href="original/F08.pdf">F8</a></td><td>25</td><td><a href="#kap5">5</a>, <a href="#kap10">10</a></td></tr><tr><td><a href="original/F09.pdf">F9</a></td><td>19</td><td><a href="#kap6">6</a></td></tr><tr><td><a href="original/F10.pdf">F10</a></td><td>15</td><td><a href="#kap6">6</a>, <a href="#kap7">7</a>, <a href="#kap14">14</a></td></tr><tr><td><a href="original/F11.pdf">F11</a></td><td>18</td><td><a href="#kap7">7</a></td></tr><tr><td><a href="original/F12.pdf">F12</a></td><td>24</td><td><a href="#kap6">6</a>, <a href="#kap8">8</a></td></tr><tr><td><a href="original/F13.pdf">F13</a></td><td>23</td><td><a href="#kap9">9</a>, <a href="#kap14">14</a></td></tr><tr><td><a href="original/F14.pdf">F14</a></td><td>23</td><td><a href="#kap11">11</a></td></tr><tr><td><a href="original/F15.pdf">F15</a></td><td>13</td><td><a href="#kap5">5</a>, <a href="#kap9">9</a>, <a href="#kap14">14</a></td></tr><tr><td><a href="original/F16.pdf">F16</a></td><td>23</td><td><a href="#kap10">10</a></td></tr><tr><td><a href="original/F17.pdf">F17</a></td><td>28</td><td><a href="#kap12">12</a></td></tr><tr><td><a href="original/F18.pdf">F18</a></td><td>28</td><td><a href="#kap13">13</a></td></tr></tbody></table><p class="small">Handboken är ett bearbetat studiestöd. Övningar och studieplan är föreslagna av Codex; de är inga nya kurskrav.</p></section></main><script>(()=>{const k='dvg345-larhandbok-v2';let state={};try{state=JSON.parse(localStorage.getItem(k)||'{}')}catch{}const boxes=[...document.querySelectorAll('[data-done]')];function update(){let n=0;boxes.forEach(b=>{b.checked=!!state[b.dataset.done];if(b.checked)n++;document.querySelector('[data-nav="kap'+b.dataset.done+'"]').classList.toggle('done',b.checked)});document.getElementById('progress').value=n;document.getElementById('progress-text').textContent=n+' av 14 kapitel avklarade'}boxes.forEach(b=>b.addEventListener('change',()=>{state[b.dataset.done]=b.checked;try{localStorage.setItem(k,JSON.stringify(state))}catch{}update()}));update();document.getElementById('mobile-toggle').addEventListener('click',()=>document.querySelector('nav').classList.toggle('open'));document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')));const input=document.getElementById('search'),results=document.getElementById('search-results'),status=document.getElementById('search-status');input.addEventListener('input',()=>{const q=input.value.trim().toLocaleLowerCase('sv');results.replaceChildren();status.textContent='';if(q.length<2)return;const chapters=[...document.querySelectorAll('.chapter')].filter(c=>c.textContent.toLocaleLowerCase('sv').includes(q));status.textContent=chapters.length+' kapitel innehåller sökordet';chapters.forEach(c=>{const a=document.createElement('a');a.href='#'+c.id;a.textContent=c.querySelector('.eyebrow').textContent+' · '+c.querySelector('h1').textContent;a.addEventListener('click',()=>c.querySelector('.answers').open=true);results.append(a)})});if('IntersectionObserver'in window){const observer=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active',a.dataset.nav===e.target.id))}})},{rootMargin:'-10% 0px -75% 0px'});document.querySelectorAll('.chapter').forEach(c=>observer.observe(c))}})();</script></body></html>
